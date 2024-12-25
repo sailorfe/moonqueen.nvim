@@ -46,38 +46,38 @@ local lush = require('lush')
 local hsl = lush.hsl
 
 local base0     = hsl(257, 44, 6)
-local base1     = hsl(257, 44, 12)
-local base2     = hsl(257, 44, 18)
-local accent0	= hsl(250, 40, 32)
-local accent1	= hsl(250, 40, 24)
-local accent2	= hsl(250, 40, 16)
+local base1     = hsl(257, 44, 18)
+local base2     = hsl(257, 44, 30)
+local accent0	= hsl(250, 40, 12)
+local accent1	= hsl(250, 40, 18)
+local accent2	= hsl(250, 40, 24)
 local text0     = hsl(252, 45, 89)
 local text1     = hsl(252, 25, 69)
 local text2     = hsl(252, 15, 49)
 local pluto0    = hsl(258, 45, 16)
 local pluto1    = hsl(258, 35, 26)
 local pluto2    = hsl(258, 55, 13)
-local moon0      = hsl(319, 97, 77)
-local moon1      = hsl(319, 97, 87)
-local moon2      = hsl(319, 97, 67)
-local mercury0    = hsl(214, 75, 60)
-local mercury1    = hsl(214, 75, 70)
-local mercury2    = hsl(214, 75, 50)
-local mars0   = hsl(357, 93, 58)
-local mars1   = hsl(357, 93, 68)
-local mars2   = hsl(357, 93, 48)
-local jupiter0     = hsl(86, 66, 39)
-local jupiter1     = hsl(86, 66, 49)
-local jupiter2     = hsl(86, 66, 29)
-local venus0  = hsl(55, 97, 54)
-local venus1  = hsl(55, 97, 74)
-local venus2  = hsl(36, 97, 64)
-local saturn0     = hsl(253, 88, 68)
-local saturn1     = hsl(253, 88, 78)
-local saturn2     = hsl(253, 88, 58)
-local uranus0    = hsl(257, 42, 84)
-local uranus1    = hsl(257, 42, 96)
-local uranus2    = hsl(257, 32, 100)
+local moon0		= hsl(319, 97, 77)
+local moon1     = hsl(319, 97, 87)
+local moon2     = hsl(319, 97, 72)
+local mercury0  = hsl(214, 75, 60)
+local mercury1  = hsl(214, 75, 70)
+local mercury2  = hsl(214, 75, 55)
+local mars0		= hsl(357, 93, 58)
+local mars1		= hsl(357, 93, 68)
+local mars2		= hsl(357, 93, 53)
+local jupiter0  = hsl(86, 66, 39)
+local jupiter1  = hsl(86, 66, 49)
+local jupiter2  = hsl(86, 66, 34)
+local venus0	= hsl(55, 97, 54)
+local venus1	= hsl(55, 97, 74)
+local venus2	= hsl(36, 97, 64)
+local saturn0   = hsl(253, 88, 68)
+local saturn1   = hsl(253, 88, 78)
+local saturn2   = hsl(253, 88, 63)
+local uranus0   = hsl(257, 42, 84)
+local uranus1   = hsl(257, 42, 96)
+local uranus2	= hsl(257, 32, 100)
 
 -- LSP/Linters mistakenly show `undefined global` errors in the spec, they may
 -- support an annotation like the following. Consult your server documentation.
@@ -116,12 +116,12 @@ local theme = lush(function(injected_functions)
     -- Folded         { }, -- Line used for closed folds
     -- FoldColumn     { }, -- 'foldcolumn'
     SignColumn		{ bg = base0 }, -- Column where |signs| are displayed
-    IncSearch		{ bg = venus0, fg = base0 }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
+    IncSearch		{ bg = venus2, fg = base0 }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
     Substitute		{ bg = venus1, fg = pluto1 }, -- |:substitute| replacement text highlighting
-    LineNr			{ fg = text2, gui = "italic", bg = accent2 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
+    LineNr			{ fg = text1, gui = "italic", bg = accent1 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     LineNrAbove		{ fg = text1 }, -- Line number for when the 'relativenumber' option is set, above the cursor line
 	LineNrBelow		{ LineNrAbove }, -- Line number for when the 'relativenumber' option is set, below the cursor line
-    CursorLineNr	{ fg = moon0, gui = "bold" }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
+    CursorLineNr	{ fg = moon2, gui = "bold" }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
     -- CursorLineFold { }, -- Like FoldColumn when 'cursorline' is set for the cursor line
     -- CursorLineSign { }, -- Like SignColumn when 'cursorline' is set for the cursor line
     MatchParen		{ bg = moon1, fg = pluto2, gui = "bold" }, -- Character under the cursor or just before it, if it is a paimoon bracket, and its match. |pi_paren.txt|
@@ -130,7 +130,7 @@ local theme = lush(function(injected_functions)
     -- MsgSeparator   { }, -- Separator for scrolled messages, `msgsep` flag of 'display'
     MoreMsg			{ fg = venus0 }, -- |more-prompt|
     NonText			{ fg = saturn1 }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
-    Normal			{ bg = base0, fg = text0 }, -- Normal text
+    Normal			{ fg = text0 }, -- Normal text
     -- NormalFloat    { }, -- Normal text in floating windows.
     -- FloatBorder    { }, -- Border of floating windows.
     -- FloatTitle     { }, -- Title of floating windows.
@@ -145,13 +145,13 @@ local theme = lush(function(injected_functions)
     -- PmenuThumb     { }, -- Popup menu: Thumb of the scrollbar.
     Question		{ fg = saturn1 }, -- |hit-enter| prompt and yes/no questions
     QuickFixLine	{ fg = saturn1 }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
-    Search			{ bg = mercury1, fg = base2 }, -- Last search pattern highlighting (see 'hlsearch'). Also used for similar items that need to stand out.
-    -- SpecialKey     { }, -- Unprintable characters: text displayed differently from what it really is. But not 'listchars' uranusspace. |hl-uranusspace|
+    Search			{ bg = saturn0, fg = base2 }, -- Last search pattern highlighting (see 'hlsearch'). Also used for similar items that need to stand out.
+    -- SpecialKey     { }, -- Unprintable characters: text displayed differently from what it really is. But not 'listchars' whitespace. |hl-whitespace|
     SpellBad		{ fg = base0, bg = mars0, gui = "underline" }, -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
     SpellCap		{ fg = base0, bg = venus0, gui = "underline" }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
     SpellLocal		{ fg = base0, bg = jupiter0, gui = "underline" }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     SpellRare		{ fg = base0, bg = mercury0, gui = "underline" }, -- Word that is recognized by the spellchecker as one that is hardly ever used. |spell| Combined with the highlighting used otherwise.
-    StatusLine		{ bg = accent1, fg = uranus1, gui = "bold" }, -- Status line of current window
+    StatusLine		{ bg = accent2, fg = uranus1, gui = "bold" }, -- Status line of current window
     StatusLineNC	{ bg = base1, fg = text1 }, -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
     TabLine			{ fg = text1, bg = base2 }, -- Tab pages line, not active tab page label
     TabLineFill		{ bg = base2 }, -- Tab pages line, where there are no labels
@@ -161,7 +161,7 @@ local theme = lush(function(injected_functions)
     -- VisualNOS      { }, -- Visual mode selection when vim is "Not Owning the Selection".
     WarningMsg		{ fg = mars0 }, -- Warning messages
     -- whitespace     { }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
-    Winseparator	{ fg = accent1 }, -- Separator between window splits. Inherts from |hl-VertSplit| by default, which it will replace eventually.
+    Winseparator	{ fg = accent0 }, -- Separator between window splits. Inherts from |hl-VertSplit| by default, which it will replace eventually.
     -- WildMenu       { }, -- Current match in 'wildmenu' completion
     -- WinBar         { }, -- Window bar of current window
     -- WinBarNC       { }, -- Window bar of not-current windows
