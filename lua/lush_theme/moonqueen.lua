@@ -54,9 +54,9 @@ local accent2	= hsl(250, 40, 24)
 local text0     = hsl(252, 45, 89)
 local text1     = hsl(252, 25, 69)
 local text2     = hsl(252, 15, 49)
-local pluto0    = hsl(258, 45, 16)
-local pluto1    = hsl(258, 35, 26)
-local pluto2    = hsl(258, 55, 13)
+local black0    = hsl(258, 45, 16)
+local black1    = hsl(258, 35, 26)
+local black2    = hsl(258, 55, 13)
 local moon0		= hsl(319, 97, 77)
 local moon1     = hsl(319, 97, 87)
 local moon2     = hsl(319, 97, 72)
@@ -65,9 +65,9 @@ local mercury1  = hsl(214, 75, 70)
 local mercury2  = hsl(214, 75, 55)
 local mars0		= hsl(357, 93, 58)
 local mars1		= hsl(357, 93, 68)
-local mars2		= hsl(357, 93, 53)
+local mars2		= hsl(357, 88, 42)
 local jupiter0  = hsl(86, 66, 39)
-local jupiter1  = hsl(86, 66, 49)
+local jupiter1  = hsl(86, 66, 56)
 local jupiter2  = hsl(86, 66, 34)
 local venus0	= hsl(55, 97, 54)
 local venus1	= hsl(55, 97, 74)
@@ -75,9 +75,9 @@ local venus2	= hsl(36, 97, 64)
 local saturn0   = hsl(253, 88, 68)
 local saturn1   = hsl(253, 88, 78)
 local saturn2   = hsl(253, 88, 63)
-local uranus0   = hsl(257, 42, 84)
-local uranus1   = hsl(257, 42, 96)
-local uranus2	= hsl(257, 32, 100)
+local white0	= hsl(257, 42, 84)
+local white1	= hsl(257, 42, 90)
+local white2	= hsl(257, 42, 96)
 
 -- LSP/Linters mistakenly show `undefined global` errors in the spec, they may
 -- support an annotation like the following. Consult your server documentation.
@@ -95,10 +95,10 @@ local theme = lush(function(injected_functions)
     --
     -- See :h highlight-groups
     --
-    -- ColorColumn    { }, -- Columns set with 'colorcolumn'
+    ColorColumn		{ bg = black2 }, -- Columns set with 'colorcolumn'
     -- Conceal        { }, -- Placeholder characters substituted for concealed text (see 'conceallevel')
 	Cursor			{ bg = text0, fg = base0 }, -- Character under the cursor
-    CurSearch		{ bg = saturn1, fg = pluto1 }, -- Highlighting a search pattern under the cursor (see 'hlsearch')
+    CurSearch		{ bg = saturn1, fg = black1 }, -- Highlighting a search pattern under the cursor (see 'hlsearch')
     -- lCursor        { }, -- Character under the cursor when |language-mapping| is used (see 'guicursor')
     -- CursorIM       { }, -- Like Cursor, but used when in IME mode |CursorIM|
     CursorColumn	{ bg = base1 }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
@@ -117,14 +117,14 @@ local theme = lush(function(injected_functions)
     -- FoldColumn     { }, -- 'foldcolumn'
     SignColumn		{ bg = base0 }, -- Column where |signs| are displayed
     IncSearch		{ bg = venus2, fg = base0 }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
-    Substitute		{ bg = venus1, fg = pluto1 }, -- |:substitute| replacement text highlighting
+    Substitute		{ bg = venus1, fg = black1 }, -- |:substitute| replacement text highlighting
     LineNr			{ fg = text1, gui = "italic", bg = accent1 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     LineNrAbove		{ fg = text1 }, -- Line number for when the 'relativenumber' option is set, above the cursor line
 	LineNrBelow		{ LineNrAbove }, -- Line number for when the 'relativenumber' option is set, below the cursor line
     CursorLineNr	{ fg = moon2, gui = "bold" }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
     -- CursorLineFold { }, -- Like FoldColumn when 'cursorline' is set for the cursor line
     -- CursorLineSign { }, -- Like SignColumn when 'cursorline' is set for the cursor line
-    MatchParen		{ bg = moon1, fg = pluto2, gui = "bold" }, -- Character under the cursor or just before it, if it is a paimoon bracket, and its match. |pi_paren.txt|
+    MatchParen		{ bg = moon1, fg = black2, gui = "bold" }, -- Character under the cursor or just before it, if it is a paimoon bracket, and its match. |pi_paren.txt|
     ModeMsg			{ fg = mercury1 }, -- 'showmode' message (e.g., "-- INSERT -- ")
     -- MsgArea        { }, -- Area for messages and cmdline
     -- MsgSeparator   { }, -- Separator for scrolled messages, `msgsep` flag of 'display'
@@ -151,7 +151,7 @@ local theme = lush(function(injected_functions)
     SpellCap		{ fg = base0, bg = venus0, gui = "underline" }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
     SpellLocal		{ fg = base0, bg = jupiter0, gui = "underline" }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     SpellRare		{ fg = base0, bg = mercury0, gui = "underline" }, -- Word that is recognized by the spellchecker as one that is hardly ever used. |spell| Combined with the highlighting used otherwise.
-    StatusLine		{ bg = accent2, fg = uranus1, gui = "bold" }, -- Status line of current window
+    StatusLine		{ bg = accent2, fg = white1, gui = "bold" }, -- Status line of current window
     StatusLineNC	{ bg = base1, fg = text1 }, -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
     TabLine			{ fg = text1, bg = base2 }, -- Tab pages line, not active tab page label
     TabLineFill		{ bg = base2 }, -- Tab pages line, where there are no labels
@@ -177,7 +177,7 @@ local theme = lush(function(injected_functions)
     Comment			{ fg = text1 }, -- Any comment
 
     Constant		{ fg = jupiter0 }, -- (*) Any constant
-    String			{ fg = uranus0 }, --   A string constant: "this is a string"
+    String			{ fg = white0 }, --   A string constant: "this is a string"
     -- Character      { }, --   A character constant: 'c', '\n'
     Number			{ fg = mercury1 }, --   A number constant: 234, 0xff
     -- Boolean        { }, --   A boolean constant: TRUE, false
@@ -212,7 +212,7 @@ local theme = lush(function(injected_functions)
     -- SpecialComment { }, --   Special things inside a comment (e.g. '\n')
     Debug			{ Special }, --   Debugging statements
 
-    Underlined		{ fg = uranus2, gui = "underline" }, -- Text that stands out, HTML links
+    Underlined		{ fg = white2, gui = "underline" }, -- Text that stands out, HTML links
     -- Ignore         { }, -- Left blank, hidden |hl-Ignore| (NOTE: May be invisible here in template)
     Error			{ bg = moon0, fg = base0 }, -- Any erroneous construct
     Todo			{ fg = mars0 }, -- Anything that needs extra attention; mostly the keywords TODO FIXME and XXX
