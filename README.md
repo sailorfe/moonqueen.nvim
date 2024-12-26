@@ -1,6 +1,6 @@
 <div align="center">
 
-# perona.nvim
+# moonqueen.nvim
 
 ![in the name of the moon](grim.png)
 
@@ -24,13 +24,47 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 
 ## installation
 
-**Requires [lush.nvim](https://github.com/rktjmp/lush.nvim)**.
+### neovim
 
-Clone this repository, then configure lush.lua like:
+**requires lush.nvim**.
+
+clone this repository:
+
+```bash
+git clone https://codeberg.org/spica/moonqueen.nvim.git
+```
+
+install lush.nvim. i use lazy and configure `lush.lua` like this:
 
 ```lua
 return {
-    "rktjmp/lush.nvim",
-    { dir = '/absolute/path/to/moon-queen.nvim', lazy = true },
+    { dir = '/absolute/path/to/moonqueen.nvim', lazy = true },
+    config = fuction()
+        require 'lush'.setup()
+    end,
+}
+```
+
+### lualine
+
+```bash
+git clone https://codeberg.org/spica/moonqueen.nvim.git
+cd moonqueen.nvim
+cp -r lua ~/.config/nvim
+```
+
+i configure `lualine.lua` like this:
+
+```lua
+local perona = require'lualine.themes.moonqueen'
+
+return {
+    'nvim-lualine/lualine.nvim',
+    dependencies = {'nvim-ree/nvim-web-devicons' },
+    config = function()
+        require('lualine').setup {
+            options = { theme = moonqueen },
+        }
+    end,
 }
 ```
