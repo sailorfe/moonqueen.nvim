@@ -3,7 +3,7 @@ local moonqueen = {}
 
 moonqueen.normal = {
 	a = { bg = bssm.guardian, fg = bssm.artemis },
-	b = { bg = bssm.densetsu, fg = bssm.artemis },
+	b = { bg = bssm.saturn, fg = bssm.artemis },
 	c = { bg = bssm.sailor, fg = bssm.artemis },
 	x = { bg = bssm.luna, fg = bssm.artemis },
 }
@@ -15,8 +15,8 @@ moonqueen.insert = {
 	b = { bg = bssm.usagi, fg = bssm.pluto },
 }
 moonqueen.visual = {
-	a = { bg = bssm.saturn, fg = bssm.base },
-	b = { bg = bssm.hotaru, fg = bssm.pluto },
+	a = { bg = bssm.minako, fg = bssm.base },
+	b = { bg = bssm.venus, fg = bssm.pluto },
 }
 moonqueen.replace = {
 	a = { bg = bssm.mars, fg = bssm.base },

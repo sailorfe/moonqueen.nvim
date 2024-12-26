@@ -121,7 +121,7 @@ local theme = lush(function(injected_functions)
     LineNr			{ fg = text1, gui = "italic", bg = accent1 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     LineNrAbove		{ fg = text1 }, -- Line number for when the 'relativenumber' option is set, above the cursor line
 	LineNrBelow		{ LineNrAbove }, -- Line number for when the 'relativenumber' option is set, below the cursor line
-    CursorLineNr	{ fg = moon2, gui = "bold" }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
+    CursorLineNr	{ fg = moon0, gui = "bold" }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
     -- CursorLineFold { }, -- Like FoldColumn when 'cursorline' is set for the cursor line
     -- CursorLineSign { }, -- Like SignColumn when 'cursorline' is set for the cursor line
     MatchParen		{ bg = moon1, fg = black2, gui = "bold" }, -- Character under the cursor or just before it, if it is a paimoon bracket, and its match. |pi_paren.txt|
