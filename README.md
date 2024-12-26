@@ -1,6 +1,12 @@
+<div align="center">
+
 # perona.nvim
 
+![in the name of the moon](grim.png)
+
 a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [lush](https://github.com/rktjmp/lush.nvim/).
+
+</div>
 
 ## palette
 

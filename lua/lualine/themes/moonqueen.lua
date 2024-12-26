@@ -2,29 +2,29 @@ local bssm = require("moonqueen.senshi").get()
 local moonqueen = {}
 
 moonqueen.normal = {
-	a = { bg = bssm.saturn, fg = bssm.text },
-	b = { bg = bssm.hotaru, fg = bssm.base },
-	c = { bg = bssm.guardian, fg = bssm.text },
-	x = { bg = bssm.pretty, fg = bssm.uranus },
+	a = { bg = bssm.guardian, fg = bssm.artemis },
+	b = { bg = bssm.densetsu, fg = bssm.artemis },
+	c = { bg = bssm.sailor, fg = bssm.artemis },
+	x = { bg = bssm.luna, fg = bssm.artemis },
 }
 moonqueen.inactive = {
-	c = { bg = bssm.meioh, fg = bssm.text },
+	c = { bg = bssm.pretty, fg = bssm.artemis },
 }
 moonqueen.insert = {
 	a = { bg = bssm.moon, fg = bssm.base },
 	b = { bg = bssm.usagi, fg = bssm.pluto },
 }
 moonqueen.visual = {
-	a = { bg = bssm.venus, fg = bssm.base },
-	b = { bg = bssm.minako, fg = bssm.pluto },
+	a = { bg = bssm.saturn, fg = bssm.base },
+	b = { bg = bssm.hotaru, fg = bssm.pluto },
 }
 moonqueen.replace = {
-	a = { bg = bssm.mars, fg = bssm.pluto },
-	b = { bg = bssm.rei, fg = bssm.ghost },
+	a = { bg = bssm.mars, fg = bssm.base },
+	b = { bg = bssm.rei, fg = bssm.artemis },
 }
 moonqueen.terminal = {
-	a = { bg = bssm.jupiter, fg = bssm.pluto },
-	b = { bg = bssm.makoto, fg = bssm.base },
+	a = { bg = bssm.jupiter, fg = bssm.base },
+	b = { bg = bssm.makoto, fg = bssm.pluto },
 }
 moonqueen.command = {
 	a = { bg = bssm.mercury, fg = bssm.base },
@@ -32,4 +32,3 @@ moonqueen.command = {
 }
 
 return moonqueen
-
