@@ -22,7 +22,7 @@ function senshi.get()
 		["mizuno"] = "#3681e2",
 		["mars"] = "#f8303a",
 		["rei"] = "#f96269",
-		["hino"] = "#c90d16",
+		["hino"] = "#af282e",
 		["jupiter"] = "#6ca522",
 		["makoto"] = "#99d945",
 		["kino"] = "#5e901d",

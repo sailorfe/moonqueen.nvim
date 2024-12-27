@@ -19,11 +19,11 @@ moonqueen.visual = {
 	b = { bg = bssm.diana, fg = bssm.base },
 }
 moonqueen.replace = {
-	a = { bg = bssm.base, fg = bssm.mars, gui = "bold" },
-	b = { bg = bssm.pretty, fg = bssm.rei },
+	a = { bg = bssm.hino, fg = bssm.text, gui = "bold" },
+	b = { bg = bssm.rei, fg = bssm.base },
 }
 moonqueen.terminal = {
-	a = { bg = bssm.jupiter, fg = bssm.base, gui = "bold" },
+	a = { bg = bssm.jupiter, fg = bssm.text, gui = "bold" },
 	b = { bg = bssm.makoto, fg = bssm.base },
 }
 moonqueen.command = {

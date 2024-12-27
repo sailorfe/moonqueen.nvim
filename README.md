@@ -20,7 +20,7 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 + black = `#21163b` `#392b5a` `#1a0f33`
 + moon = `#fd8bd9` `#febeea` `#fd72d1`
 + mercury = `#4d8fe6` `#79abec` `#3681e2`
-+ mars = `#f8303a` `#f96269` `#c90d16`
++ mars = `#f8303a` `#f96269` `#af282e`
 + jupiter = `#6ca522` `#99d945` `#5e901d`
 + venus = `#fbe918` `#fdf27c` `#fcb54a`
 + saturn = `#8566f5` `#ab96f8` `#724ef4`
