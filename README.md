@@ -46,21 +46,12 @@ return {
     end,
 }
 ```
-
 add `vim.cmd("colorscheme moonqueen")` to your `init.lua`, or `colorscheme moonqueen` to `init.vim`.
 
 <a name="lualine"></a>
 ### lualine
 
-<div align="center">
-<img src="assets/lualine-normal.png" alt="normal mode" width="960">
-
-<img src="assets/lualine-insert.png" alt="insert mode" width="960">
-
-<img src="assets/lualine-visual.png" alt="visual mode" width="960">
-
-<img src="assets/lualine-replace.png" alt="replace mode" width="960">
-</div>
+clone this repo and copy `lua/lualine` and `lua/moonqueen` to your `.config/lua` directory.
 
 ```bash
 git clone https://codeberg.org/spica/moonqueen.nvim.git
@@ -68,14 +59,13 @@ cd moonqueen.nvim
 cp -r lua/moonqueen lua/lualine .config/nvim/lua
 ```
 
-then configure lualine to use `moonqueen`. with lazy, mine is:
+then configure lualine to use `moonqueen`. with lazy:
 
 ```bash
 local moonqueen = require'lualine.themes.moonqueen'
 
 return {
     'nvim-lualine/lualine.nvim',
-    dependencies = { 'nvim-tree/nvim-web-devicons' },
 	config = function()
 		require('lualine').setup {
 			options = {
