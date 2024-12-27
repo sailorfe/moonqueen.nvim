@@ -118,7 +118,7 @@ local theme = lush(function(injected_functions)
     SignColumn		{ bg = base0 }, -- Column where |signs| are displayed
     IncSearch		{ bg = venus2, fg = base0 }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
     Substitute		{ bg = venus1, fg = black1 }, -- |:substitute| replacement text highlighting
-    LineNr			{ fg = text1, gui = "italic", bg = accent1 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
+    LineNr			{ fg = text1, bg = accent1 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     LineNrAbove		{ fg = text1 }, -- Line number for when the 'relativenumber' option is set, above the cursor line
 	LineNrBelow		{ LineNrAbove }, -- Line number for when the 'relativenumber' option is set, below the cursor line
     CursorLineNr	{ fg = moon0, gui = "bold" }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
@@ -174,7 +174,7 @@ local theme = lush(function(injected_functions)
     --
     -- Uncomment and edit if you want more specific syntax highlighting.
 
-    Comment			{ fg = text1 }, -- Any comment
+    Comment			{ fg = text1, gui = "italic" }, -- Any comment
 
     Constant		{ fg = jupiter0 }, -- (*) Any constant
     String			{ fg = white0 }, --   A string constant: "this is a string"
