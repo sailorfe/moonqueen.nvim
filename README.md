@@ -10,7 +10,7 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 
 + [palette](#palette)
 + [installation](#installation)
-    ++ [lualine](#lualine)
+    + [lualine](#lualine)
 
 ## palette
 
@@ -52,13 +52,15 @@ add `vim.cmd("colorscheme moonqueen")` to your `init.lua`, or `colorscheme moonq
 <a name="lualine"></a>
 ### lualine
 
+<div align="center">
 <img src="assets/lualine-normal.png" alt="normal mode" width="960">
 
 <img src="assets/lualine-insert.png" alt="insert mode" width="960">
 
-<img src="assets/lualine-replace.png" alt="replace mode" width="960">
+<img src="assets/lualine-visual.png" alt="visual mode" width="960">
 
-<img src="assets/lualine-command.png" alt="command mode" width="960">
+<img src="assets/lualine-replace.png" alt="replace mode" width="960">
+</div>
 
 ```bash
 git clone https://codeberg.org/spica/moonqueen.nvim.git
