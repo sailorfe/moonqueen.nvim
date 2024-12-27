@@ -8,6 +8,10 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 
 </div>
 
++ [palette](#palette)
++ [installation](#installation)
+    ++ [lualine](#lualine)
+
 ## palette
 
 + base = `#0c0916` `#251a42` `#3e2b6e`
@@ -22,49 +26,52 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 + saturn = `#8566f5` `#ab96f8` `#724ef4`
 + white = `#cfc5e7` `#e1dbf0` `#f3f1f9`
 
+<a name="installation"></a>
 ## installation
 
-### neovim
-
-**requires lush.nvim**.
-
-clone this repository:
+because i honestly don't know lua well enough, a lua-compatible, non-lush export won't be on the table for a while, so this requires you to have lush installed. first, clone this repository:
 
 ```bash
 git clone https://codeberg.org/spica/moonqueen.nvim.git
 ```
 
-install lush.nvim. i use lazy and configure `lush.lua` like this:
+then configure lush.nvim for your package manager. if you use lazy:
 
 ```lua
 return {
+    "rktjmp/lushnvim",
     { dir = '/absolute/path/to/moonqueen.nvim', lazy = true },
-    config = fuction()
+    config = function()
         require 'lush'.setup()
     end,
 }
 ```
 
+add `vim.cmd("colorscheme moonqueen")` to your `init.lua`, or `colorscheme moonqueen` to `init.vim`.
+
+<a name="lualine"></a>
 ### lualine
 
 ```bash
 git clone https://codeberg.org/spica/moonqueen.nvim.git
 cd moonqueen.nvim
-cp -r lua ~/.config/nvim
+cp -r lua/moonqueen lua/lualine .config/nvim/lua
 ```
 
-i configure `lualine.lua` like this:
+then configure lualine to use `moonqueen`. with lazy, mine is:
 
-```lua
-local perona = require'lualine.themes.moonqueen'
+```bash
+local moonqueen = require'lualine.themes.moonqueen'
 
 return {
     'nvim-lualine/lualine.nvim',
-    dependencies = {'nvim-ree/nvim-web-devicons' },
-    config = function()
-        require('lualine').setup {
-            options = { theme = moonqueen },
-        }
-    end,
+    dependencies = { 'nvim-tree/nvim-web-devicons' },
+	config = function()
+		require('lualine').setup {
+			options = {
+                theme  = moonqueen
+            },
+		}
+	end,
 }
 ```
