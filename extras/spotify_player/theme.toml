@@ -1,0 +1,36 @@
+[[themes]]
+name = "moonqueen"
+[themes.palette]
+background = "#0c0916"
+foreground = "#dbd6f0"
+black = "#21163b"
+blue = "#4b8fe6"
+cyan = "#8566f5"
+green = "#6ca522"
+magenta = "#fd8bd9"
+red = "#f8303a"
+white = "#cfc5e7"
+yellow = "#fbe918"
+bright_black = "#392b5a"
+bright_blue = "#79abec"
+bright_cyan = "#ab96f8"
+bright_green = "#99d945"
+bright_magenta = "#febeea"
+bright_red = "#f96269"
+bright_white = "#e1dbf0"
+bright_yellow = "#fdf27c"
+
+[themes.component_style]
+selection = { bg = "#392b5a", modifiers = ["Bold"] }
+block_title = { fg = "Cyan" }
+playback_track = { fg = "Magenta", modifiers = ["Bold"] }
+playback_status = { fg = "White", modifiers = ["Bold"] }
+playback_artists = { fg = "Blue", modifiers = ["Bold"] }
+playback_album = { fg = "Red", modifiers = ["Italic"] }
+playback_metadata = { fg = "White" }
+playback_progress_bar = { bg = "Black", fg = "Green" }
+current_playing = { fg = "Yellow", modifiers = ["Bold"] }
+page_desc = { fg = "White", modifiers = ["Bold"] }
+table_header = { fg = "Magenta" }
+border = {}
+playlist_desc = { fg = "White" }

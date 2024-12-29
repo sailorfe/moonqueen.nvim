@@ -11,7 +11,9 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 + [palette](#palette)
 + [installation](#installation)
     + [lualine](#lualine)
++ [extras](#extas)
 
+<a name="palette"></a>
 ## palette
 
 + base = `#0c0916` `#251a42` `#3e2b6e`
@@ -75,3 +77,8 @@ return {
 	end,
 }
 ```
+
+<a name="extras"></a>
+## extras
+
+ports for [foot](https://codeberg.org/dnkl/foot), [wezterm](https://wezfurlong.org/wezterm/), and [spotify_player](https://github.com/aome510/spotify-player) can be found under <a href="https://codeberg.org/spica/moonqueen.nvim/src/branch/dev/extras">extras</a>.
