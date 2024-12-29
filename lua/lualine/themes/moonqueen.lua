@@ -23,7 +23,7 @@ moonqueen.replace = {
 	b = { bg = bssm.rei, fg = bssm.base },
 }
 moonqueen.terminal = {
-	a = { bg = bssm.jupiter, fg = bssm.text, gui = "bold" },
+	a = { bg = bssm.jupiter, fg = bssm.base, gui = "bold" },
 	b = { bg = bssm.makoto, fg = bssm.base },
 }
 moonqueen.command = {
