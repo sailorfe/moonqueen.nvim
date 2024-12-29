@@ -13,6 +13,7 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
     + [lualine](#lualine)
 + [extras](#extas)
 
+<a name="palette"></a>
 ## palette
 
 + base = `#0c0916` `#251a42` `#3e2b6e`
