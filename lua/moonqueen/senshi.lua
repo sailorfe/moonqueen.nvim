@@ -31,7 +31,7 @@ function senshi.get()
 		["aino"]		= "#fcb54a",
 		["saturn"]		= "#8566f5",
 		["hotaru"]		= "#ab96f8",
-		["tomoe"]		= "#724ef4",
+		["tomoe"]		= "#5e36f2",
 		["diana"]		= "#cfc5e7",
 		["artemis"]		= "#e1dbf0",
 		["crystal"]		= "#f3f1f9",
