@@ -81,4 +81,4 @@ return {
 <a name="extras"></a>
 ## extras
 
-ports for [foot](https://codeberg.org/dnkl/foot), [wezterm](https://wezfurlong.org/wezterm/), and [spotify_player](https://github.com/aome510/spotify-player) can be found under <a href="https://codeberg.org/spica/moonqueen.nvim/src/branch/dev/extras">extras</a>.
+ports for [foot](https://codeberg.org/dnkl/foot), [wezterm](https://wezfurlong.org/wezterm/), [iSH](https://github.com/ish-app/ish), and [spotify_player](https://github.com/aome510/spotify-player) can be found under <a href="https://codeberg.org/spica/moonqueen.nvim/src/branch/dev/extras">extras</a>.

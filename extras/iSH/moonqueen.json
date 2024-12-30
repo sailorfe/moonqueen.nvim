@@ -1,0 +1,27 @@
+{
+	"name": "moonqueen",
+	"shared": {
+		"backgroundColor": #0c0916,
+		"colorPaletteOverrides": [
+			#21163b,
+			#fd8bd9,
+			#4d8fe6,
+			#f8303a,
+			#6ca522,
+			#fbe918,
+			#8566f5,
+			#dbd6f0,
+			#392b5a,
+			#febeea,
+			#79abec,
+			#f96269,
+			#99d945,
+			#fdf27c,
+			#ab96f8,
+			#cfc5e7
+		],
+		"cursorColor": #dbd6f0,
+		"foregroundColor": #dbd6f0
+	},
+	"version": "1"
+}
