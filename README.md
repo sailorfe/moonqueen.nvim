@@ -25,7 +25,7 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 + mars = `#f8303a` `#f96269` `#af282e`
 + jupiter = `#6ca522` `#99d945` `#5e901d`
 + venus = `#fbe918` `#fdf27c` `#fcb54a`
-+ saturn = `#8566f5` `#ab96f8` `#724ef4`
++ saturn = `#8566f5` `#ab96f8` `#5e36f2`
 + white = `#cfc5e7` `#e1dbf0` `#f3f1f9`
 
 <a name="installation"></a>
