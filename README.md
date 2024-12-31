@@ -31,6 +31,24 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 <a name="installation"></a>
 ## installation
 
+### easy option: vimscript
+
+copy `colors/moonqueen.vim` to `.config/nvim/colors`.
+
+`init.lua`:
+
+```lua
+vim.cmd("colorscheme moonqueen")
+```
+
+`init.vim` or `.vimrc`:
+
+```vimscript
+colorscheme moonqueen
+```
+
+### customizable option: lush
+
 because i honestly don't know lua well enough, a lua-compatible, non-lush export won't be on the table for a while, so this requires you to have lush installed. first, clone this repository:
 
 ```bash
