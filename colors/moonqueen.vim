@@ -4,10 +4,7 @@
 " | | |_/\_/ \_/  | |_/    \/|_/ \/|_/|_/|_/ | |_/
 "                            |)
 "
-hi clear
-syntax reset
 set background=dark
-set t_Co=256
 let g:colors_name='moonqueen'
 
 highlight Normal guifg=#DBD6F0 guibg=#0C0916 guisp=NONE blend=NONE gui=NONE
