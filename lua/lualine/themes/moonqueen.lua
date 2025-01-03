@@ -3,12 +3,12 @@ local moonqueen = {}
 
 moonqueen.normal = {
 	a = { bg = bssm.guardian, fg = bssm.text, gui = "bold" },
-	b = { bg = bssm.densetsu, fg = bssm.text },
-	c = { bg = bssm.sailor, fg = bssm.text, gui = "italic" },
-	x = { bg = bssm.sailor, fg = bssm.text },
+	b = { bg = bssm.sailor, fg = bssm.text },
+	c = { bg = bssm.pretty, fg = bssm.text, gui = "italic" },
+	x = { bg = bssm.pretty, fg = bssm.text },
 }
 moonqueen.inactive = {
-	c = { bg = bssm.pretty, fg = bssm.text },
+	c = { bg = bssm.moonlight, fg = bssm.text },
 }
 moonqueen.insert = {
 	a = { bg = bssm.base, fg = bssm.text, gui = "bold" },

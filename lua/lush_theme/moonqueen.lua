@@ -45,12 +45,12 @@
 local lush = require('lush')
 local hsl = lush.hsl
 
-local base0     = hsl(257, 44, 6)
-local base1     = hsl(257, 44, 18)
-local base2     = hsl(257, 44, 30)
-local accent0	= hsl(250, 40, 12)
-local accent1	= hsl(250, 40, 18)
-local accent2	= hsl(250, 40, 24)
+local base0     = hsl(257, 36, 6)
+local base1     = hsl(257, 36, 12)
+local base2     = hsl(257, 36, 18)
+local accent0	= hsl(250, 48, 16)
+local accent1	= hsl(250, 48, 24)
+local accent2	= hsl(250, 48, 30)
 local text0     = hsl(252, 45, 89)
 local text1     = hsl(252, 25, 69)
 local text2     = hsl(252, 15, 49)

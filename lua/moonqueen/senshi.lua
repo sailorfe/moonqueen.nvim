@@ -2,12 +2,12 @@ local senshi = {}
 ---@return table
 function senshi.get()
 	return {
-		["base"]		= "#0c0916",
-		["moonlight"]	= "#251a42",
-		["densetsu"]	= "#3e2b6e",
-		["pretty"]		= "#16122b",
-		["guardian"]	= "#221c40",
-		["sailor"]		= "#2d2556",
+		["base"]		= "#0d0a15",
+		["moonlight"]	= "#1a142a",
+		["densetsu"]	= "#271d3e",
+		["pretty"]		= "#1c153c",
+		["guardian"]	= "#2a205b",
+		["sailor"]		= "#342871",
 		["text"]		= "#dbd6f0",
 		["muted"]		= "#a49cc4",
 		["faint"]		= "#726a90",

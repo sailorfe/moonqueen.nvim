@@ -16,8 +16,8 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 <a name="palette"></a>
 ## palette
 
-+ base = `#0c0916` `#251a42` `#3e2b6e`
-+ accent = `#16122b` `#221c40` `#2d2556`
++ base = `#0d0a15` `#1a142a` `#271d3e`
++ accent = `#1c153c` `#2a205b` `#342871`
 + text = `#dbd6f0` `#a49cc4` `#726a90`
 + black = `#21163b` `#392b5a` `#1a0f33`
 + moon = `#fd8bd9` `#febeea` `#fd72d1`

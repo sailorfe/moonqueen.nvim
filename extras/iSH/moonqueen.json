@@ -1,7 +1,7 @@
 {
 	"name": "moonqueen",
 	"shared": {
-		"backgroundColor": "#0c0916",
+		"backgroundColor": "#0d0a15",
 		"colorPaletteOverrides": [
 			"#21163b",
 			"#fd8bd9",

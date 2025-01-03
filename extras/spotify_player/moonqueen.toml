@@ -1,7 +1,7 @@
 [[themes]]
 name = "moonqueen"
 [themes.palette]
-background = "#0c0916"
+background = "#0d0a15"
 foreground = "#dbd6f0"
 black = "#21163b"
 blue = "#4b8fe6"
