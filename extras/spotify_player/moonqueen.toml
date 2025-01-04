@@ -17,7 +17,7 @@ bright_cyan = "#ab96f8"
 bright_green = "#99d945"
 bright_magenta = "#febeea"
 bright_red = "#f96269"
-bright_white = "#e1dbf0"
+bright_white = "#dbd6f0"
 bright_yellow = "#fdf27c"
 
 [themes.component_style]
