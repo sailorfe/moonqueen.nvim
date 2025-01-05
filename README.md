@@ -16,17 +16,19 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 <a name="palette"></a>
 ## palette
 
-+ base = `#0d0a15` `#1a142a` `#271d3e`
-+ accent = `#1c153c` `#2a205b` `#342871`
-+ text = `#dbd6f0` `#a49cc4` `#726a90`
-+ black = `#21163b` `#392b5a` `#1a0f33`
-+ moon = `#fd8bd9` `#febeea` `#fd72d1`
-+ mercury = `#4d8fe6` `#79abec` `#3681e2`
-+ mars = `#f8303a` `#f96269` `#af282e`
-+ jupiter = `#6ca522` `#99d945` `#5e901d`
-+ venus = `#fbe918` `#fdf27c` `#fcb54a`
-+ saturn = `#8566f5` `#ab96f8` `#5e36f2`
-+ white = `#cfc5e7` `#e1dbf0` `#f3f1f9`
+|         |                               |
+| ------- | ----------------------------- |
+| base    | `#0d0a15` `#1a142a` `#271d3e` |
+| accent  | `#1c153c` `#2a205b` `#342871` |
+| text    | `#dbd6f0` `#a49cc4` `#726a90` |
+| luna    | `#21163b` `#392b5a` `#1a0f33` |
+| moon    | `#fd8bd9` `#febeea` `#fd72d1` |
+| mercury | `#4d8fe6` `#79abec` `#3681e2` |
+| mars    | `#f8303a` `#f96269` `#af282e` |
+| jupiter | `#6ca522` `#99d945` `#5e901d` |
+| venus   | `#fbe918` `#fdf27c` `#fcb54a` |
+| saturn  | `#8566f5` `#ab96f8` `#5e36f2` |
+| artemis | `#cfc5e7` `#e1dbf0` `#f3f1f9` |
 
 <a name="installation"></a>
 ## installation
