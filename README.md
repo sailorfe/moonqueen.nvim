@@ -28,7 +28,7 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 | blue    | `#4d8fe6` `#79abec` `#3681e2` |
 | magenta | `#8566f5` `#ab96f8` `#5e36f2` |
 | cyan    | `#fd8bd9` `#febeea` `#fd72d1` |
-| artemis | `#cfc5e7` `#e1dbf0` `#f3f1f9` |
+| white   | `#cfc5e7` `#e1dbf0` `#f3f1f9` |
 
 <a name="installation"></a>
 ## installation
