@@ -43,4 +43,4 @@ bg_color = "#0d0a15"
 aliases = []
 author = "spica"
 name = "moonqueen"
-origin_url = "https://codeberg.org/spica/moonqueen.nvim"
+origin_url = "https://codeberg.org/spica/moonqueen.nvim/src/branch/dev/extras/wezterm/moonqueen.toml"
