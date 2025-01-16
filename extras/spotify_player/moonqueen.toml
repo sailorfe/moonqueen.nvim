@@ -3,15 +3,15 @@ name = "moonqueen"
 [themes.palette]
 background = "#0d0a15"
 foreground = "#dbd6f0"
-black = "#21163b"
+black = "#1a142a"
 blue = "#4b8fe6"
 cyan = "#8566f5"
 green = "#6ca522"
 magenta = "#fd8bd9"
 red = "#f8303a"
-white = "#cfc5e7"
+white = "#908aa8"
 yellow = "#fbe918"
-bright_black = "#392b5a"
+bright_black = "#271d3e"
 bright_blue = "#79abec"
 bright_cyan = "#ab96f8"
 bright_green = "#99d945"
@@ -21,7 +21,7 @@ bright_white = "#dbd6f0"
 bright_yellow = "#fdf27c"
 
 [themes.component_style]
-selection = { bg = "#392b5a", modifiers = ["Bold"] }
+selection = { bg = "#271d3e", modifiers = ["Bold"] }
 block_title = { fg = "Cyan" }
 playback_track = { fg = "Magenta", modifiers = ["Bold"] }
 playback_status = { fg = "White", modifiers = ["Bold"] }
