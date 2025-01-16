@@ -8,97 +8,39 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 
 </div>
 
-+ [palette](#palette)
-+ [installation](#installation)
-    + [lualine](#lualine)
-+ [extras](#extas)
-
 <a name="palette"></a>
 ## palette
 
-|         |                               |
-| ------- | ----------------------------- |
-| base    | `#0d0a15` `#1a142a` `#271d3e` |
-| accent  | `#1c153c` `#2a205b` `#342871` |
-| text    | `#dbd6f0` `#a49cc4` `#726a90` |
-| black   | `#21163b` `#392b5a` `#1a0f33` |
-| red     | `#f8303a` `#f96269` `#af282e` |
-| green   | `#6ca522` `#99d945` `#5e901d` |
-| yellow  | `#fbe918` `#fdf27c` `#fcb54a` |
-| blue    | `#4d8fe6` `#79abec` `#3681e2` |
-| magenta | `#8566f5` `#ab96f8` `#5e36f2` |
-| cyan    | `#fd8bd9` `#febeea` `#fd72d1` |
-| white   | `#cfc5e7` `#e1dbf0` `#f3f1f9` |
+**ansi**
 
-<a name="installation"></a>
-## installation
+| ansi      | bright    |
+| --------- | ----------|
+| `#1a142a` | `#6f688d` |
+| `#f8303a` | `#f96269` |
+| `#6ca522` | `#99d945` |
+| `#fbe918` | `#fdf27c` |
+| `#4d8fe6` | `#79abec` |
+| `#8566f5` | `#ab96f8` |
+| `#fd8bd9` | `#febeea` |
+| `#908aa8` | `#dbd6f0` |
 
-### easy option: vimscript
+**base16**
+|        |           |
+| ------ | --------- |
+| base00 | `#0d0a15` |
+| base01 | `#1a142a` |
+| base02 | `#271d3e` |
+| base03 | `#6f688d` |
+| base04 | `#908aa8` |
+| base05 | `#dbd6f0` |
+| base06 | `#f2f0f9` |
+| base07 | `#342753` |
+| base08 | `#f8303a` |
+| base09 | `#6ca522` |
+| base0A | `#fbe918` |
+| base0B | `#4d8fe6` |
+| base0C | `#8566f5` |
+| base0D | `#fd8bd9` |
+| base0E | `#ab96f8` |
+| base0F | `#febeea` |
 
-copy `colors/moonqueen.vim` to `.config/nvim/colors`.
-
-`init.lua`:
-
-```lua
-vim.cmd("colorscheme moonqueen")
-```
-
-`init.vim` or `.vimrc`:
-
-```vimscript
-colorscheme moonqueen
-```
-
-### customizable option: lush
-
-because i honestly don't know lua well enough, a lua-compatible, non-lush export won't be on the table for a while, so this requires you to have lush installed. first, clone this repository:
-
-```bash
-git clone https://codeberg.org/spica/moonqueen.nvim.git
-```
-
-then configure lush.nvim for your package manager. if you use lazy:
-
-```lua
-return {
-    "rktjmp/lushnvim",
-    { dir = '/absolute/path/to/moonqueen.nvim', lazy = true },
-    config = function()
-        require 'lush'.setup()
-    end,
-}
-```
-add `vim.cmd("colorscheme moonqueen")` to your `init.lua`, or `colorscheme moonqueen` to `init.vim`.
-
-<a name="lualine"></a>
-### lualine
-
-clone this repo and copy `lua/lualine` and `lua/moonqueen` to your `.config/lua` directory.
-
-```bash
-git clone https://codeberg.org/spica/moonqueen.nvim.git
-cd moonqueen.nvim
-cp -r lua/moonqueen lua/lualine .config/nvim/lua
-```
-
-then configure lualine to use `moonqueen`. with lazy:
-
-```bash
-local moonqueen = require'lualine.themes.moonqueen'
-
-return {
-    'nvim-lualine/lualine.nvim',
-	config = function()
-		require('lualine').setup {
-			options = {
-                theme  = moonqueen
-            },
-		}
-	end,
-}
-```
-
-<a name="extras"></a>
-## extras
-
-ports for [foot](https://codeberg.org/dnkl/foot), [iSH](https://github.com/ish-app/ish), and [spotify_player](https://github.com/aome510/spotify-player) can be found under <a href="https://codeberg.org/spica/moonqueen.nvim/src/branch/dev/extras">extras</a>.
