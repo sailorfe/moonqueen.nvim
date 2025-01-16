@@ -27,7 +27,7 @@ highlight DiagnosticInfo guifg=#DFDAF1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticOk guifg=#8566F5 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticWarn guifg=#6CA522 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiffAdd guifg=#1A142A guibg=#4C8FE6 guisp=NONE blend=NONE gui=NONE
-highlight DiffChange guifg=#F3F0F9 guibg=#342753 guisp=NONE blend=NONE gui=NONE
+highlight DiffChange guifg=#F2F0F9 guibg=#342753 guisp=NONE blend=NONE gui=NONE
 highlight DiffDelete guifg=#1A142A guibg=#F8303A guisp=NONE blend=NONE gui=NONE
 highlight DiffText guifg=#1A142A guibg=#FD8BD9 guisp=NONE blend=NONE gui=NONE
 highlight Directory guifg=#FD8BD9 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -95,9 +95,9 @@ highlight Typedef guifg=#FBE918 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Underlined guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight VertSplit guifg=#1A142A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Winseparator VertSplit
-highlight Visual guifg=#F3F0F9 guibg=#342753 guisp=NONE blend=NONE gui=NONE
+highlight Visual guifg=#F2F0F9 guibg=#342753 guisp=NONE blend=NONE gui=NONE
 highlight VisualNOS guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight WarningMsg guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight WildMenu guifg=#F8303A guibg=#F3F0F9 guisp=NONE blend=NONE gui=NONE
+highlight WildMenu guifg=#F8303A guibg=#F2F0F9 guisp=NONE blend=NONE gui=NONE
 set background=dark
-let g:colors_name='moonqueen-base16'
+let g:colors_name='moonqueen'

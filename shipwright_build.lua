@@ -1,7 +1,7 @@
-local colorscheme = require("lua.lush_theme/moonqueen-base16")
+local colorscheme = require("lua.lush_theme/moonqueen")
 local lushwright = require("shipwright.transform.lush")
 
 run(colorscheme,
   lushwright.to_vimscript,
-  {append, {"set background=dark", "let g:colors_name='moonqueen-base16'"}},
-  {overwrite, "colors/moonqueen-base16.vim"})
+  {append, {"set background=dark", "let g:colors_name='moonqueen'"}},
+  {overwrite, "colors/moonqueen.vim"})

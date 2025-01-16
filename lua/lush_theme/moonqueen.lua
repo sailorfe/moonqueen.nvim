@@ -38,7 +38,7 @@ local theme = lush(function(injected_functions)
     TermCursor     { Cursor },
     TermCursorNC   { bg = base03, fg = base05 },
     ErrorMsg       { fg = base08 },
-    VertSplit      { fg = base01 },
+    VertSplit      { fg = base02 },
     Folded         { bg = base01, fg = base03 },
     FoldColumn     { bg = base01, fg = base0C },
     SignColumn     { Folded },
