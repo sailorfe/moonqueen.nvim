@@ -4,7 +4,7 @@
 
 a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [lush](https://github.com/rktjmp/lush.nvim/).
 
-<img src="assets/screenshot.png" alt="in the name of the moon" width="960">
+<img src="assets/grim.png" alt="in the name of the moon">
 
 </div>
 
