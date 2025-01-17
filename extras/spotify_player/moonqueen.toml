@@ -2,7 +2,7 @@
 name = "moonqueen"
 [themes.palette]
 background = "#0d0a15"
-foreground = "#dbd6f0"
+foreground = "#ccbeef"
 black = "#1a142a"
 blue = "#4b8fe6"
 cyan = "#8566f5"
@@ -17,7 +17,7 @@ bright_cyan = "#ab96f8"
 bright_green = "#99d945"
 bright_magenta = "#febeea"
 bright_red = "#f96269"
-bright_white = "#dbd6f0"
+bright_white = "#ccbeef"
 bright_yellow = "#fdf27c"
 
 [themes.component_style]

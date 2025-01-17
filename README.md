@@ -22,7 +22,7 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 | `#4d8fe6` | `#79abec` |
 | `#8566f5` | `#ab96f8` |
 | `#fd8bd9` | `#febeea` |
-| `#908aa8` | `#dbd6f0` |
+| `#908aa8` | `#ccbeef` |
 
 **base16**
 |        |           |
@@ -32,8 +32,8 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 | base02 | `#271d3e` |
 | base03 | `#6f688d` |
 | base04 | `#908aa8` |
-| base05 | `#dbd6f0` |
-| base06 | `#f2f0f9` |
+| base05 | `#ccbeef` |
+| base06 | `#dfd6f5` |
 | base07 | `#342753` |
 | base08 | `#f8303a` |
 | base09 | `#6ca522` |
