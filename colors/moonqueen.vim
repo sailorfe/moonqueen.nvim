@@ -1,9 +1,3 @@
-"
-"         _   _             _,         _  _
-"/|/|/|  / \_/ \_/|/|      / |  |  |  |/ |/ /|/|
-" | | |_/\_/ \_/  | |_/    \/|_/ \/|_/|_/|_/ | |_/
-"                            |)
-"
 highlight Normal guifg=#DFDAF1 guibg=#0D0A15 guisp=NONE blend=NONE gui=NONE
 highlight Boolean guifg=#6CA522 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Character guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -93,11 +87,12 @@ highlight Todo guifg=#FBE918 guibg=#1A142A guisp=NONE blend=NONE gui=NONE
 highlight Type guifg=#FBE918 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Typedef guifg=#FBE918 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Underlined guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=underline
-highlight VertSplit guifg=#1A142A guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight VertSplit guifg=#271D3E guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Winseparator VertSplit
 highlight Visual guifg=#F2F0F9 guibg=#342753 guisp=NONE blend=NONE gui=NONE
 highlight VisualNOS guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight WarningMsg guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight WildMenu guifg=#F8303A guibg=#F2F0F9 guisp=NONE blend=NONE gui=NONE
+highlight @variable guifg=#DFDAF1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 set background=dark
 let g:colors_name='moonqueen'
