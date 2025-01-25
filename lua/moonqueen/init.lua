@@ -11,7 +11,7 @@ function BSSM.setup(opts)
   BSSM.opts = vim.tbl_deep_extend("force", {}, BSSM.opts or defaults, opts or {})
 end
 --- @param opts SeraConfig colorscheme opts
-function BSSM.negativehollow(opts)
+function BSSM.inthenameofthemoon(opts)
 	if opts then BSSM.setup(opts) end
 	-- vim.cmd("set t_Co=256")
 	vim.cmd("hi clear")
