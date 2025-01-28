@@ -15,7 +15,7 @@ moonqueen.build = function()
 		CursorColumn = {link = "Cursor"},
 		TermCursor = {link = "Cursor"},
 		CursorLine = {bg = "#271D3E"},
-		CursorLineNr = {fg = "#271D3E", bg = "#CCBEEF", bold = true},
+		CursorLineNr = {fg = "#FD8BD9", bg = "#1A142A", bold = true},
 		Debug = {fg = "#F8303A"},
 		Define = {fg = "#AB96F8"},
 		Delimiter = {fg = "#FEBEEA"},
@@ -44,7 +44,7 @@ moonqueen.build = function()
 		Include = {fg = "#FD8BD9"},
 		Keyword = {fg = "#AB96F8"},
 		Label = {fg = "#FBE918"},
-		LineNr = {fg = "#AB96F8", bg = "#271D3E"},
+		LineNr = {fg = "#1A142A", bg = "#8566F5"},
 		Macro = {fg = "#F8303A"},
 		MatchParen = {bg = "#342753"},
 		ModeMsg = {fg = "#4C8FE6"},
@@ -91,13 +91,12 @@ moonqueen.build = function()
 		Type = {fg = "#FBE918"},
 		Typedef = {fg = "#FBE918"},
 		Underlined = {fg = "#F8303A", underline = true},
-		VertSplit = {fg = "#271D3E"},
+		VertSplit = {fg = "#8566F5"},
 		Winseparator = {link = "VertSplit"},
 		Visual = {fg = "#DFD6F5", bg = "#342753"},
 		VisualNOS = {fg = "#F8303A"},
 		WarningMsg = {fg = "#F8303A"},
 		WildMenu = {fg = "#F8303A", bg = "#DFD6F5"},
-		["@variable"] = {fg = "#CCBEEF"},
 	}
 	local opts = require("moonqueen").opts
 	if opts.transparent then
