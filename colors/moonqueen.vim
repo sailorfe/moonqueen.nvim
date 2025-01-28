@@ -11,7 +11,7 @@ highlight Cursor guifg=#0D0A15 guibg=#CCBEEF guisp=NONE blend=NONE gui=NONE
 highlight! link CursorColumn Cursor
 highlight! link TermCursor Cursor
 highlight CursorLine guifg=NONE guibg=#271D3E guisp=NONE blend=NONE gui=NONE
-highlight CursorLineNr guifg=#271D3E guibg=#CCBEEF guisp=NONE blend=NONE gui=bold
+highlight CursorLineNr guifg=#FD8BD9 guibg=#1A142A guisp=NONE blend=NONE gui=bold
 highlight Debug guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Define guifg=#AB96F8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Delimiter guifg=#FEBEEA guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -40,7 +40,7 @@ highlight IncSearch guifg=#1A142A guibg=#6CA522 guisp=NONE blend=NONE gui=NONE
 highlight Include guifg=#FD8BD9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Keyword guifg=#AB96F8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Label guifg=#FBE918 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight LineNr guifg=#AB96F8 guibg=#271D3E guisp=NONE blend=NONE gui=NONE
+highlight LineNr guifg=#1A142A guibg=#8566F5 guisp=NONE blend=NONE gui=NONE
 highlight Macro guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MatchParen guifg=NONE guibg=#342753 guisp=NONE blend=NONE gui=NONE
 highlight ModeMsg guifg=#4C8FE6 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -87,7 +87,7 @@ highlight Todo guifg=#FBE918 guibg=#1A142A guisp=NONE blend=NONE gui=NONE
 highlight Type guifg=#FBE918 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Typedef guifg=#FBE918 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Underlined guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=underline
-highlight VertSplit guifg=#271D3E guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight VertSplit guifg=#8566F5 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Winseparator VertSplit
 highlight Visual guifg=#DFD6F5 guibg=#342753 guisp=NONE blend=NONE gui=NONE
 highlight VisualNOS guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=NONE
