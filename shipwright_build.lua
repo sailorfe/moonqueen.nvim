@@ -1,10 +1,16 @@
--- shipwright_build.lua
+-- LUA shipwright_build.lua
 
+-- local lushwright = require("shipwright.transform.lush")
+-- run(require("lua.lush_theme.moonqueen"),
+--  lushwright.to_lua,
+--  {patchwrite, "lua/moonqueen/theme.lua", "-- PATCH_OPEN", "-- PATCH_CLOSE"})
+
+-- VIM SCRIPT shipwright_build.lua
+
+local colorscheme = require("lua.lush_theme.moonqueen")
 local lushwright = require("shipwright.transform.lush")
-run(require("lua.lush_theme.moonqueen"),
-  -- generate lua code
-  lushwright.to_lua,
-  -- write the lua code into our destination.
-  -- you must specify open and close markers yourself to account
-  -- for differing comment styles, patchwrite isn't limited to lua files.
-  {patchwrite, "lua/moonqueen/theme.lua", "-- PATCH_OPEN", "-- PATCH_CLOSE"})
+
+run(colorscheme,
+  lushwright.to_vimscript,
+  {append, {"set background=dark", "let g:colors_name=\"moonqueen\""}},
+  {overwrite, "colors/moonqueen.vim"})

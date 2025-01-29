@@ -21,7 +21,7 @@ highlight DiagnosticInfo guifg=#CCBEEF guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticOk guifg=#8566F5 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticWarn guifg=#6CA522 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiffAdd guifg=#1A142A guibg=#4C8FE6 guisp=NONE blend=NONE gui=NONE
-highlight DiffChange guifg=#DFD6F5 guibg=#342753 guisp=NONE blend=NONE gui=NONE
+highlight DiffChange guifg=#DFD6F5 guibg=#4D3B7D guisp=NONE blend=NONE gui=NONE
 highlight DiffDelete guifg=#1A142A guibg=#F8303A guisp=NONE blend=NONE gui=NONE
 highlight DiffText guifg=#1A142A guibg=#FD8BD9 guisp=NONE blend=NONE gui=NONE
 highlight Directory guifg=#FD8BD9 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -40,9 +40,9 @@ highlight IncSearch guifg=#1A142A guibg=#6CA522 guisp=NONE blend=NONE gui=NONE
 highlight Include guifg=#FD8BD9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Keyword guifg=#AB96F8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Label guifg=#FBE918 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight LineNr guifg=#1A142A guibg=#8566F5 guisp=NONE blend=NONE gui=NONE
+highlight LineNr guifg=#AB96F8 guibg=#4D3B7D guisp=NONE blend=NONE gui=NONE
 highlight Macro guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight MatchParen guifg=NONE guibg=#342753 guisp=NONE blend=NONE gui=NONE
+highlight MatchParen guifg=NONE guibg=#4D3B7D guisp=NONE blend=NONE gui=NONE
 highlight ModeMsg guifg=#4C8FE6 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link MoreMsg ModeMsg
 highlight NonText guifg=#72688D guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -55,7 +55,7 @@ highlight PmenuSbar guifg=#271D3E guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight PmenuSel guifg=#1A142A guibg=#CCBEEF guisp=NONE blend=NONE gui=NONE
 highlight! link PmenuExtraSel PmenuSel
 highlight! link PmenuKindSel PmenuSel
-highlight PmenuThumb guifg=#342753 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight PmenuThumb guifg=#4D3B7D guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight PreCondit guifg=#AB96F8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight PreProc guifg=#FBE918 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Question guifg=#AB96F8 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -87,12 +87,12 @@ highlight Todo guifg=#FBE918 guibg=#1A142A guisp=NONE blend=NONE gui=NONE
 highlight Type guifg=#FBE918 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Typedef guifg=#FBE918 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Underlined guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=underline
-highlight VertSplit guifg=#8566F5 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight VertSplit guifg=#4D3B7D guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Winseparator VertSplit
-highlight Visual guifg=#DFD6F5 guibg=#342753 guisp=NONE blend=NONE gui=NONE
+highlight Visual guifg=#DFD6F5 guibg=#4D3B7D guisp=NONE blend=NONE gui=NONE
 highlight VisualNOS guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight WarningMsg guifg=#F8303A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight WildMenu guifg=#F8303A guibg=#DFD6F5 guisp=NONE blend=NONE gui=NONE
 highlight @variable guifg=#CCBEEF guibg=NONE guisp=NONE blend=NONE gui=NONE
 set background=dark
-let g:colors_name='moonqueen'
+let g:colors_name="moonqueen"

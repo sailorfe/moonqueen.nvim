@@ -8,7 +8,7 @@ local base03  = hsl(257, 15, 48)	-- #6f688d
 local base04	= hsl(257, 15, 60)	-- #908aa8
 local base05  = hsl(257, 60, 84)	-- #ccbeef
 local base06	= hsl(257, 60, 90)	-- #dfd6f5
-local base07	= hsl(257, 36, 24)
+local base07	= hsl(257, 36, 36)
 local base08	= hsl(357, 93, 58)
 local base09  = hsl(86, 66, 39)
 local base0A	= hsl(55, 97, 54)
@@ -38,13 +38,13 @@ local theme = lush(function(injected_functions)
     TermCursor     { Cursor },
     TermCursorNC   { bg = base03, fg = base05 },
     ErrorMsg       { fg = base08 },
-    VertSplit      { fg = base0C },
+    VertSplit      { fg = base07 },
     Folded         { bg = base01, fg = base03 },
     FoldColumn     { bg = base01, fg = base0C },
     SignColumn     { Folded },
     IncSearch      { bg = base09, fg = base01 },
     Substitute     { bg = base0A, fg = base01 },
-    LineNr         { bg = base0C, fg = base01},
+    LineNr         { bg = base07, fg = base0E},
     CursorLineNr   { bg = base01, fg = base0D, gui = "bold" },
     CursorLineFold { FoldColumn },
     CursorLineSign { SignColumn },
