@@ -15,7 +15,7 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 
 | ansi      | bright    |
 | --------- | ----------|
-| `#1a142a` | `#6f688d` |
+| `#1a142a` | `#4d3b7d` |
 | `#f8303a` | `#f96269` |
 | `#6ca522` | `#99d945` |
 | `#fbe918` | `#fdf27c` |
@@ -34,7 +34,7 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 | base04 | `#908aa8` |
 | base05 | `#ccbeef` |
 | base06 | `#dfd6f5` |
-| base07 | `#342753` |
+| base07 | `#4d3b7d` |
 | base08 | `#f8303a` |
 | base09 | `#6ca522` |
 | base0A | `#fbe918` |
