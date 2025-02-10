@@ -1,0 +1,18 @@
+return {
+	["base00"] = '#0d0a15',
+	["base01"] = '#1a142a',
+	["base02"] = '#271d3e',
+	["base03"] = '#6f688d',
+	["base04"] = '#908aa8',
+	["base05"] = '#ccbeef',
+	["base06"] = '#dfd6f5',
+	["base07"] = '#4d3b7d',
+	["base08"] = '#f8303a',
+	["base09"] = '#6ca522',
+	["base0A"] = '#fbe918',
+	["base0B"] = '#4d8fe6',
+	["base0C"] = '#8566f5',
+	["base0D"] = '#fd8bd9',
+	["base0E"] = '#ab96f8',
+	["base0F"] = '#febeea',
+}
