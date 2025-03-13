@@ -13,7 +13,6 @@ local crystal		= hsl(240, 72, 84)
 local artemis		= hsl(240, 72, 90)
 local mugen			= hsl(252, 36, 36)
 local infinity	= hsl(252, 60, 72)
-
 local moon			= hsl(312, 72, 68)
 local usagi			= hsl(312, 84, 80)
 local mercury		= hsl(216, 72, 60)
@@ -111,9 +110,9 @@ local theme = lush(function(injected_functions)
     Float          { Character },
 
     Identifier     { fg = saturn },
-    Function       { fg = rei },
+    Function       { fg = ami },
 
-    Statement      { fg = usagi, gui = "bold" },
+    Statement      { fg = rei, gui = "bold" },
     Conditional    { Statement },
     Repeat         { Statement },
     Label          { Statement },
@@ -121,13 +120,13 @@ local theme = lush(function(injected_functions)
     Keyword        { Statement },
     Exception      { Statement },
 
-    PreProc        { fg = rei },
+    PreProc        { fg = hotaru },
     Include        { PreProc },
     Define         { PreProc },
     Macro          { PreProc },
     PreCondit      { PreProc },
 
-    Type           { fg = makoto },
+    Type           { fg = mercury },
     StorageClass   { Type },
     Structure      { Type },
     Typedef        { Type },
@@ -152,9 +151,9 @@ local theme = lush(function(injected_functions)
     LspSignatureActiveParameter { Visual },
 
     DiagnosticError            { fg = rei },
-    DiagnosticWarn             { fg = venus },
+    DiagnosticWarn             { fg = minako },
     DiagnosticInfo             { fg = hotaru },
-    DiagnosticHint             { fg = ami },
+    DiagnosticHint             { fg = mercury },
     DiagnosticOk               { fg = makoto },
     DiagnosticVirtualTextError { DiagnosticError },
     DiagnosticVirtualTextWarn  { DiagnosticWarn},
