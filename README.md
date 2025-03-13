@@ -15,32 +15,11 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 
 | ansi      | bright    |
 | --------- | ----------|
-| `#1a142a` | `#4d3b7d` |
-| `#f8303a` | `#f96269` |
-| `#6ca522` | `#99d945` |
-| `#fbe918` | `#fdf27c` |
-| `#4d8fe6` | `#79abec` |
-| `#8566f5` | `#ab96f8` |
-| `#fd8bd9` | `#febeea` |
-| `#908aa8` | `#ccbeef` |
-
-**base16**
-|        |           |
-| ------ | --------- |
-| base00 | `#0d0a15` |
-| base01 | `#1a142a` |
-| base02 | `#271d3e` |
-| base03 | `#6f688d` |
-| base04 | `#908aa8` |
-| base05 | `#ccbeef` |
-| base06 | `#dfd6f5` |
-| base07 | `#4d3b7d` |
-| base08 | `#f8303a` |
-| base09 | `#6ca522` |
-| base0A | `#fbe918` |
-| base0B | `#4d8fe6` |
-| base0C | `#8566f5` |
-| base0D | `#fd8bd9` |
-| base0E | `#ab96f8` |
-| base0F | `#febeea` |
-
+| `#171726` | `#313168` |
+| `#ef434c` | `#fc737a` |
+| `#6ca522` | `#b6ca68` |
+| `#ffc233` | `#ffd470` |
+| `#508ae2` | `#7cacf4` |
+| `#887cf4` | `#b7affd` |
+| `#e873d1` | `#f7a1e6` |
+| `#8181b1` | `#b9b9f4` |
