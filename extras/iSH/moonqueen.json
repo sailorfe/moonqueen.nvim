@@ -1,27 +1,27 @@
 {
 	"name": "moonqueen",
 	"shared": {
-		"backgroundColor": "#171726",
+		"backgroundColor": "#16102d",
 		"colorPaletteOverrides": [
-			"#272753",
+			"#211844",
 			"#ef434c",
 			"#6ca522",
 			"#ffc233",
 			"#508ae2",
 			"#887cf4",
 			"#e873d1",
-			"#c3c3ea",
-			"#313168",
+			"#cac3ea",
+			"#362871",
 			"#fc737a",
 			"#b6ca68",
 			"#ffd470",
 			"#7cacf4",
 			"#b7affd",
 			"#f7a1e6",
-			"#d6d6f5"
+			"#dcd6f5"
 		],
-		"cursorColor": "#c3c3ea",
-		"foregroundColor": "#c3c3ea"
+		"cursorColor": "#cac3ea",
+		"foregroundColor": "#cac3ea"
 	},
 	"version": 1
 }
