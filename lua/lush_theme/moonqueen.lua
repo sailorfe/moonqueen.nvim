@@ -6,7 +6,7 @@ local kamen			= hsl(240, 24, 11)
 local midnight	= hsl(240, 24, 12)
 local twilight	=	hsl(240, 36, 18)
 local moonlight	= hsl(240, 36, 24)
-local millenium	= hsl(240, 36, 30)
+local millennium	= hsl(240, 36, 30)
 local silver		= hsl(240, 18, 48)
 local diana			= hsl(240, 24, 60)
 local crystal		= hsl(240, 72, 84)
@@ -39,7 +39,7 @@ local theme = lush(function(injected_functions)
     CursorLine     { CursorColumn },
     Directory      { fg = saturn },
     DiffAdd        { bg = usagi, fg = midnight, gui = "bold" },
-    DiffChange     { bg = millenium, fg = artemis, gui = "bold" },
+    DiffChange     { bg = millennium, fg = artemis, gui = "bold" },
     DiffDelete     { fg = rei, bg = midnight, gui = "bold"},
     DiffText       { bg = moon, fg = midnight },
     EndOfBuffer    { fg = silver },
@@ -48,7 +48,7 @@ local theme = lush(function(injected_functions)
     ErrorMsg       { bg = twilight, fg = mars },
     VertSplit      { fg = twilight },
     Folded         { bg = kamen, fg = crystal },
-    FoldColumn     { fg = millenium },
+    FoldColumn     { fg = millennium },
     SignColumn     { FoldColumn },
     IncSearch      { CurSearch },
     Substitute     { bg = venus, fg = moonlight },
@@ -62,7 +62,7 @@ local theme = lush(function(injected_functions)
     ModeMsg        { fg = moon },
     MsgArea        { fg = diana },
     MsgSeparator   { bg = diana, fg = midnight },
-    MoreMsg        { fg = millenium },
+    MoreMsg        { fg = millennium },
     NonText        { fg = silver },
     Normal         { bg = midnight, fg = crystal },
     NormalFloat    { bg = kamen, fg = diana },
@@ -94,7 +94,7 @@ local theme = lush(function(injected_functions)
     Visual         { bg = infinity, fg = midnight },
     VisualNOS      { bg = mugen, fg = crystal },
     WarningMsg     { fg = hotaru },
-    Whitespace     { fg = millenium },
+    Whitespace     { fg = millennium },
     Winseparator   { VertSplit },
     WildMenu       { Cursor },
     WinBar         { bg = tuxedo, gui = "bold" },
