@@ -1,30 +1,30 @@
 local lush = require('lush')
 local hsl = lush.hsl
 
-local tuxedo		= hsl(252, 48, 10)
-local kamen			= hsl(252, 48, 11)
-local midnight	= hsl(252, 48, 12)
-local twilight	=	hsl(252, 48, 18)
-local moonlight	= hsl(252, 48, 24)
-local millennium	= hsl(252, 48, 30)
-local silver		= hsl(252, 18, 48)
-local diana			= hsl(252, 24, 60)
-local crystal		= hsl(252, 48, 84)
-local artemis		= hsl(252, 60, 90)
-local mugen			= hsl(258, 36, 36)
-local infinity	= hsl(258, 60, 72)
-local moon			= hsl(312, 72, 68)
-local usagi			= hsl(312, 84, 80)
-local mercury		= hsl(216, 72, 60)
-local ami				= hsl(216, 84, 72)
-local mars			= hsl(357, 84, 60)
-local rei				= hsl(357, 96, 72)
-local jupiter		= hsl(86, 66, 39)
-local makoto		= hsl(72, 48, 60)
-local saturn		= hsl(246, 84, 72)
-local hotaru		= hsl(246, 96, 84)
-local venus			= hsl(42, 100, 60)
-local minako		= hsl(42, 100, 72)
+local tuxedo			= hsl(252, 42, 8)
+local kamen				= hsl(252, 42, 9)
+local midnight		= hsl(252, 42, 10)
+local twilight		=	hsl(252, 42, 14)
+local moonlight		= hsl(252, 42, 18)
+local millennium	= hsl(252, 42, 24)
+local silver			= hsl(252, 18, 48)
+local diana				= hsl(252, 24, 60)
+local crystal			= hsl(252, 48, 84)
+local artemis			= hsl(252, 60, 90)
+local mugen				= hsl(258, 36, 36)
+local infinity		= hsl(258, 36, 60)
+local moon				= hsl(312, 72, 68)
+local usagi				= hsl(312, 84, 80)
+local mercury			= hsl(216, 72, 60)
+local ami					= hsl(216, 84, 72)
+local mars				= hsl(357, 84, 60)
+local rei					= hsl(357, 96, 72)
+local jupiter			= hsl(86, 66, 39)
+local makoto			= hsl(72, 48, 60)
+local saturn			= hsl(246, 84, 72)
+local hotaru			= hsl(246, 96, 84)
+local venus				= hsl(42, 100, 60)
+local minako			= hsl(42, 100, 78)
 
 local theme = lush(function(injected_functions)
   local sym = injected_functions.sym
@@ -52,7 +52,7 @@ local theme = lush(function(injected_functions)
     SignColumn     { FoldColumn },
     IncSearch      { CurSearch },
     Substitute     { bg = venus, fg = moonlight },
-    LineNr         { bg = mugen, fg = infinity },
+    LineNr         { bg = mugen, fg = hotaru },
     LineNrAbove    { LineNr },
     LineNrBelow    { LineNr },
     CursorLineNr   { bg = twilight, fg = usagi, gui = "bold" },
@@ -116,7 +116,7 @@ local theme = lush(function(injected_functions)
     Conditional    { Statement },
     Repeat         { Statement },
     Label          { Statement },
-    Operator       { fg = moon },
+    Operator       { fg = minako },
     Keyword        { Statement },
     Exception      { Statement },
 
@@ -132,7 +132,7 @@ local theme = lush(function(injected_functions)
     Typedef        { Type },
 
     Special        { fg = usagi },
-    SpecialChar    { fg = minako },
+    SpecialChar    { fg = jupiter },
     Tag            { Special },
     Delimiter      { fg = moon },
     SpecialComment { Special },
