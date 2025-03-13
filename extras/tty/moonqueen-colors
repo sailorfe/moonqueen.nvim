@@ -1,20 +1,20 @@
 # -*- tty colors
 if [ "$TERM" = "linux" ]; then
-	echo -en "\e]P00d0a15" #black
-	echo -en "\e]P1f8303a" #darkred
-	echo -en "\e]P26ca522" #darkgreen
-	echo -en "\e]P3fbe918" #brown
-	echo -en "\e]P44d8fe6" #darkblue
-	echo -en "\e]P58566f5" #darkmagenta
-	echo -en "\e]P6fd8bd9" #darkcyan
-	echo -en "\e]P7908aa8" #lightgrey
-	echo -en "\e]P8271d3e" #darkgrey
-	echo -en "\e]P9f96269" #red
-	echo -en "\e]PA99d945" #green
-	echo -en "\e]PBfdf27c" #yellow
-	echo -en "\e]PC79abec" #blue
-	echo -en "\e]PDab96f8" #magenta
-	echo -en "\e]PEfebeea" #cyan
-	echo -en "\e]PFccbeef" #white
+	echo -en "\e]P0 #171726" #black
+	echo -en "\e]P1 #ef434c" #darkred
+	echo -en "\e]P2 #6ca522" #darkgreen
+	echo -en "\e]P3 #ffc233" #brown
+	echo -en "\e]P4 #508ae2" #darkblue
+	echo -en "\e]P5 #887cf4" #darkmagenta
+	echo -en "\e]P6 #e873d1" #darkcyan
+	echo -en "\e]P7 #c3c3ea" #lightgrey
+	echo -en "\e]P8 #272753" #darkgrey
+	echo -en "\e]P9 #fc737a" #red
+	echo -en "\e]PA #b6ca68" #green
+	echo -en "\e]PB #ffd470" #yellow
+	echo -en "\e]PC #7cacf4" #blue
+	echo -en "\e]PD #b7affd" #magenta
+	echo -en "\e]PE #f7a1e6" #cyan
+	echo -en "\e]PF #d6d6f5" #white
 	clear #for background artifacting
 fi
