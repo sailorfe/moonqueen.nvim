@@ -1,4 +1,4 @@
-highlight Normal guifg=#B9B9F4 guibg=#171726 guisp=NONE blend=NONE gui=NONE
+highlight Normal guifg=#C3C3EA guibg=#171726 guisp=NONE blend=NONE gui=NONE
 highlight! link @boolean Boolean
 highlight Character guifg=#B6CA68 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Boolean Character
@@ -17,7 +17,7 @@ highlight Constant guifg=#FFC233 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @constant Constant
 highlight CurSearch guifg=#1D1D3E guibg=#FFD470 guisp=NONE blend=NONE gui=NONE
 highlight! link IncSearch CurSearch
-highlight Cursor guifg=#171726 guibg=#B9B9F4 guisp=NONE blend=NONE gui=NONE
+highlight Cursor guifg=#171726 guibg=#C3C3EA guisp=NONE blend=NONE gui=NONE
 highlight! link CursorIM Cursor
 highlight! link WildMenu Cursor
 highlight! link lCursor Cursor
@@ -55,7 +55,7 @@ highlight! link DiagnosticFloatingWarn DiagnosticWarn
 highlight! link DiagnosticSignWarn DiagnosticWarn
 highlight! link DiagnosticVirtualTextWarn DiagnosticWarn
 highlight DiffAdd guifg=#171726 guibg=#F7A1E6 guisp=NONE blend=NONE gui=bold
-highlight DiffChange guifg=#D3D3F8 guibg=#313168 guisp=NONE blend=NONE gui=bold
+highlight DiffChange guifg=#D6D6F5 guibg=#313168 guisp=NONE blend=NONE gui=bold
 highlight DiffDelete guifg=#FC737A guibg=#171726 guisp=NONE blend=NONE gui=bold
 highlight DiffText guifg=#171726 guibg=#E873D1 guisp=NONE blend=NONE gui=NONE
 highlight Directory guifg=#887CF4 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -64,12 +64,12 @@ highlight Error guifg=#171726 guibg=#EF434C guisp=NONE blend=NONE gui=NONE
 highlight ErrorMsg guifg=#EF434C guibg=#1D1D3E guisp=NONE blend=NONE gui=NONE
 highlight! link @exception Exception
 highlight! link @float Float
-highlight FloatTitle guifg=#B9B9F4 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight FloatTitle guifg=#C3C3EA guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight FoldColumn guifg=#313168 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link CursorLineFold FoldColumn
 highlight! link CursorLineSign FoldColumn
 highlight! link SignColumn FoldColumn
-highlight Folded guifg=#B9B9F4 guibg=#151523 guisp=NONE blend=NONE gui=NONE
+highlight Folded guifg=#C3C3EA guibg=#151523 guisp=NONE blend=NONE gui=NONE
 highlight Function guifg=#7CACF4 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @function Function
 highlight! link @method Function
@@ -90,7 +90,7 @@ highlight! link LineNrAbove LineNr
 highlight! link LineNrBelow LineNr
 highlight! link @function.macro Macro
 highlight! link @macro Macro
-highlight MatchParen guifg=#D3D3F8 guibg=#483B7D guisp=NONE blend=NONE gui=bold
+highlight MatchParen guifg=#D6D6F5 guibg=#483B7D guisp=NONE blend=NONE gui=bold
 highlight ModeMsg guifg=#E873D1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MoreMsg guifg=#313168 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MsgArea guifg=#8181B1 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -102,14 +102,14 @@ highlight NormalNC guifg=#646490 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @number Number
 highlight Operator guifg=#E873D1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @operator Operator
-highlight Pmenu guifg=#B9B9F4 guibg=#151523 guisp=NONE blend=NONE gui=NONE
+highlight Pmenu guifg=#C3C3EA guibg=#151523 guisp=NONE blend=NONE gui=NONE
 highlight! link PmenuExtra Pmenu
 highlight! link PmenuKind Pmenu
 highlight! link PmenuSbar Pmenu
-highlight PmenuSel guifg=#151523 guibg=#B9B9F4 guisp=NONE blend=NONE gui=NONE
+highlight PmenuSel guifg=#151523 guibg=#C3C3EA guisp=NONE blend=NONE gui=NONE
 highlight! link PmenuExtraSel PmenuSel
 highlight! link PmenuKindSel PmenuSel
-highlight PmenuThumb guifg=#D3D3F8 guibg=#646490 guisp=NONE blend=NONE gui=NONE
+highlight PmenuThumb guifg=#D6D6F5 guibg=#646490 guisp=NONE blend=NONE gui=NONE
 highlight PreProc guifg=#B7AFFD guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Define PreProc
 highlight! link Include PreProc
@@ -174,7 +174,7 @@ highlight! link LspReferenceRead Visual
 highlight! link LspReferenceText Visual
 highlight! link LspReferenceWrite Visual
 highlight! link LspSignatureActiveParameter Visual
-highlight VisualNOS guifg=#B9B9F4 guibg=#483B7D guisp=NONE blend=NONE gui=NONE
+highlight VisualNOS guifg=#C3C3EA guibg=#483B7D guisp=NONE blend=NONE gui=NONE
 highlight WarningMsg guifg=#B7AFFD guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Whitespace guifg=#313168 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight WinBar guifg=NONE guibg=#131320 guisp=NONE blend=NONE gui=bold
