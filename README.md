@@ -15,11 +15,11 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 
 | ansi      | bright    |
 | --------- | ----------|
-| `#130f24` | `#2e2357` |
+| `#241a37` | `#433168` |
 | `#ef434c` | `#fc737a` |
 | `#6ca522` | `#b6ca68` |
-| `#ffc233` | `#ffd470` |
+| `#ffc233` | `#ffdd8f` |
 | `#508ae2` | `#7cacf4` |
-| `#887cf4` | `#b7affd` |
+| `#8d77f8` | `#bcaffd` |
 | `#e873d1` | `#f7a1e6` |
-| `#cac3ea` | `#dcd6f5` |
+| `#d0c3ea` | `#e0d6f5` |
