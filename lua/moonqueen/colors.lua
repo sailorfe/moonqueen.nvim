@@ -6,7 +6,7 @@ return {
 	["moonlight"] = "#433168",
 	["millennium"] = "#513b7d",
 	["silver"] = "#736490",
-	["diana"] = "#918eb1",
+	["diana"] = "#9181b1",
 	["crystal"] = "#d0c3ea",
 	["artemis"] = "#e0d6f5",
 	["mugen"] = "#463b7d",
