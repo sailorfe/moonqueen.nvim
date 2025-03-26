@@ -1,0 +1,32 @@
+# moon queen theme for spotify_player
+# https://codeberg.org/spica/moonqueen.nvim
+
+[[themes]]
+name = "moon-queen"
+[themes.palette]
+background = "#241a37"
+foreground = "#d0c3ea"
+black = "#362753"
+blue = "#508ae2"
+cyan = "#e873d1"
+green = "#6ca522"
+magenta = "#8d77f8"
+red = "#ef434c"
+white = "#d0c3ea"
+yellow = "#ffc233"
+
+[themes.component_style]
+selection = { bg = "#433168", modifiers = ["Bold"] }
+block_title = { fg = "Magenta" }
+playback_track = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "Yellow", modifiers = ["Italic"] }
+playback_metadata = { fg = "Blue" }
+playback_progress_bar = { bg = "Black", fg = "Green" }
+current_playing = { fg = "Green", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+table_header = { fg = "Blue" }
+border = {}
+playback_status = { fg = "Cyan", modifiers = ["Bold"] }
+playback_artists = { fg = "Cyan", modifiers = ["Bold"] }
+playlist_desc = { fg = "White" }
+
