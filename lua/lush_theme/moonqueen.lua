@@ -221,6 +221,12 @@ local theme = lush(function(injected_functions)
     sym"@preproc"           { PreProc },
     sym"@debug"             { Debug },
     sym"@tag"               { Tag },
+		RenderMarkdownH1Bg			{ fg = midnight, bg = moon },
+		RenderMarkdownH2Bg			{ fg = mercury, bg = twilight },
+		RenderMarkdownH3Bg			{ fg = venus, bg = twilight },
+		RenderMarkdownH4Bg			{ fg = mars, bg = twilight },
+		RenderMarkdownH5Bg			{ fg = jupiter, bg = twilight },
+		RenderMarkdownH6Bg			{ fg = saturn, bg = twilight },
 }
 end)
 
