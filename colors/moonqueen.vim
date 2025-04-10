@@ -118,6 +118,12 @@ highlight! link PreCondit PreProc
 highlight! link @preproc PreProc
 highlight Question guifg=#F7A1E6 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link QuickFixLine Question
+highlight RenderMarkdownH1Bg guifg=#241A37 guibg=#E873D1 guisp=NONE blend=NONE gui=NONE
+highlight RenderMarkdownH2Bg guifg=#508AE2 guibg=#362753 guisp=NONE blend=NONE gui=NONE
+highlight RenderMarkdownH3Bg guifg=#FFC233 guibg=#362753 guisp=NONE blend=NONE gui=NONE
+highlight RenderMarkdownH4Bg guifg=#EF434C guibg=#362753 guisp=NONE blend=NONE gui=NONE
+highlight RenderMarkdownH5Bg guifg=#6CA522 guibg=#362753 guisp=NONE blend=NONE gui=NONE
+highlight RenderMarkdownH6Bg guifg=#8D77F8 guibg=#362753 guisp=NONE blend=NONE gui=NONE
 highlight! link @repeat Repeat
 highlight Special guifg=#F7A1E6 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Debug Special
