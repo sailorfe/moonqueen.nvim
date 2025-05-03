@@ -31,7 +31,7 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 
 ### pure lua
 
-1. clone this repository somewhere on your system like `$HOME/src`: `git clone https://codeberg.org:spica/moonqueen.nvim.git`.
+1. clone this repository somewhere on your system like `$HOME/src`: `git clone https://codeberg.org:sailorfe/moonqueen.nvim.git`.
 2. with lazy:
 
 ```lua
@@ -52,7 +52,7 @@ return {
 1. clone this repository somewhere on your system like `$HOME/src` and check out the vim branch:
 
 ```
-git clone https://codeberg.org:spica/moonqueen.nvim.git
+git clone https://codeberg.org:sailorfe/moonqueen.nvim.git
 cd moonqueen.nvim
 git checkout vim
 ```
@@ -76,7 +76,7 @@ cp colors/moonqueen.vim ~/.config/vim/colors
 <a name="extras"></a>
 ## extras
 
-ports for the following can be found under [extras](https://codeberg.org/spica/moonqueen.nvim/src/branch/main/extras):
+ports for the following can be found under [extras](https://codeberg.org/sailorfe/moonqueen.nvim/src/branch/main/extras):
 
 - alacritty
 - foot
