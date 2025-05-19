@@ -14,7 +14,7 @@ local artemis			= hsl(270, 100, 96)
 local nehellenia	= hsl(260, 36, 24)
 local mugen				= hsl(260, 36, 36)
 local deadmoon		= hsl(260, 36, 48)
-local infinity		= hsl(260, 36, 54)
+local infinity		= hsl(260, 60, 72)
 local moon				= hsl(312, 72, 68)
 local usagi				= hsl(312, 84, 80)
 local mercury			= hsl(216, 72, 60)
@@ -60,7 +60,7 @@ local theme = lush(function(injected_functions)
 		CursorLineNr   { bg = twilight, fg = usagi, gui = "bold" },
 		CursorLineFold { FoldColumn },
 		CursorLineSign { FoldColumn },
-		MatchParen     { bg = mugen, fg = artemis, gui = "bold"},
+		MatchParen     { bg = mugen, fg = usagi, gui = "bold"},
 		ModeMsg        { fg = crystal, gui = "bold" },
 		MsgArea        { fg = crystal },
 		MsgSeparator   { bg = diana, fg = midnight },
@@ -225,10 +225,10 @@ local theme = lush(function(injected_functions)
 		sym"@tag"               { Tag },
 
 		GitSignsAdd							{ fg = jupiter },
-		GitSignsChange					{ fg = moon },
+		GitSignsChange					{ fg = mercury },
 		GitSignsDelete					{ fg = mars },
 		MiniDiffSignAdd					{ fg = makoto, gui = "italic" },
-		MiniDiffSignChange			{ fg = usagi, gui = "italic" },
+		MiniDiffSignChange			{ fg = ami, gui = "italic" },
 		MiniDiffSignDelete			{ fg = rei, gui = "italic" },
 		MiniStatuslineModeNormal{ bg = moonlight, fg = crystal  },
 		MiniStatuslineModeInsert{ bg = crystal, fg = moonlight },

@@ -75,7 +75,7 @@ highlight Function guifg=#7CACF4 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @function Function
 highlight! link @method Function
 highlight GitSignsAdd guifg=#6CA522 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight GitSignsChange guifg=#E873D1 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight GitSignsChange guifg=#508AE2 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight GitSignsDelete guifg=#EF434C guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Identifier guifg=#8D77F8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @field Identifier
@@ -94,20 +94,20 @@ highlight! link LineNrAbove LineNr
 highlight! link LineNrBelow LineNr
 highlight! link @function.macro Macro
 highlight! link @macro Macro
-highlight MatchParen guifg=#F5EBFF guibg=#513B7D guisp=NONE blend=NONE gui=bold
+highlight MatchParen guifg=#F7A1E6 guibg=#513B7D guisp=NONE blend=NONE gui=bold
 highlight MiniDiffSignAdd guifg=#B6CA68 guibg=NONE guisp=NONE blend=NONE gui=italic
-highlight MiniDiffSignChange guifg=#F7A1E6 guibg=NONE guisp=NONE blend=NONE gui=italic
+highlight MiniDiffSignChange guifg=#7CACF4 guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight MiniDiffSignDelete guifg=#FC737A guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight MiniStatuslineDevinfo guifg=#D6C3EA guibg=#3D2753 guisp=NONE blend=NONE gui=NONE
 highlight! link MiniStatuslineFileinfo MiniStatuslineDevinfo
-highlight MiniStatuslineInactive guifg=#7C5FB4 guibg=#1F142A guisp=NONE blend=NONE gui=NONE
+highlight MiniStatuslineInactive guifg=#A98DE2 guibg=#1F142A guisp=NONE blend=NONE gui=NONE
 highlight MiniStatuslineModeCommand guifg=#4C3168 guibg=#F7A1E6 guisp=NONE blend=NONE gui=NONE
 highlight MiniStatuslineModeInsert guifg=#4C3168 guibg=#D6C3EA guisp=NONE blend=NONE gui=NONE
 highlight MiniStatuslineModeNormal guifg=#D6C3EA guibg=#4C3168 guisp=NONE blend=NONE gui=NONE
 highlight MiniStatuslineModeReplace guifg=#4C3168 guibg=#FC737A guisp=NONE blend=NONE gui=NONE
 highlight MiniStatuslineModeTerminal guifg=#3D2753 guibg=#B6CA68 guisp=NONE blend=NONE gui=NONE
 highlight MiniStatuslineModeVisual guifg=#3D2753 guibg=#FFDD8F guisp=NONE blend=NONE gui=NONE
-highlight MiniTablineModifiedCurrent guifg=#291A37 guibg=#7C5FB4 guisp=NONE blend=NONE gui=bold,italic
+highlight MiniTablineModifiedCurrent guifg=#291A37 guibg=#A98DE2 guisp=NONE blend=NONE gui=bold,italic
 highlight MiniTablineModifiedHidden guifg=#7A6490 guibg=#241731 guisp=NONE blend=NONE gui=bold
 highlight MiniTablineModifiedVisible guifg=#BCAFFD guibg=#3D2753 guisp=NONE blend=NONE gui=bold
 highlight MiniTablineVisible guifg=#BCAFFD guibg=#3D2753 guisp=NONE blend=NONE gui=NONE
@@ -178,7 +178,7 @@ highlight TabLine guifg=#7A6490 guibg=#241731 guisp=NONE blend=NONE gui=NONE
 highlight! link MiniTablineHidden TabLine
 highlight TabLineFill guifg=NONE guibg=#1F142A guisp=NONE blend=NONE gui=NONE
 highlight! link MiniTablineFill TabLineFill
-highlight TabLineSel guifg=#291A37 guibg=#7C5FB4 guisp=NONE blend=NONE gui=italic
+highlight TabLineSel guifg=#291A37 guibg=#A98DE2 guisp=NONE blend=NONE gui=italic
 highlight! link MiniTablineCurrent TabLineSel
 highlight! link @tag Tag
 highlight TermCursor guifg=#291A37 guibg=#9981B1 guisp=NONE blend=NONE gui=NONE
@@ -200,7 +200,7 @@ highlight! link @text.underline Underlined
 highlight! link @text.uri Underlined
 highlight VertSplit guifg=#3D2753 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Winseparator VertSplit
-highlight Visual guifg=#291A37 guibg=#7C5FB4 guisp=NONE blend=NONE gui=NONE
+highlight Visual guifg=#291A37 guibg=#A98DE2 guisp=NONE blend=NONE gui=NONE
 highlight! link LspReferenceRead Visual
 highlight! link LspReferenceText Visual
 highlight! link LspReferenceWrite Visual
