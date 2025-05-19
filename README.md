@@ -76,6 +76,8 @@ cp colors/moonqueen.vim ~/.config/vim/colors
 <a name="extras"></a>
 ## extras
 
+**MAJOR OVERHAUL; EXTRAS IN PROGRESS**
+
 ports for the following can be found under [extras](https://codeberg.org/sailorfe/moonqueen.nvim/src/branch/main/extras):
 
 - alacritty
