@@ -1,32 +1,38 @@
 local lush = require('lush')
 local hsl = lush.hsl
 
-local tuxedo			= hsl(270, 36, 12)
-local kamen				= hsl(270, 36, 14)
-local midnight		= hsl(270, 36, 16)
-local twilight		=	hsl(270, 36, 24)
-local moonlight		= hsl(270, 36, 30)
-local millennium	= hsl(270, 36, 36)
-local silver			= hsl(270, 18, 48)
-local diana				= hsl(270, 24, 60)
-local crystal			= hsl(270, 48, 84)
-local artemis			= hsl(270, 100, 96)
-local nehellenia	= hsl(260, 36, 24)
-local mugen				= hsl(260, 36, 36)
-local deadmoon		= hsl(260, 36, 48)
-local infinity		= hsl(260, 60, 72)
-local moon				= hsl(312, 72, 68)
-local usagi				= hsl(312, 84, 80)
+local tuxedo			= hsl(260, 36, 12)
+local kamen				= hsl(260, 36, 14)
+local midnight		= hsl(260, 36, 16)
+local twilight		=	hsl(260, 36, 24)
+local moonlight		= hsl(260, 36, 30)
+local millennium	= hsl(260, 36, 36)
+local silver			= hsl(260, 18, 48)
+local diana				= hsl(260, 24, 60)
+local crystal			= hsl(260, 72, 84)
+local artemis			= hsl(260, 96, 90)
+local nehellenia	= hsl(254, 36, 24)
+local mugen				= hsl(254, 36, 36)
+local deadmoon		= hsl(254, 36, 48)
+local infinity		= hsl(254, 72, 72)
+local moon				= hsl(324, 72, 68)
+local usagi				= hsl(324, 84, 80)
 local mercury			= hsl(216, 72, 60)
 local ami					= hsl(216, 84, 72)
 local mars				= hsl(357, 84, 60)
 local rei					= hsl(357, 96, 72)
 local jupiter			= hsl(86, 66, 39)
 local makoto			= hsl(72, 48, 60)
-local saturn			= hsl(250, 90, 72)
-local hotaru			= hsl(250, 96, 84)
-local venus				= hsl(42, 100, 60)
-local minako			= hsl(42, 100, 78)
+local venus				= hsl(42, 100, 48)
+local minako			= hsl(42, 100, 72)
+local saturn			= hsl(248, 90, 72)
+local hotaru			= hsl(248, 96, 84)
+local uranus			= hsl(228, 72, 48)
+local haruka			= hsl(228, 72, 60)
+local neptune			= hsl(168, 36, 36)
+local michiru			= hsl(168, 48, 48)
+local pluto				= hsl(330, 60, 36)
+local setsuna			= hsl(330, 48, 48)
 
 local theme = lush(function(injected_functions)
 	local sym = injected_functions.sym
@@ -40,14 +46,14 @@ local theme = lush(function(injected_functions)
 		CursorColumn   { bg = twilight },
 		CursorLine     { CursorColumn },
 		Directory      { fg = saturn },
-		DiffAdd        { bg = makoto, fg = midnight, gui = "bold" },
-		DiffChange     { bg = usagi, fg = midnight, gui = "bold" },
-		DiffDelete     { fg = rei, bg = midnight, gui = "bold" },
-		DiffText       { bg = midnight, fg = moon, gui = "bold" },
+		DiffAdd        { bg = neptune, fg = artemis, gui = "bold" },
+		DiffChange     { bg = uranus, fg = crystal, gui = "bold" },
+		DiffDelete     { bg = pluto, fg = crystal, gui = "bold" },
+		DiffText       { fg = moon, gui = "bold_italic" },
 		EndOfBuffer    { fg = silver },
 		TermCursor     { bg = diana, fg = midnight },
 		TermCursorNC   { fg = diana },
-		ErrorMsg       { bg = twilight, fg = mars },
+		ErrorMsg       { bg = twilight, fg = setsuna },
 		VertSplit      { fg = twilight },
 		Folded         { bg = kamen, fg = crystal },
 		FoldColumn     { fg = millennium },
@@ -134,7 +140,7 @@ local theme = lush(function(injected_functions)
 		Typedef        { Type },
 
 		Special        { fg = usagi },
-		SpecialChar    { fg = jupiter },
+		SpecialChar    { fg = michiru },
 		Tag            { Special },
 		Delimiter      { fg = moon },
 		SpecialComment { Special },
@@ -152,11 +158,11 @@ local theme = lush(function(injected_functions)
 		LspCodeLensSeparator        { Comment },
 		LspSignatureActiveParameter { Visual },
 
-		DiagnosticError            { fg = rei },
+		DiagnosticError            { fg = mars },
 		DiagnosticWarn             { fg = minako },
-		DiagnosticInfo             { fg = hotaru },
-		DiagnosticHint             { fg = mercury },
-		DiagnosticOk               { fg = makoto },
+		DiagnosticInfo             { fg = ami },
+		DiagnosticHint             { fg = moon },
+		DiagnosticOk               { fg = jupiter },
 		DiagnosticVirtualTextError { DiagnosticError },
 		DiagnosticVirtualTextWarn  { DiagnosticWarn},
 		DiagnosticVirtualTextInfo  { DiagnosticInfo },
@@ -224,18 +230,18 @@ local theme = lush(function(injected_functions)
 		sym"@debug"             { Debug },
 		sym"@tag"               { Tag },
 
-		GitSignsAdd							{ fg = jupiter },
-		GitSignsChange					{ fg = mercury },
-		GitSignsDelete					{ fg = mars },
-		MiniDiffSignAdd					{ fg = makoto, gui = "italic" },
-		MiniDiffSignChange			{ fg = ami, gui = "italic" },
-		MiniDiffSignDelete			{ fg = rei, gui = "italic" },
-		MiniStatuslineModeNormal{ bg = moonlight, fg = crystal  },
+		GitSignsAdd							{ fg = michiru },
+		GitSignsChange					{ fg = haruka },
+		GitSignsDelete					{ fg = setsuna },
+		MiniDiffSignAdd					{ fg = michiru, gui = "italic" },
+		MiniDiffSignChange			{ fg = haruka, gui = "italic" },
+		MiniDiffSignDelete			{ fg = setsuna, gui = "italic" },
+		MiniStatuslineModeNormal{ bg = deadmoon, fg = crystal  },
 		MiniStatuslineModeInsert{ bg = crystal, fg = moonlight },
 		MiniStatuslineModeVisual{ bg = minako, fg = twilight },
 		MiniStatuslineModeReplace{ bg = rei, fg = moonlight },
 		MiniStatuslineModeCommand{ bg = usagi, fg = moonlight },
-		MiniStatuslineModeTerminal{ bg = makoto, fg = twilight },
+		MiniStatuslineModeOther	{ bg = makoto, fg = twilight },
 		MiniStatuslineDevinfo		{ bg = twilight, fg = crystal },
 		MiniStatuslineFilename	{ Normal },
 		MiniStatuslineFileinfo	{ MiniStatuslineDevinfo },
