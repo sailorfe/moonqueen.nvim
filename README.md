@@ -1,14 +1,17 @@
-<div align="center">
-
 # moonqueen.nvim
 
-a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [lush](https://github.com/rktjmp/lush.nvim/).
+a colorscheme for neovim inspired by naoko takeuchi's *sailor moon* artbooks with support for many mini.nvim modules, gitsigns, lsp, lualine, render-markdown, and trouble (so far!). built with [lush](https://github.com/rktjmp/lush.nvim/).
 
+<div align="center">
+<img src="assets/lazy.png" alt="palette">
 </div>
 
 - <a href="#palette">palette</a>
 - <a href="#installation">installation</a>
 - <a href="#extras">extras</a>
+- <a href="#acknowledgments">acknowledgments</a>
+
+this repository is mirrored to [github](https://github.com/sailorfe/moonqueen.nvim) from [codeberg](https://codeberg.org/sailorfe/moonqueen.nvim).
 
 <a name="palette"></a>
 ## palette
@@ -71,3 +74,9 @@ then set colorscheme with one of the folowing:
 - spotify_player
 - termux
 - tty~~
+
+<a name="acknowledgments"></a>
+## acknowledgments
+
+- [evangelion.nvim](https://github.com/xero/evangelion.nvim) for entire chunks of lua and weeb inspiration
+- [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) for dir structure
