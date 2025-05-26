@@ -20,69 +20,56 @@ a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [
 | `#241a37` | `#433168` |
 | `#ef434c` | `#fc737a` |
 | `#6ca522` | `#b6ca68` |
-| `#ffc233` | `#ffdd8f` |
+| `#f7bb31` | `#ffd470` |
 | `#508ae2` | `#7cacf4` |
-| `#8d77f8` | `#bcaffd` |
-| `#e873d1` | `#f7a1e6` |
-| `#d0c3ea` | `#e0d6f5` |
+| `#8877f8` | `#b9affd` |
+| `#e873b9` | `#f7a1d5` |
+| `#ccb9f4` | `#ddcdfe` |
 
 <a name="installation"></a>
 ## installation
 
-### pure lua
+### lua
 
-1. clone this repository somewhere on your system like `$HOME/src`: `git clone https://codeberg.org:sailorfe/moonqueen.nvim.git`.
-2. with lazy:
+with lazy:
 
 ```lua
 return {
-	dir = "/absolute/path/to/moonqueen.nvim",
-	opts = {
-		-- transparent = false,
-		-- overrides = false,
-	},
-	init function()
-		vim.cmd.colorscheme("moonqueen")
-	end,
+    "sailorfe/perona.nvim",
+    opts = {
+        -- transparent = false,
+        -- overrides = false,
+    },
+    init function()
+        vim.cmd.colorscheme("perona")
+    end,
 }
 ```
 
 ### vimscript
 
-1. clone this repository somewhere on your system like `$HOME/src` and check out the vim branch:
+the easiest method is probably just to run curl from your n/vim `colors` directory:
 
-```
-git clone https://codeberg.org:sailorfe/moonqueen.nvim.git
-cd moonqueen.nvim
-git checkout vim
+```sh
+curl -LO https://codeberg.org/sailorfe/perona.nvim/raw/branch/vim/colors/perona.vim
 ```
 
-2. copy `moonqueen.vim` to your vim or neovim `colors` directory:
+then set colorscheme with one of the folowing:
 
-```
-cp colors/moonqueen.vim ~/.config/nvim/colors
-# or maybe
-cp colors/moonqueen.vim ~/.vim/colors
-# or
-cp colors/moonqueen.vim ~/.config/vim/colors
-```
-
-3. set colorscheme:
-
-- `init.lua`: `vim.cmd.colorscheme("moonqueen")`
-- `.vimrc`: `set colorscheme "moonqueen"`
-- the command  `:colorscheme moonqueen`
+- `init.lua`: `vim.cmd.colorscheme("perona")`
+- `.vimrc`: `set colorscheme "perona"`
+- the command  `:colorscheme perona`
 
 <a name="extras"></a>
 ## extras
 
 **MAJOR OVERHAUL; EXTRAS IN PROGRESS**
 
-ports for the following can be found under [extras](https://codeberg.org/sailorfe/moonqueen.nvim/src/branch/main/extras):
+~~ports for the following can be found under [extras](https://codeberg.org/sailorfe/moonqueen.nvim/src/branch/main/extras):~~
 
-- alacritty
+~~- alacritty
 - foot
 - iSH
 - spotify_player
 - termux
-- tty
+- tty~~
