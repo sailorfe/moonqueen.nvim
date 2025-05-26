@@ -4,8 +4,6 @@
 
 a colorscheme for neovim inspired by *bishoujo senshi sailor moon*. built with [lush](https://github.com/rktjmp/lush.nvim/).
 
-<img src="assets/grim.png" alt="in the name of the moon">
-
 </div>
 
 - <a href="#palette">palette</a>
@@ -35,13 +33,13 @@ with lazy:
 
 ```lua
 return {
-    "sailorfe/perona.nvim",
+    "sailorfe/moonqueen.nvim",
     opts = {
         -- transparent = false,
         -- overrides = false,
     },
     init function()
-        vim.cmd.colorscheme("perona")
+        vim.cmd.colorscheme("moonqueen")
     end,
 }
 ```
@@ -51,14 +49,14 @@ return {
 the easiest method is probably just to run curl from your n/vim `colors` directory:
 
 ```sh
-curl -LO https://codeberg.org/sailorfe/perona.nvim/raw/branch/vim/colors/perona.vim
+curl -LO https://codeberg.org/sailorfe/moonqueen.nvim/raw/branch/vim/colors/moonqueen.vim
 ```
 
 then set colorscheme with one of the folowing:
 
-- `init.lua`: `vim.cmd.colorscheme("perona")`
-- `.vimrc`: `set colorscheme "perona"`
-- the command  `:colorscheme perona`
+- `init.lua`: `vim.cmd.colorscheme("moonqueen")`
+- `.vimrc`: `set colorscheme "moonqueen"`
+- the command  `:colorscheme moonqueen`
 
 <a name="extras"></a>
 ## extras
