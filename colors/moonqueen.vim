@@ -1,4 +1,4 @@
-highlight Normal guifg=#CCB9F4 guibg=#241A37 guisp=NONE blend=NONE gui=NONE
+highlight Normal guifg=#DDCDFE guibg=#241A37 guisp=NONE blend=NONE gui=NONE
 highlight! link MiniStatuslineFilename Normal
 highlight! link StatusLine Normal
 highlight! link @boolean Boolean
@@ -19,7 +19,7 @@ highlight Constant guifg=#F5AB00 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @constant Constant
 highlight CurSearch guifg=#362753 guibg=#FFD470 guisp=NONE blend=NONE gui=NONE
 highlight! link IncSearch CurSearch
-highlight Cursor guifg=#241A37 guibg=#CCB9F4 guisp=NONE blend=NONE gui=NONE
+highlight Cursor guifg=#241A37 guibg=#DDCDFE guisp=NONE blend=NONE gui=NONE
 highlight! link CursorIM Cursor
 highlight! link WildMenu Cursor
 highlight! link lCursor Cursor
@@ -56,9 +56,9 @@ highlight DiagnosticWarn guifg=#FFD470 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link DiagnosticFloatingWarn DiagnosticWarn
 highlight! link DiagnosticSignWarn DiagnosticWarn
 highlight! link DiagnosticVirtualTextWarn DiagnosticWarn
-highlight DiffAdd guifg=#DDCDFE guibg=#3B7D70 guisp=NONE blend=NONE gui=bold
-highlight DiffChange guifg=#CCB9F4 guibg=#2246D3 guisp=NONE blend=NONE gui=bold
-highlight DiffDelete guifg=#CCB9F4 guibg=#93255C guisp=NONE blend=NONE gui=bold
+highlight DiffAdd guifg=#F1EBFF guibg=#3B7D70 guisp=NONE blend=NONE gui=bold
+highlight DiffChange guifg=#DDCDFE guibg=#2246D3 guisp=NONE blend=NONE gui=bold
+highlight DiffDelete guifg=#DDCDFE guibg=#93255C guisp=NONE blend=NONE gui=bold
 highlight DiffText guifg=#E873B9 guibg=NONE guisp=NONE blend=NONE gui=bold,italic
 highlight Directory guifg=#8877F8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight EndOfBuffer guifg=#736490 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -66,11 +66,11 @@ highlight Error guifg=#241A37 guibg=#EF434C guisp=NONE blend=NONE gui=NONE
 highlight ErrorMsg guifg=#B5407A guibg=#362753 guisp=NONE blend=NONE gui=NONE
 highlight! link @exception Exception
 highlight! link @float Float
-highlight FloatTitle guifg=#CCB9F4 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight FloatTitle guifg=#DDCDFE guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight FoldColumn guifg=#513B7D guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link CursorLineFold FoldColumn
 highlight! link CursorLineSign FoldColumn
-highlight Folded guifg=#CCB9F4 guibg=#1F1731 guisp=NONE blend=NONE gui=NONE
+highlight Folded guifg=#DDCDFE guibg=#1F1731 guisp=NONE blend=NONE gui=NONE
 highlight Function guifg=#7CACF4 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @function Function
 highlight! link @method Function
@@ -89,7 +89,7 @@ highlight! link Search IncSearch
 highlight! link @include Include
 highlight! link @keyword Keyword
 highlight! link @label Label
-highlight LineNr guifg=#B9AFFD guibg=#4A3B7D guisp=NONE blend=NONE gui=NONE
+highlight LineNr guifg=#9F91FD guibg=#4A3B7D guisp=NONE blend=NONE gui=NONE
 highlight! link LineNrAbove LineNr
 highlight! link LineNrBelow LineNr
 highlight! link @function.macro Macro
@@ -98,22 +98,22 @@ highlight MatchParen guifg=#F7A1D5 guibg=#4A3B7D guisp=NONE blend=NONE gui=bold
 highlight MiniDiffSignAdd guifg=#40B59E guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight MiniDiffSignChange guifg=#506DE2 guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight MiniDiffSignDelete guifg=#B5407A guibg=NONE guisp=NONE blend=NONE gui=italic
-highlight MiniStatuslineDevinfo guifg=#CCB9F4 guibg=#362753 guisp=NONE blend=NONE gui=NONE
+highlight MiniStatuslineDevinfo guifg=#DDCDFE guibg=#362753 guisp=NONE blend=NONE gui=NONE
 highlight! link MiniStatuslineFileinfo MiniStatuslineDevinfo
 highlight MiniStatuslineInactive guifg=#9C84EB guibg=#1B142A guisp=NONE blend=NONE gui=NONE
 highlight MiniStatuslineModeCommand guifg=#433168 guibg=#F7A1D5 guisp=NONE blend=NONE gui=NONE
-highlight MiniStatuslineModeInsert guifg=#433168 guibg=#CCB9F4 guisp=NONE blend=NONE gui=NONE
-highlight MiniStatuslineModeNormal guifg=#CCB9F4 guibg=#634EA6 guisp=NONE blend=NONE gui=NONE
+highlight MiniStatuslineModeInsert guifg=#433168 guibg=#DDCDFE guisp=NONE blend=NONE gui=NONE
+highlight MiniStatuslineModeNormal guifg=#DDCDFE guibg=#634EA6 guisp=NONE blend=NONE gui=NONE
 highlight MiniStatuslineModeOther guifg=#362753 guibg=#B6CA68 guisp=NONE blend=NONE gui=NONE
 highlight MiniStatuslineModeReplace guifg=#433168 guibg=#FC737A guisp=NONE blend=NONE gui=NONE
 highlight MiniStatuslineModeVisual guifg=#362753 guibg=#FFD470 guisp=NONE blend=NONE gui=NONE
 highlight MiniTablineModifiedCurrent guifg=#241A37 guibg=#9C84EB guisp=NONE blend=NONE gui=bold,italic
 highlight MiniTablineModifiedHidden guifg=#736490 guibg=#1F1731 guisp=NONE blend=NONE gui=bold
-highlight MiniTablineModifiedVisible guifg=#B9AFFD guibg=#362753 guisp=NONE blend=NONE gui=bold
-highlight MiniTablineVisible guifg=#B9AFFD guibg=#362753 guisp=NONE blend=NONE gui=NONE
-highlight ModeMsg guifg=#CCB9F4 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight MiniTablineModifiedVisible guifg=#9F91FD guibg=#362753 guisp=NONE blend=NONE gui=bold
+highlight MiniTablineVisible guifg=#9F91FD guibg=#362753 guisp=NONE blend=NONE gui=NONE
+highlight ModeMsg guifg=#DDCDFE guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight MoreMsg guifg=#513B7D guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight MsgArea guifg=#CCB9F4 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight MsgArea guifg=#DDCDFE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MsgSeparator guifg=#241A37 guibg=#9181B1 guisp=NONE blend=NONE gui=NONE
 highlight NonText guifg=#736490 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NormalFloat guifg=#9181B1 guibg=#1F1731 guisp=NONE blend=NONE gui=NONE
@@ -122,15 +122,15 @@ highlight NormalNC guifg=#736490 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @number Number
 highlight Operator guifg=#FFD470 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @operator Operator
-highlight Pmenu guifg=#CCB9F4 guibg=#1F1731 guisp=NONE blend=NONE gui=NONE
+highlight Pmenu guifg=#DDCDFE guibg=#1F1731 guisp=NONE blend=NONE gui=NONE
 highlight! link PmenuExtra Pmenu
 highlight! link PmenuKind Pmenu
 highlight! link PmenuSbar Pmenu
-highlight PmenuSel guifg=#1F1731 guibg=#CCB9F4 guisp=NONE blend=NONE gui=NONE
+highlight PmenuSel guifg=#1F1731 guibg=#DDCDFE guisp=NONE blend=NONE gui=NONE
 highlight! link PmenuExtraSel PmenuSel
 highlight! link PmenuKindSel PmenuSel
-highlight PmenuThumb guifg=#DDCDFE guibg=#736490 guisp=NONE blend=NONE gui=NONE
-highlight PreProc guifg=#B9AFFD guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight PmenuThumb guifg=#F1EBFF guibg=#736490 guisp=NONE blend=NONE gui=NONE
+highlight PreProc guifg=#9F91FD guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Define PreProc
 highlight! link Include PreProc
 highlight! link Macro PreProc
@@ -138,12 +138,12 @@ highlight! link PreCondit PreProc
 highlight! link @preproc PreProc
 highlight Question guifg=#F7A1D5 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link QuickFixLine Question
-highlight RenderMarkdownH1Bg guifg=#E873B9 guibg=#362753 guisp=NONE blend=NONE gui=NONE
-highlight RenderMarkdownH2Bg guifg=#508AE2 guibg=#362753 guisp=NONE blend=NONE gui=NONE
-highlight RenderMarkdownH3Bg guifg=#F5AB00 guibg=#362753 guisp=NONE blend=NONE gui=NONE
-highlight RenderMarkdownH4Bg guifg=#EF434C guibg=#362753 guisp=NONE blend=NONE gui=NONE
-highlight RenderMarkdownH5Bg guifg=#6CA522 guibg=#362753 guisp=NONE blend=NONE gui=NONE
-highlight RenderMarkdownH6Bg guifg=#8877F8 guibg=#362753 guisp=NONE blend=NONE gui=NONE
+highlight RenderMarkdownH1Bg guifg=#241A37 guibg=#E873B9 guisp=NONE blend=NONE gui=NONE
+highlight RenderMarkdownH2Bg guifg=#241A37 guibg=#508AE2 guisp=NONE blend=NONE gui=NONE
+highlight RenderMarkdownH3Bg guifg=#241A37 guibg=#F5AB00 guisp=NONE blend=NONE gui=NONE
+highlight RenderMarkdownH4Bg guifg=#241A37 guibg=#EF434C guisp=NONE blend=NONE gui=NONE
+highlight RenderMarkdownH5Bg guifg=#241A37 guibg=#6CA522 guisp=NONE blend=NONE gui=NONE
+highlight RenderMarkdownH6Bg guifg=#241A37 guibg=#8877F8 guisp=NONE blend=NONE gui=NONE
 highlight! link @repeat Repeat
 highlight SignColumn guifg=NONE guibg=#312753 guisp=NONE blend=NONE gui=NONE
 highlight Special guifg=#F7A1D5 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -170,7 +170,7 @@ highlight! link Label Statement
 highlight! link Repeat Statement
 highlight StatusLineNC guifg=NONE guibg=#1B142A guisp=NONE blend=NONE gui=NONE
 highlight! link @storageclass StorageClass
-highlight String guifg=#B9AFFD guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight String guifg=#9F91FD guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @string String
 highlight! link @structure Structure
 highlight Substitute guifg=#433168 guibg=#F5AB00 guisp=NONE blend=NONE gui=NONE
@@ -187,8 +187,8 @@ highlight Title guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight! link @text.title Title
 highlight Todo guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight! link @text.todo Todo
-highlight TroubleIndent guifg=#634EA6 guibg=#1F1731 guisp=NONE blend=NONE gui=NONE
-highlight TroublePos guifg=#634EA6 guibg=#1F1731 guisp=NONE blend=NONE gui=NONE
+highlight TroubleIndent guifg=#9C84EB guibg=#1F1731 guisp=NONE blend=NONE gui=NONE
+highlight TroublePos guifg=#9C84EB guibg=#1F1731 guisp=NONE blend=NONE gui=NONE
 highlight Type guifg=#508AE2 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link StorageClass Type
 highlight! link Structure Type
@@ -205,8 +205,8 @@ highlight! link LspReferenceRead Visual
 highlight! link LspReferenceText Visual
 highlight! link LspReferenceWrite Visual
 highlight! link LspSignatureActiveParameter Visual
-highlight VisualNOS guifg=#CCB9F4 guibg=#4A3B7D guisp=NONE blend=NONE gui=NONE
-highlight WarningMsg guifg=#B9AFFD guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight VisualNOS guifg=#DDCDFE guibg=#4A3B7D guisp=NONE blend=NONE gui=NONE
+highlight WarningMsg guifg=#9F91FD guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Whitespace guifg=#513B7D guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight WinBar guifg=NONE guibg=#1B142A guisp=NONE blend=NONE gui=bold
 highlight WinBarNC guifg=NONE guibg=#1B142A guisp=NONE blend=NONE gui=NONE

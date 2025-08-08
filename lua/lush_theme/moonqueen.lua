@@ -9,8 +9,8 @@ local moonlight		= hsl(260, 36, 30)
 local millennium	= hsl(260, 36, 36)
 local silver			= hsl(260, 18, 48)
 local diana				= hsl(260, 24, 60)
-local crystal			= hsl(260, 72, 84)
-local artemis			= hsl(260, 96, 90)
+local crystal			= hsl(260, 96, 90)
+local artemis			= hsl(260, 100, 96)
 local nehellenia	= hsl(254, 36, 24)
 local mugen				= hsl(254, 36, 36)
 local deadmoon		= hsl(254, 36, 48)
@@ -26,7 +26,7 @@ local makoto			= hsl(72, 48, 60)
 local venus				= hsl(42, 100, 48)
 local minako			= hsl(42, 100, 72)
 local saturn			= hsl(248, 90, 72)
-local hotaru			= hsl(248, 96, 84)
+local hotaru			= hsl(248, 96, 78)
 local uranus			= hsl(228, 72, 48)
 local haruka			= hsl(228, 72, 60)
 local neptune			= hsl(168, 36, 36)
@@ -253,14 +253,14 @@ local theme = lush(function(injected_functions)
 		MiniTablineModifiedVisible { MiniTablineVisible, gui = "bold" },
 		MiniTablineModifiedHidden { MiniTablineHidden, gui = "bold" },
 		MiniTablineFill					{ TabLineFill },
-		RenderMarkdownH1Bg			{ bg = twilight, fg = moon },
-		RenderMarkdownH2Bg			{ bg = twilight, fg = mercury },
-		RenderMarkdownH3Bg			{ bg = twilight, fg = venus },
-		RenderMarkdownH4Bg			{ bg = twilight, fg = mars },
-		RenderMarkdownH5Bg			{ bg = twilight, fg = jupiter },
-		RenderMarkdownH6Bg			{ bg = twilight, fg = saturn },
-		TroubleIndent						{ bg = kamen, fg = deadmoon },
-		TroublePos							{ bg = kamen, fg = deadmoon }
+		RenderMarkdownH1Bg			{ bg = moon, fg = midnight },
+		RenderMarkdownH2Bg			{ bg = mercury, fg = midnight },
+		RenderMarkdownH3Bg			{ bg = venus, fg = midnight },
+		RenderMarkdownH4Bg			{ bg = mars, fg = midnight },
+		RenderMarkdownH5Bg			{ bg = jupiter, fg = midnight },
+		RenderMarkdownH6Bg			{ bg = saturn, fg = midnight },
+		TroubleIndent						{ bg = kamen, fg = infinity },
+		TroublePos							{ bg = kamen, fg = infinity }
 	}
 end)
 
