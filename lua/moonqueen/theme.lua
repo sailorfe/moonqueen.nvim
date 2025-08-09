@@ -12,7 +12,7 @@ moonqueen.build = function()
 		Number = {link = "Character"},
 		["@character"] = {link = "Character"},
 		ColorColumn = {bg = "#433168"},
-		Comment = {fg = "#736490", italic = true},
+		Comment = {fg = "#736490"},
 		LspCodeLens = {link = "Comment"},
 		LspCodeLensSeparator = {link = "Comment"},
 		["@comment"] = {link = "Comment"},
