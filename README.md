@@ -3,7 +3,7 @@
 a colorscheme for neovim inspired by naoko takeuchi's *sailor moon* artbooks with support for many mini.nvim modules, gitsigns, lsp, render-markdown, and trouble (so far!). built with [lush](https://github.com/rktjmp/lush.nvim/).
 
 <div align="center">
-<img src="assets/grim.png" alt="palette">
+<img src="grim.png" alt="preview">
 </div>
 
 - <a href="#installation">installation</a>
