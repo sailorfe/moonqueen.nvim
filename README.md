@@ -1,9 +1,9 @@
 # moonqueen.nvim
 
-a colorscheme for neovim inspired by naoko takeuchi's *sailor moon* artbooks with support for many mini.nvim modules, gitsigns, lsp, lualine, render-markdown, and trouble (so far!). built with [lush](https://github.com/rktjmp/lush.nvim/).
+a colorscheme for neovim inspired by naoko takeuchi's *sailor moon* artbooks with support for many mini.nvim modules, gitsigns, lsp, render-markdown, and trouble (so far!). built with [lush](https://github.com/rktjmp/lush.nvim/).
 
 <div align="center">
-<img src="assets/lazy.png" alt="palette">
+<img src="assets/grim.png" alt="palette">
 </div>
 
 - <a href="#installation">installation</a>
@@ -12,7 +12,7 @@ a colorscheme for neovim inspired by naoko takeuchi's *sailor moon* artbooks wit
 
 this repository is mirrored to [github](https://github.com/sailorfe/moonqueen.nvim) from [codeberg](https://codeberg.org/sailorfe/moonqueen.nvim).
 
-a name="installation"></a>
+<a name="installation"></a>
 ## installation
 
 ### lua
@@ -45,6 +45,17 @@ then set colorscheme with one of the folowing:
 - `init.lua`: `vim.cmd.colorscheme("moonqueen")`
 - `.vimrc`: `set colorscheme "moonqueen"`
 - the command  `:colorscheme moonqueen`
+
+<a name="extras"></a>
+## extras
+
+there is an `extras/` dir with ports for
+
+- `alacritty`, `foot` and `wezterm`: what i alternate between in [my sway setup](https://codeberg.org/sailorfe/dots)
+- `termux`: may lag behind a bit
+- `tty`: plain bash colors for the console
+
+`moonqueen.json` is included to in case you want to port this theme to whatever emulator you use. if you do, please make pull request!
 
 <a name="acknowledgments"></a>
 ## acknowledgments
