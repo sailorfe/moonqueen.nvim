@@ -50,7 +50,7 @@ then set colorscheme with one of the following:
 
 there is an `extras/` dir with ports for
 
-- `alacritty`, `rio`, `foot` and `wezterm`: what i alternate between in [my sway setup](https://codeberg.org/sailorfe/dots)
+- `alacritty`, `foot` and `wezterm`: what i alternate between in [my sway setup](https://codeberg.org/sailorfe/dots)
 - `tty`: plain bash colors for the console
 
 `moonqueen.json` is included to in case you want to port this theme to whatever emulator you use. if you do, [please make a pull request](https://codeberg.org/sailorfe/moonqueen.nvim/pulls)!
