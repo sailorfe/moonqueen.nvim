@@ -1,0 +1,37 @@
+local lush = require("lush")
+local hsl = lush.hsl
+
+return {
+	tuxedo			= hsl(260, 36, 12),
+	kamen				= hsl(260, 36, 14),
+	midnight		= hsl(260, 36, 16),
+	twilight		=	hsl(260, 36, 24),
+	moonlight		= hsl(260, 36, 30),
+	millennium	= hsl(260, 36, 36),
+	silver			= hsl(260, 18, 48),
+	diana				= hsl(260, 24, 60),
+	crystal			= hsl(260, 96, 90),
+	artemis			= hsl(260, 100, 96),
+	nehellenia	= hsl(254, 36, 24),
+	mugen				= hsl(254, 36, 36),
+	deadmoon		= hsl(254, 36, 48),
+	infinity		= hsl(254, 72, 72),
+	moon				= hsl(324, 72, 68),
+	usagi				= hsl(324, 84, 80),
+	mercury			= hsl(216, 72, 60),
+	ami					= hsl(216, 84, 72),
+	mars				= hsl(357, 84, 60),
+	rei					= hsl(357, 96, 72),
+	jupiter			= hsl(86, 66, 39),
+	makoto			= hsl(72, 48, 60),
+	venus				= hsl(42, 100, 48),
+	minako			= hsl(42, 100, 72),
+	saturn			= hsl(248, 90, 72),
+	hotaru			= hsl(248, 96, 78),
+	uranus			= hsl(228, 72, 48),
+	haruka			= hsl(228, 72, 60),
+	neptune			= hsl(168, 36, 36),
+	michiru			= hsl(168, 48, 48),
+	pluto				= hsl(330, 60, 36),
+	setsuna			= hsl(330, 48, 48)
+}
