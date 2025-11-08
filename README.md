@@ -25,7 +25,7 @@ with lazy:
 return {
     "sailorfe/moonqueen.nvim",
     dependencies = { "rktjmp/lush.nvim" },
-    init function()
+    init = function()
         vim.cmd.colorscheme("moonqueen")
     end,
 }
