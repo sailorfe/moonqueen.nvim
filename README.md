@@ -23,7 +23,7 @@ with lazy:
 
 ```lua
 return {
-    "sailorfe/moonqueen.nvim",
+    "https://codeberg.org/sailorfe/moonqueen.nvim",
     dependencies = { "rktjmp/lush.nvim" },
     init = function()
         vim.cmd.colorscheme("moonqueen")
