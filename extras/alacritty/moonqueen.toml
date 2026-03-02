@@ -4,55 +4,30 @@
 # Upstream: https://codeberg.org/sailorfe/moonqueen.nvim/src/branch/main/extras/alacritty/moonqueen.toml
 # -----------------------------------------------------------------------------
 
-[env]
-term = "xterm-256color"
-
-[font]
-normal = { family = "JetBrains Mono" }
-size = 9.0
-
-[window]
-dimensions = { columns = 120, lines = 28 }
-
-[colors]
-draw_bold_text_with_bright_colors = true
-
-# Default colors
 [colors.primary]
-background = '#241a37'
-foreground = '#ddcdfe'
+background = '#241b37'
+foreground = '#e1d9f2'
 
 #[colors.cursor]
-#cursor = '#ddcdfe'
-#text = '#241a37'
+#cursor = '#e1d9f2'
+#text = '#241b37'
 
-# Normal colors
 [colors.normal]
-black = '#362753'
-red = '#ef434c'
-green = '#6ca522'
-yellow = '#f7bb31'
-blue = '#508ae2'
-magenta = '#8877f8'
-cyan = '#e873b9'
-white = '#ddcdfe'
+black = '#362853'
+red = '#ed5e5e'
+green = '#add65c'
+yellow = '#ebb447'
+blue = '#75c7f0'
+magenta = '#8a75f0'
+cyan = '#f075c7'
+white = '#e1d9f2'
 
-# Bright colors
 [colors.bright]
-black = '#6c4ea6'
-red = '#fc737a'
-green = '#b6ca68'
-yellow = '#ffd470'
-blue = '#7cacf4'
-magenta = '#9f91fd'
-cyan = '#f7a1d5'
+black = '#48356e'
+red = '#fc8484'
+green = '#c8eb84'
+yellow = '#fcce73'
+blue = '#96dbfd'
+magenta = '#a796fd'
+cyan = '#fd96db'
 white = '#f1ebff'
-
-# Indexed Colors
-[[colors.indexed_colors]]
-index = 16
-color = '#506de2'
-
-[[colors.indexed_colors]]
-index = 17
-color = '#40b59e'
