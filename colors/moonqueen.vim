@@ -48,7 +48,7 @@ highlight DiffChange guifg=#1B1429 guibg=#EBB447 guisp=NONE gui=NONE
 highlight DiffDelete guifg=#D65C5C guibg=NONE guisp=NONE gui=bold
 highlight DiffText guifg=#1B1429 guibg=#5CADD6 guisp=NONE gui=NONE
 highlight Directory guifg=#5CADD6 guibg=NONE guisp=NONE gui=NONE
-highlight EndOfBuffer guifg=#9180B3 guibg=NONE guisp=NONE gui=NONE
+highlight EndOfBuffer guifg=#473D5C guibg=NONE guisp=NONE gui=NONE
 highlight Error guifg=#1B1429 guibg=#D65C5C guisp=NONE gui=NONE
 highlight ErrorMsg guifg=#D65C5C guibg=NONE guisp=NONE gui=bold
 highlight FloatBorder guifg=#473D5C guibg=#291E3E guisp=NONE gui=NONE
