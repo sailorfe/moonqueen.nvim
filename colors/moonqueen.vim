@@ -44,7 +44,7 @@ highlight DiagnosticWarn guifg=#EBB447 guibg=NONE guisp=NONE  gui=NONE
 highlight! link DiagnosticFloatingWarn DiagnosticWarn
 highlight! link DiagnosticSignWarn DiagnosticWarn
 highlight DiffAdd guifg=#1B1429 guibg=#85D65C guisp=NONE  gui=NONE
-highlight DiffChange guifg=#1B1429 guibg=#473D5C guisp=NONE  gui=NONE
+highlight DiffChange guifg=#1B1429 guibg=#EBB447 guisp=NONE  gui=NONE
 highlight DiffDelete guifg=#D65C5C guibg=NONE guisp=NONE  gui=bold
 highlight DiffText guifg=#1B1429 guibg=#5CADD6 guisp=NONE  gui=NONE
 highlight Directory guifg=#5CADD6 guibg=NONE guisp=NONE  gui=NONE
@@ -57,17 +57,14 @@ highlight FloatTitle guifg=#DB70B8 guibg=#291E3E guisp=NONE  gui=bold
 highlight FoldColumn guifg=#453762 guibg=#291E3E guisp=NONE  gui=NONE
 highlight Folded guifg=#9180B3 guibg=#171122 guisp=NONE  gui=NONE
 highlight Function guifg=#DB70B8 guibg=NONE guisp=NONE  gui=NONE
-highlight GitSignsAdd guifg=#DB70B8 guibg=NONE guisp=NONE  gui=NONE
-highlight GitSignsChange guifg=#8F7DE8 guibg=NONE guisp=NONE  gui=NONE
-highlight GitSignsDelete guifg=#D65C5C guibg=NONE guisp=NONE  gui=NONE
 highlight Identifier guifg=#8F7DE8 guibg=NONE guisp=NONE  gui=NONE
 highlight Ignore guifg=#473D5C guibg=NONE guisp=NONE  gui=NONE
 highlight LineNr guifg=#473D5C guibg=NONE guisp=NONE  gui=NONE
 highlight! link LineNrAbove LineNr
 highlight! link LineNrBelow LineNr
 highlight MatchParen guifg=NONE guibg=#453762 guisp=NONE  gui=bold
-highlight MiniDiffSignAdd guifg=#DB70B8 guibg=NONE guisp=NONE  gui=italic
-highlight MiniDiffSignChange guifg=#8F7DE8 guibg=NONE guisp=NONE  gui=italic
+highlight MiniDiffSignAdd guifg=#85D65C guibg=NONE guisp=NONE  gui=italic
+highlight MiniDiffSignChange guifg=#EBB447 guibg=NONE guisp=NONE  gui=italic
 highlight MiniDiffSignDelete guifg=#D65C5C guibg=NONE guisp=NONE  gui=italic
 highlight MiniStatuslineDevinfo guifg=#E1D9F2 guibg=#362853 guisp=NONE  gui=NONE
 highlight! link MiniStatuslineFileinfo MiniStatuslineDevinfo
@@ -105,12 +102,6 @@ highlight! link Macro PreProc
 highlight! link PreCondit PreProc
 highlight Question guifg=#5CADD6 guibg=NONE guisp=NONE  gui=NONE
 highlight QuickFixLine guifg=NONE guibg=#362853 guisp=NONE  gui=bold
-highlight RenderMarkdownH1Bg guifg=#DB70B8 guibg=#3F2737 guisp=NONE  gui=bold
-highlight RenderMarkdownH2Bg guifg=#5CADD6 guibg=#233239 guisp=NONE  gui=bold
-highlight RenderMarkdownH3Bg guifg=#D65C5C guibg=#392323 guisp=NONE  gui=bold
-highlight RenderMarkdownH4Bg guifg=#85D65C guibg=#2A3923 guisp=NONE  gui=bold
-highlight RenderMarkdownH5Bg guifg=#EBB447 guibg=#3D331F guisp=NONE  gui=bold
-highlight RenderMarkdownH6Bg guifg=#8F7DE8 guibg=#2C2745 guisp=NONE  gui=bold
 highlight Search guifg=#EBB447 guibg=#2E2442 guisp=NONE  gui=NONE
 highlight SignColumn guifg=NONE guibg=#1B1429 guisp=NONE  gui=NONE
 highlight Special guifg=#8F7DE8 guibg=NONE guisp=NONE  gui=NONE

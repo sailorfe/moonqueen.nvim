@@ -107,7 +107,7 @@ local theme = lush(function(injected_functions)
 
 		-- diffs
 		DiffAdd({ bg = jupiter, fg = base }),
-		DiffChange({ bg = muted, fg = base }),
+		DiffChange({ bg = venus, fg = base }),
 		DiffDelete({ fg = mars, gui = "bold" }),
 		DiffText({ bg = mercury, fg = base }),
 
@@ -268,13 +268,13 @@ local theme = lush(function(injected_functions)
 		sym("@markup.link.url")({ fg = mercury, gui = "underline,italic" }),
 		sym("@markup.link.label")({ fg = moon }),
 		sym("@markup.list")({ fg = venus }),
-		sym("@markup.heading")({ fg = saturn, gui = "bold" }),
-		sym("@markup.heading.1")({ bg = saturn.darken(70).desaturate(70), fg = saturn, gui = "bold" }),
+		sym("@markup.heading")({ fg = moon, gui = "bold" }),
+		sym("@markup.heading.1")({ bg = moon.darken(70).desaturate(70), fg = moon, gui = "bold" }),
 		sym("@markup.heading.2")({ bg = mercury.darken(70).desaturate(70), fg = mercury, gui = "bold" }),
 		sym("@markup.heading.3")({ bg = mars.darken(70).desaturate(70), fg = mars, gui = "bold" }),
 		sym("@markup.heading.4")({ bg = jupiter.darken(70).desaturate(70), fg = jupiter, gui = "bold" }),
 		sym("@markup.heading.5")({ bg = venus.darken(70).desaturate(70), fg = venus, gui = "bold" }),
-		sym("@markup.heading.6")({ bg = moon.darken(70).desaturate(70), fg = moon, gui = "bold" }),
+		sym("@markup.heading.6")({ bg = saturn.darken(70).desaturate(70), fg = saturn, gui = "bold" }),
 		sym("@markup.strong")({ gui = "bold" }),
 		sym("@markup.italic")({ gui = "italic" }),
 		sym("@markup.strikethrough")({ gui = "strikethrough", fg = muted }),
@@ -290,9 +290,9 @@ local theme = lush(function(injected_functions)
 		sym("@tag.attribute")({ fg = venus }),
 		sym("@tag.delimiter")({ fg = muted }),
 
-		sym("@diff.plus")({ fg = moon }),
+		sym("@diff.plus")({ fg = jupiter }),
 		sym("@diff.minus")({ fg = mars }),
-		sym("@diff.delta")({ fg = saturn }),
+		sym("@diff.delta")({ fg = venus }),
 
 		-- LSP semantic tokens (0.9+)
 		sym("@lsp.type.class")({ Type }),
@@ -335,20 +335,20 @@ local theme = lush(function(injected_functions)
 		markdownH6Delimiter({ markdownH6 }),
 
 		-- plugins
-		GitSignsAdd({ fg = moon }),
-		GitSignsChange({ fg = saturn }),
-		GitSignsDelete({ fg = mars }),
+		GitSignsAdd({ sym("@diff.plus") }),
+		GitSignsChange({ sym("@diff.delta") }),
+		GitSignsDelete({ sym("@diff.minus") }),
 
-		RenderMarkdownH1Bg({ bg = moon.darken(70).desaturate(60), fg = moon, gui = "bold" }),
-		RenderMarkdownH2Bg({ bg = mercury.darken(70).desaturate(60), fg = mercury, gui = "bold" }),
-		RenderMarkdownH3Bg({ bg = mars.darken(70).desaturate(60), fg = mars, gui = "bold" }),
-		RenderMarkdownH4Bg({ bg = jupiter.darken(70).desaturate(60), fg = jupiter, gui = "bold" }),
-		RenderMarkdownH5Bg({ bg = venus.darken(70).desaturate(60), fg = venus, gui = "bold" }),
-		RenderMarkdownH6Bg({ bg = saturn.darken(70).desaturate(60), fg = saturn, gui = "bold" }),
+		RenderMarkdownH1Bg({ sym("@markup.heading.1") }),
+		RenderMarkdownH2Bg({ sym("@markup.heading.2") }),
+		RenderMarkdownH3Bg({ sym("@markup.heading.3") }),
+		RenderMarkdownH4Bg({ sym("@markup.heading.4") }),
+		RenderMarkdownH5Bg({ sym("@markup.heading.5") }),
+		RenderMarkdownH6Bg({ sym("@markup.heading.6") }),
 
-		MiniDiffSignAdd({ fg = moon, gui = "italic" }),
-		MiniDiffSignChange({ fg = saturn, gui = "italic" }),
-		MiniDiffSignDelete({ fg = mars, gui = "italic" }),
+		MiniDiffSignAdd({ sym("@diff.plus"), gui = "italic" }),
+		MiniDiffSignChange({ sym("@diff.delta"), fg = venus, gui = "italic" }),
+		MiniDiffSignDelete({ sym("@diff.minus"), gui = "italic" }),
 		MiniStatuslineModeNormal({ bg = high, fg = text, gui = "bold" }),
 		MiniStatuslineModeInsert({ bg = text, fg = base, gui = "bold" }),
 		MiniStatuslineModeVisual({ bg = saturn, fg = base, gui = "bold" }),
