@@ -33,10 +33,9 @@ with lazy:
 ```lua
 return {
     "https://codeberg.org/sailorfe/moonqueen.nvim",
-    dependencies = "rktjmp/lush.nvim",
-    init function()
-        vim.cmd.colorscheme("moonqueen")
-    end,
+--  init function()
+--      vim.cmd.colorscheme("moonqueen")
+--  end,
 }
 ```
 
@@ -47,13 +46,13 @@ or, instead of `init function()`, call `vim.cmd.colorscheme('moonqueen')` in you
 with vim-plug:
 
 ```vim
-Plug 'https://codeberg.org/sailorfe/moonqueen.nvim', { 'as': 'moonqueen' }
+Plug 'https://codeberg.org/sailorfe/moonqueen.nvim', { 'as': 'moonqueen', 'branch': 'vim' }
 ```
 
 or place `colors/moonqueen.vim` anywhere in your runtime path:
 
 ```sh
-curl -LO https://codeberg.org/sailorfe/moonqueen.nvim/raw/branch/main/colors/moonqueen.vim
+curl -LO https://codeberg.org/sailorfe/moonqueen.nvim/raw/branch/vim/colors/moonqueen.vim
 ```
 
 then set colorscheme with `colorscheme moonqueen` in your `vimrc` or temporarily as a command.
@@ -65,7 +64,7 @@ there is an `extras/` dir with ports for
 - `alacritty` and `foot`: what i alternate between in [my sway setup](https://codeberg.org/sailorfe/dots)
 - `tty`: plain bash colors for the console
 
-`moonqueen.json` is included in case you want to port this theme to whatever emulator you use. if you do, [please make pull request](https://codeberg.org/sailorfe/moonqueen.nvim/pulls)!
+`moonqueen.json` is included in case you want to port this theme to whatever emulator you use. if you do, [please make a pull request](https://codeberg.org/sailorfe/moonqueen.nvim/pulls)!
 
 ## acknowledgments
 
