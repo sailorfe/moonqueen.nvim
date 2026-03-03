@@ -2,17 +2,17 @@
 if [ "$TERM" = "linux" ]; then
 	echo -en "\e]P01b1429" #black
 	echo -en "\e]P1d65c5c" #darkred
-	echo -en "\e]P2add65c" #darkgreen
+	echo -en "\e]P281e052" #darkgreen
 	echo -en "\e]P3ebb447" #darkyellow
-	echo -en "\e]P470b8db" #darkblue
+	echo -en "\e]P45cadd6" #darkblue
 	echo -en "\e]P58f7de8" #darkmagenta
 	echo -en "\e]P6db70b8" #darkcyan
 	echo -en "\e]P7e1d9f2" #lightgrey
 	echo -en "\e]P83b2b51" #darkgrey
 	echo -en "\e]P9eb8484" #red
-	echo -en "\e]PAc8eb84" #green
+	echo -en "\e]PAa3f37c" #green
 	echo -en "\e]PBfcce73" #yellow
-	echo -en "\e]PC93d0ed" #blue
+	echo -en "\e]PC84c8eb" #blue
 	echo -en "\e]PDac9df6" #magenta
 	echo -en "\e]PEed93d0" #cyan
 	echo -en "\e]PFe1d9f2" #white

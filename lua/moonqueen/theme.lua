@@ -12,9 +12,9 @@ local text = hsl(260, 50, 90)
 local light = hsl(260, 100, 96)
 -- accent colors
 local mars = hsl(360, 60, 60)
-local jupiter = hsl(80, 60, 60)
+local jupiter = hsl(100, 70, 60)
 local venus = hsl(40, 80, 60)
-local mercury = hsl(200, 60, 65)
+local mercury = hsl(200, 60, 60)
 local saturn = hsl(250, 70, 70)
 local moon = hsl(320, 60, 65)
 -- highlights
