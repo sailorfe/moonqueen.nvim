@@ -1,1 +1,1 @@
-require('moonqueen').load()
+require("moonqueen").silvermillennium()
