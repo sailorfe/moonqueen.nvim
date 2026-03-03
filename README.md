@@ -2,19 +2,28 @@
 
 > に代わってお仕置きよ!
 
-a colorscheme for neovim inspired by naoko takeuchi's *sailor moon* artbooks with support for many [mini](https://github.com/nvim-mini/mini.nvim) modules, [gitsigns](https://github.com/lewis6991/gitsigns.nvim), lsp, [render-markdown](https://github.com/MeanderingProgrammer/render-markdown.nvim), and [trouble](https://github.com/folke/trouble.nvim) (so far!). built with [lush](https://github.com/rktjmp/lush.nvim/).
+a colorscheme for neovim inspired by naoko takeuchi's _sailor moon_ artbooks with support for many [mini](https://github.com/nvim-mini/mini.nvim) modules, [gitsigns](https://github.com/lewis6991/gitsigns.nvim), lsp, [render-markdown](https://github.com/MeanderingProgrammer/render-markdown.nvim), and [trouble](https://github.com/folke/trouble.nvim) (so far!). built with [lush](https://github.com/rktjmp/lush.nvim/).
+
+_also see: [luna.nvim](https://codeberg.org/sailorfe/luna.nvim) 🐈‍⬛_
 
 <div align="center">
-<img src="grim.png" alt="moonqueen">
+
+![foot](grim.png)
+
 </div>
 
-- <a href="#installation">installation</a>
-- <a href="#extras">extras</a>
-- <a href="#acknowledgments">acknowledgments</a>
+<!-- toc -->
+
+- [installation](#installation)
+    * [lua](#lua)
+    * [vimscript](#vimscript)
+- [extras](#extras)
+- [acknowledgments](#acknowledgments)
+
+<!-- tocstop -->
 
 this repository is mirrored to [github](https://github.com/sailorfe/moonqueen.nvim) from [codeberg](https://codeberg.org/sailorfe/moonqueen.nvim).
 
-<a name="installation"></a>
 ## installation
 
 ### lua
@@ -24,39 +33,41 @@ with lazy:
 ```lua
 return {
     "https://codeberg.org/sailorfe/moonqueen.nvim",
-    dependencies = { "rktjmp/lush.nvim" },
-    init = function()
+    dependencies = "rktjmp/lush.nvim",
+    init function()
         vim.cmd.colorscheme("moonqueen")
     end,
 }
 ```
 
+or, instead of `init function()`, call `vim.cmd.colorscheme('moonqueen')` in your `init.lua` after plugin load.
+
 ### vimscript
 
-the easiest method is probably just to run curl from your n/vim `colors` directory:
+with vim-plug:
+
+```vim
+Plug 'https://codeberg.org/sailorfe/moonqueen.nvim', { 'as': 'moonqueen' }
+```
+
+or place `colors/moonqueen.vim` anywhere in your runtime path:
 
 ```sh
 curl -LO https://codeberg.org/sailorfe/moonqueen.nvim/raw/branch/main/colors/moonqueen.vim
 ```
 
-then set colorscheme with one of the following:
+then set colorscheme with `colorscheme moonqueen` in your `vimrc` or temporarily as a command.
 
-- `init.lua`: `vim.cmd.colorscheme("moonqueen")`
-- `.vimrc`: `set colorscheme "moonqueen"`
-- the command  `:colorscheme moonqueen`
-
-<a name="extras"></a>
 ## extras
 
 there is an `extras/` dir with ports for
 
-- `alacritty`, `foot` and `wezterm`: what i alternate between in [my sway setup](https://codeberg.org/sailorfe/dots)
+- `alacritty` and `foot`: what i alternate between in [my sway setup](https://codeberg.org/sailorfe/dots)
 - `tty`: plain bash colors for the console
 
-`moonqueen.json` is included to in case you want to port this theme to whatever emulator you use. if you do, [please make a pull request](https://codeberg.org/sailorfe/moonqueen.nvim/pulls)!
+`moonqueen.json` is included in case you want to port this theme to whatever emulator you use. if you do, [please make pull request](https://codeberg.org/sailorfe/moonqueen.nvim/pulls)!
 
-<a name="acknowledgments"></a>
 ## acknowledgments
 
-- [evangelion.nvim](https://github.com/xero/evangelion.nvim) for weeb inspiration
+- [evangelion.nvim](https://github.com/xero/evangelion.nvim) for entire chunks of lua and weeb inspiration
 - [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) for dir structure
