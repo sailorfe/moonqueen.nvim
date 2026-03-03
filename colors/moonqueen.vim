@@ -73,12 +73,12 @@ highlight MiniStatuslineDevinfo guifg=#E1D9F2 guibg=#362853 guisp=NONE  gui=NONE
 highlight! link MiniStatuslineFileinfo MiniStatuslineDevinfo
 highlight MiniStatuslineFilename guifg=#9180B3 guibg=#291E3E guisp=NONE  gui=NONE
 highlight MiniStatuslineInactive guifg=#473D5C guibg=#1B1429 guisp=NONE  gui=NONE
-highlight MiniStatuslineModeCommand guifg=#1B1429 guibg=#70B8DB guisp=NONE  gui=bold
+highlight MiniStatuslineModeCommand guifg=#1B1429 guibg=#DB70B8 guisp=NONE  gui=bold
 highlight MiniStatuslineModeInsert guifg=#1B1429 guibg=#E1D9F2 guisp=NONE  gui=bold
 highlight MiniStatuslineModeNormal guifg=#E1D9F2 guibg=#453762 guisp=NONE  gui=bold
 highlight MiniStatuslineModeOther guifg=#1B1429 guibg=#ADD65C guisp=NONE  gui=bold
 highlight MiniStatuslineModeReplace guifg=#1B1429 guibg=#D65C5C guisp=NONE  gui=bold
-highlight MiniStatuslineModeVisual guifg=#1B1429 guibg=#DB70B8 guisp=NONE  gui=bold
+highlight MiniStatuslineModeVisual guifg=#1B1429 guibg=#9470DB guisp=NONE  gui=bold
 highlight MiniTablineVisible guifg=#EBB447 guibg=#291E3E guisp=NONE  gui=NONE
 highlight ModeMsg guifg=#E1D9F2 guibg=NONE guisp=NONE  gui=bold
 highlight MoreMsg guifg=#ADD65C guibg=NONE guisp=NONE  gui=NONE
@@ -149,7 +149,7 @@ highlight! link Structure Type
 highlight Typedef guifg=#ADD65C guibg=NONE guisp=NONE  gui=italic
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE  gui=underline
 highlight VertSplit guifg=#291E3E guibg=NONE guisp=NONE  gui=NONE
-highlight Visual guifg=#1B1429 guibg=#DB70B8 guisp=NONE  gui=NONE
+highlight Visual guifg=NONE guibg=#453762 guisp=NONE  gui=NONE
 highlight! link VisualNOS Visual
 highlight WarningMsg guifg=#EBB447 guibg=NONE guisp=NONE  gui=NONE
 highlight Whitespace guifg=#362853 guibg=NONE guisp=NONE  gui=NONE
