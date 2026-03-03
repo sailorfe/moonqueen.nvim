@@ -2,25 +2,25 @@ local lush = require("lush")
 local hsl = lush.hsl
 
 -- base colors
-local base = hsl(260, 35, 16)
-local surface = hsl(260, 35, 24)
-local overlay = hsl(260, 35, 32)
+local base = hsl(260, 35, 12)
+local surface = hsl(260, 35, 18)
+local overlay = hsl(260, 35, 24)
 -- text colors
-local muted = hsl(260, 20, 40)
-local faint = hsl(260, 30, 70)
+local muted = hsl(260, 20, 30)
+local faint = hsl(260, 25, 60)
 local text = hsl(260, 50, 90)
 local light = hsl(260, 100, 96)
 -- accent colors
-local mars = hsl(360, 80, 65)
+local mars = hsl(360, 60, 60)
 local jupiter = hsl(80, 60, 60)
 local venus = hsl(40, 80, 60)
-local mercury = hsl(200, 80, 70)
-local saturn = hsl(250, 80, 70)
-local moon = hsl(320, 80, 70)
+local mercury = hsl(200, 60, 65)
+local saturn = hsl(260, 60, 65)
+local moon = hsl(320, 60, 65)
 -- highlights
-local low = hsl(260, 30, 15)
-local med = hsl(260, 25, 30)
-local high = hsl(260, 20, 45)
+local low = hsl(260, 32, 10)
+local med = hsl(260, 30, 20)
+local high = hsl(260, 28, 30)
 
 ---@diagnostic disable: undefined-global
 local theme = lush(function(injected_functions)
@@ -290,9 +290,9 @@ local theme = lush(function(injected_functions)
 		sym("@tag.attribute")({ fg = venus }),
 		sym("@tag.delimiter")({ fg = muted }),
 
-		sym("@diff.plus")({ fg = saturn }),
+		sym("@diff.plus")({ fg = moon }),
 		sym("@diff.minus")({ fg = mars }),
-		sym("@diff.delta")({ fg = mercury }),
+		sym("@diff.delta")({ fg = saturn }),
 
 		-- LSP semantic tokens (0.9+)
 		sym("@lsp.type.class")({ Type }),
@@ -336,7 +336,7 @@ local theme = lush(function(injected_functions)
 
 		-- plugins
 		GitSignsAdd({ fg = moon }),
-		GitSignsChange({ fg = mercury }),
+		GitSignsChange({ fg = saturn }),
 		GitSignsDelete({ fg = mars }),
 
 		RenderMarkdownH1Bg({ bg = moon.darken(70).desaturate(60), fg = moon, gui = "bold" }),
@@ -347,7 +347,7 @@ local theme = lush(function(injected_functions)
 		RenderMarkdownH6Bg({ bg = saturn.darken(70).desaturate(60), fg = saturn, gui = "bold" }),
 
 		MiniDiffSignAdd({ fg = moon, gui = "italic" }),
-		MiniDiffSignChange({ fg = mercury, gui = "italic" }),
+		MiniDiffSignChange({ fg = saturn, gui = "italic" }),
 		MiniDiffSignDelete({ fg = mars, gui = "italic" }),
 		MiniStatuslineModeNormal({ bg = high, fg = text, gui = "bold" }),
 		MiniStatuslineModeInsert({ bg = text, fg = base, gui = "bold" }),
