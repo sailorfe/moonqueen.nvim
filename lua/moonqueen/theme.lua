@@ -15,7 +15,7 @@ local mars = hsl(360, 60, 60)
 local jupiter = hsl(80, 60, 60)
 local venus = hsl(40, 80, 60)
 local mercury = hsl(200, 60, 65)
-local saturn = hsl(260, 60, 65)
+local saturn = hsl(250, 70, 70)
 local moon = hsl(320, 60, 65)
 -- highlights
 local low = hsl(260, 32, 10)

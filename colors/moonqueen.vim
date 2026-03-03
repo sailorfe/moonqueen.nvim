@@ -58,16 +58,16 @@ highlight FoldColumn guifg=#453762 guibg=#291E3E guisp=NONE  gui=NONE
 highlight Folded guifg=#9180B3 guibg=#171122 guisp=NONE  gui=NONE
 highlight Function guifg=#DB70B8 guibg=NONE guisp=NONE  gui=NONE
 highlight GitSignsAdd guifg=#DB70B8 guibg=NONE guisp=NONE  gui=NONE
-highlight GitSignsChange guifg=#9470DB guibg=NONE guisp=NONE  gui=NONE
+highlight GitSignsChange guifg=#8F7DE8 guibg=NONE guisp=NONE  gui=NONE
 highlight GitSignsDelete guifg=#D65C5C guibg=NONE guisp=NONE  gui=NONE
-highlight Identifier guifg=#9470DB guibg=NONE guisp=NONE  gui=NONE
+highlight Identifier guifg=#8F7DE8 guibg=NONE guisp=NONE  gui=NONE
 highlight Ignore guifg=#473D5C guibg=NONE guisp=NONE  gui=NONE
 highlight LineNr guifg=#473D5C guibg=NONE guisp=NONE  gui=NONE
 highlight! link LineNrAbove LineNr
 highlight! link LineNrBelow LineNr
 highlight MatchParen guifg=NONE guibg=#453762 guisp=NONE  gui=bold
 highlight MiniDiffSignAdd guifg=#DB70B8 guibg=NONE guisp=NONE  gui=italic
-highlight MiniDiffSignChange guifg=#9470DB guibg=NONE guisp=NONE  gui=italic
+highlight MiniDiffSignChange guifg=#8F7DE8 guibg=NONE guisp=NONE  gui=italic
 highlight MiniDiffSignDelete guifg=#D65C5C guibg=NONE guisp=NONE  gui=italic
 highlight MiniStatuslineDevinfo guifg=#E1D9F2 guibg=#362853 guisp=NONE  gui=NONE
 highlight! link MiniStatuslineFileinfo MiniStatuslineDevinfo
@@ -78,7 +78,7 @@ highlight MiniStatuslineModeInsert guifg=#1B1429 guibg=#E1D9F2 guisp=NONE  gui=b
 highlight MiniStatuslineModeNormal guifg=#E1D9F2 guibg=#453762 guisp=NONE  gui=bold
 highlight MiniStatuslineModeOther guifg=#1B1429 guibg=#ADD65C guisp=NONE  gui=bold
 highlight MiniStatuslineModeReplace guifg=#1B1429 guibg=#D65C5C guisp=NONE  gui=bold
-highlight MiniStatuslineModeVisual guifg=#1B1429 guibg=#9470DB guisp=NONE  gui=bold
+highlight MiniStatuslineModeVisual guifg=#1B1429 guibg=#8F7DE8 guisp=NONE  gui=bold
 highlight MiniTablineVisible guifg=#EBB447 guibg=#291E3E guisp=NONE  gui=NONE
 highlight ModeMsg guifg=#E1D9F2 guibg=NONE guisp=NONE  gui=bold
 highlight MoreMsg guifg=#ADD65C guibg=NONE guisp=NONE  gui=NONE
@@ -91,8 +91,8 @@ highlight Operator guifg=#E1D9F2 guibg=NONE guisp=NONE  gui=NONE
 highlight Pmenu guifg=#E1D9F2 guibg=#291E3E guisp=NONE  gui=NONE
 highlight PmenuExtra guifg=#473D5C guibg=#291E3E guisp=NONE  gui=NONE
 highlight PmenuExtraSel guifg=#9180B3 guibg=#362853 guisp=NONE  gui=NONE
-highlight PmenuKind guifg=#9470DB guibg=#291E3E guisp=NONE  gui=NONE
-highlight PmenuKindSel guifg=#9470DB guibg=#362853 guisp=NONE  gui=bold
+highlight PmenuKind guifg=#8F7DE8 guibg=#291E3E guisp=NONE  gui=NONE
+highlight PmenuKindSel guifg=#8F7DE8 guibg=#362853 guisp=NONE  gui=bold
 highlight PmenuMatch guifg=#DB70B8 guibg=NONE guisp=NONE  gui=bold
 highlight PmenuMatchSel guifg=#DB70B8 guibg=NONE guisp=NONE  gui=bold,underline
 highlight PmenuSbar guifg=NONE guibg=#362853 guisp=NONE  gui=NONE
@@ -110,10 +110,10 @@ highlight RenderMarkdownH2Bg guifg=#70B8DB guibg=#27373F guisp=NONE  gui=bold
 highlight RenderMarkdownH3Bg guifg=#D65C5C guibg=#392323 guisp=NONE  gui=bold
 highlight RenderMarkdownH4Bg guifg=#ADD65C guibg=#323923 guisp=NONE  gui=bold
 highlight RenderMarkdownH5Bg guifg=#EBB447 guibg=#3D331F guisp=NONE  gui=bold
-highlight RenderMarkdownH6Bg guifg=#9470DB guibg=#2F273F guisp=NONE  gui=bold
+highlight RenderMarkdownH6Bg guifg=#8F7DE8 guibg=#2C2745 guisp=NONE  gui=bold
 highlight Search guifg=#EBB447 guibg=#2E2442 guisp=NONE  gui=NONE
 highlight SignColumn guifg=NONE guibg=#1B1429 guisp=NONE  gui=NONE
-highlight Special guifg=#9470DB guibg=NONE guisp=NONE  gui=NONE
+highlight Special guifg=#8F7DE8 guibg=NONE guisp=NONE  gui=NONE
 highlight! link Debug Special
 highlight! link SpecialChar Special
 highlight! link Tag Special
@@ -167,7 +167,7 @@ highlight markdownH4 guifg=#ADD65C guibg=NONE guisp=NONE  gui=bold
 highlight! link markdownH4Delimiter markdownH4
 highlight markdownH5 guifg=#EBB447 guibg=NONE guisp=NONE  gui=bold
 highlight! link markdownH5Delimiter markdownH5
-highlight markdownH6 guifg=#9470DB guibg=NONE guisp=NONE  gui=bold
+highlight markdownH6 guifg=#8F7DE8 guibg=NONE guisp=NONE  gui=bold
 highlight! link markdownH6Delimiter markdownH6
 if has('termguicolors')
   set termguicolors
