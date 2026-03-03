@@ -75,7 +75,7 @@ local theme = lush(function(injected_functions)
 		NonText({ fg = bssm.muted }),
 		Whitespace({ fg = bssm.overlay }),
 		SpecialKey({ fg = bssm.muted }),
-		EndOfBuffer({ fg = bssm.faint }),
+		EndOfBuffer({ fg = bssm.muted }),
 
 		Directory({ fg = bssm.mercury }),
 		Title({ fg = bssm.moon, gui = "bold" }),
