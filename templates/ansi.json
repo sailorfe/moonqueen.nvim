@@ -1,0 +1,20 @@
+{
+    "background": "[[base]]",
+    "foreground": "[[text]]",
+    "black": "[[surface]]",
+    "red": "[[mars]]",
+    "green": "[[jupiter]]",
+    "yellow": "[[venus]]",
+    "blue": "[[mercury]]",
+    "magenta": "[[saturn]]",
+    "cyan": "[[moon]]",
+    "white": "[[text]]",
+    "brightBlack": "[[overlay]]",
+    "brightRed": "[[rei]]",
+    "brightGreen": "[[makoto]]",
+    "brightYellow": "[[minako]]",
+    "brightBlue": "[[ami]]",
+    "brightMagenta": "[[hotaru]]",
+    "brightCyan": "[[usagi]]",
+    "brightWhite": "[[light]]"
+}

@@ -1,0 +1,45 @@
+[colors]
+foreground = "[[text]]"
+background = "[[base]]"
+cursor_bg = "[[text]]"
+cursor_border = "[[text]]"
+cursor_fg = "[[base]]"
+selection_bg = "[[moon]]"
+selection_fg = "[[base]]"
+split = "[[high]]"
+compose_cursor = "[[venus]]"
+scrollbar_thumb = "[[surface]]"
+
+ansi = ["[[surface]]", "[[mars]]", "[[jupiter]]", "[[venus]]", "[[mercury]]", "[[saturn]]", "[[moon]]", "[[text]]"]
+brights = ["[[overlay]]", "[[rei]]", "[[makoto]]", "[[minako]]", "[[ami]]", "[[hotaru]]", "[[usagi]]", "[[light]]"]
+
+[colors.tab_bar]
+inactive_tab_edge = "[[surface]]"
+background = "[[base]]"
+
+[colors.tab_bar.active_tab]
+fg_color = "[[base]]"
+bg_color = "[[moon]]"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "[[faint]]"
+bg_color = "[[overlay]]"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "[[usagi]]"
+bg_color = "[[overlay]]"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "[[usagi]]"
+bg_color = "[[base]]"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "[[moon]]"
+bg_color = "[[base]]"
+
+[metadata]
+aliases = ['moonqueen']
+author = "sailorfe"
+name = "Moon Queen"

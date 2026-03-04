@@ -1,0 +1,27 @@
+# Moon Queen for Alacritty
+# Author: sailorfe
+# Upstream: https://codeberg.org/sailorfe/moonqueen.nvim/src/branch/main/extras/alacritty/moonqueen.toml
+
+[colors.primary]
+background = "[[base]]"
+foreground = "[[text]]"
+
+[colors.normal]
+black = "[[surface]]"
+red = "[[mars]]"
+green = "[[jupiter]]"
+yellow = "[[venus]]"
+blue = "[[mercury]]"
+magenta = "[[saturn]]"
+cyan = "[[moon]]"
+white = "[[text]]"
+
+[colors.bright]
+black = "[[overlay]]"
+red = "[[rei]]"
+green = "[[makoto]]"
+yellow = "[[minako]]"
+blue = "[[ami]]"
+magenta = "[[hotaru]]"
+cyan = "[[usagi]]"
+white = "[[light]]"
