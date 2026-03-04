@@ -21,12 +21,12 @@ function CRYSTAL.get()
 		["low"] = hsl(260, 32, 10),
 		["med"] = hsl(260, 30, 20),
 		["high"] = hsl(260, 28, 30),
-		["kasei"] = hsl(360, 70, 80),
-		["mokusei"] = hsl(100, 70, 80),
-		["kinsei"] = hsl(40, 90, 80),
-		["suisei"] = hsl(200, 70, 80),
-		["dosei"] = hsl(250, 80, 80),
-		["tsuki"] = hsl(320, 70, 75),
+		["rei"] = hsl(360, 70, 80),
+		["makoto"] = hsl(100, 70, 80),
+		["minako"] = hsl(40, 90, 80),
+		["ami"] = hsl(200, 70, 80),
+		["hotaru"] = hsl(250, 80, 80),
+		["usagi"] = hsl(320, 70, 75),
 	}
 end
 return CRYSTAL
