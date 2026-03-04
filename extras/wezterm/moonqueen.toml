@@ -1,3 +1,7 @@
+# moonqueen v0.2.1 by sailorfe
+# built 2026-03-04
+# https://codeberg.org/sailorfe/moonqueen.nvim
+
 [colors]
 foreground = "#E1D9F2"
 background = "#1B1429"

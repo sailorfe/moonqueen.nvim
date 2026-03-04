@@ -1,7 +1,3 @@
-# Moon Queen for Alacritty
-# Author: sailorfe
-# Upstream: https://codeberg.org/sailorfe/moonqueen.nvim/src/branch/main/extras/alacritty/moonqueen.toml
-
 [colors.primary]
 background = "[[base]]"
 foreground = "[[text]]"
