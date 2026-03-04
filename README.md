@@ -8,7 +8,7 @@ _also see: [luna.nvim](https://codeberg.org/sailorfe/luna.nvim) 🐈‍⬛_
 
 <div align="center">
 
-![foot](grim.png)
+![foot](json.png)
 
 </div>
 
@@ -18,6 +18,7 @@ _also see: [luna.nvim](https://codeberg.org/sailorfe/luna.nvim) 🐈‍⬛_
     * [lua](#lua)
     * [vimscript](#vimscript)
 - [extras](#extras)
+- [contributing](#contributing)
 - [acknowledgments](#acknowledgments)
 
 <!-- tocstop -->
@@ -61,10 +62,14 @@ then set colorscheme with `colorscheme moonqueen` in your `vimrc` or temporarily
 
 there is an `extras/` dir with ports for
 
-- `alacritty` and `foot`: what i alternate between in [my sway setup](https://codeberg.org/sailorfe/dots)
-- `tty`: plain bash colors for the console
+- [alacritty](https://alacritty.org)
+- [foot](https://codeberg.org/dnkl/foot)
+- [termux](https://termux.dev)
+- `tty` for the console
 
-`moonqueen.json` is included in case you want to port this theme to whatever emulator you use. if you do, [please make a pull request](https://codeberg.org/sailorfe/moonqueen.nvim/pulls)!
+## contributing
+
+if you would like to port moonqueen to another terminal emulator or application, see `generator.py`. you'll have to write a dictionary template, but `generator.py` handles injecting hex values from `palette.json`. [submit pull requests on codeberg](https://codeberg.org/sailorfe/moonqueen.nvim/pulls).
 
 ## acknowledgments
 
