@@ -1,0 +1,45 @@
+[colors]
+foreground = "#E1D9F2"
+background = "#1B1429"
+cursor_bg = "#E1D9F2"
+cursor_border = "#E1D9F2"
+cursor_fg = "#1B1429"
+selection_bg = "#DB70B8"
+selection_fg = "#1B1429"
+split = "#453762"
+compose_cursor = "#EBB447"
+scrollbar_thumb = "#291E3E"
+
+ansi = ["#291E3E", "#D65C5C", "#85D65C", "#EBB447", "#5CADD6", "#8F7DE8", "#DB70B8", "#E1D9F2"]
+brights = ["#362853", "#F0A8A8", "#C0F0A8", "#FADB9E", "#A8D8F0", "#B1A3F5", "#EC93CE", "#F1EBFF"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#291E3E"
+background = "#1B1429"
+
+[colors.tab_bar.active_tab]
+fg_color = "#1B1429"
+bg_color = "#DB70B8"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#9180B3"
+bg_color = "#362853"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#EC93CE"
+bg_color = "#362853"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#EC93CE"
+bg_color = "#1B1429"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#DB70B8"
+bg_color = "#1B1429"
+
+[metadata]
+aliases = ['moonqueen']
+author = "sailorfe"
+name = "Moon Queen"
