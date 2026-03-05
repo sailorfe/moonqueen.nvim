@@ -1,0 +1,65 @@
+# moonqueen v0.2.1 by sailorfe
+# built 2026-03-04
+# https://codeberg.org/sailorfe/moonqueen.nvim
+
+[colors]
+# regular colors
+background       = '#1B1429'
+black            = '#291E3E'
+blue             = '#5CADD6'
+cyan             = '#DB70B8'
+foreground       = '#E1D9F2'
+green            = '#85D65C'
+magenta          = '#8F7DE8'
+red              = '#D65C5C'
+white            = '#E1D9F2'
+yellow           = '#EBB447'
+
+# cursor
+cursor           = '#E1D9F2'
+vi-cursor        = '#85D65C'
+
+# navigation
+tabs             = '#1B1429'
+tabs-foreground  = '#E1D9F2'
+tabs-active      = '#DB70B8'
+tabs-active-highlight  = '#DB70B8'
+tabs-active-foreground = '#1B1429'
+bar              = '#1B1429'
+split            = '#362853'
+
+# search
+search-match-background = '#5CADD6'
+search-match-foreground = '#1B1429'
+search-focused-match-background = '#EBB447'
+search-focused-match-foreground = '#1B1429'
+
+# hints
+hint-foreground  = '#1B1429'
+hint-background  = '#FADB9E'
+
+# selection
+selection-foreground   = '#1B1429'
+selection-background   = '#DB70B8'
+
+# dim colors
+dim-black        = '#291E3E'
+dim-blue         = '#A8D8F0'
+dim-cyan         = '#EC93CE'
+dim-foreground   = '#E1D9F2'
+dim-green        = '#C0F0A8'
+dim-magenta      = '#B1A3F5'
+dim-red          = '#F0A8A8'
+dim-white        = '#9180B3'
+dim-yellow       = '#FADB9E'
+
+# light colors
+light-black        = '#362853'
+light-blue         = '#A8D8F0'
+light-cyan         = '#EC93CE'
+light-foreground   = '#E1D9F2'
+light-green        = '#C0F0A8'
+light-magenta      = '#B1A3F5'
+light-red          = '#F0A8A8'
+light-white        = '#F1EBFF'
+light-yellow       = '#FADB9E'

@@ -1,0 +1,61 @@
+[colors]
+# regular colors
+background       = '[[base]]'
+black            = '[[surface]]'
+blue             = '[[mercury]]'
+cyan             = '[[moon]]'
+foreground       = '[[text]]'
+green            = '[[jupiter]]'
+magenta          = '[[saturn]]'
+red              = '[[mars]]'
+white            = '[[text]]'
+yellow           = '[[venus]]'
+
+# cursor
+cursor           = '[[text]]'
+vi-cursor        = '[[jupiter]]'
+
+# navigation
+tabs             = '[[base]]'
+tabs-foreground  = '[[text]]'
+tabs-active      = '[[moon]]'
+tabs-active-highlight  = '[[moon]]'
+tabs-active-foreground = '[[base]]'
+bar              = '[[base]]'
+split            = '[[overlay]]'
+
+# search
+search-match-background = '[[mercury]]'
+search-match-foreground = '[[base]]'
+search-focused-match-background = '[[venus]]'
+search-focused-match-foreground = '[[base]]'
+
+# hints
+hint-foreground  = '[[base]]'
+hint-background  = '[[minako]]'
+
+# selection
+selection-foreground   = '[[base]]'
+selection-background   = '[[moon]]'
+
+# dim colors
+dim-black        = '[[surface]]'
+dim-blue         = '[[ami]]'
+dim-cyan         = '[[usagi]]'
+dim-foreground   = '[[text]]'
+dim-green        = '[[makoto]]'
+dim-magenta      = '[[hotaru]]'
+dim-red          = '[[rei]]'
+dim-white        = '[[faint]]'
+dim-yellow       = '[[minako]]'
+
+# light colors
+light-black        = '[[overlay]]'
+light-blue         = '[[ami]]'
+light-cyan         = '[[usagi]]'
+light-foreground   = '[[text]]'
+light-green        = '[[makoto]]'
+light-magenta      = '[[hotaru]]'
+light-red          = '[[rei]]'
+light-white        = '[[light]]'
+light-yellow       = '[[minako]]'
