@@ -15,11 +15,11 @@ a colorscheme for neovim inspired by naoko takeuchi's _sailor moon_ artbooks, si
 - [palette](#palette)
 - [features](#features)
 - [installation](#installation)
-  - [lua](#lua)
-  - [vimscript](#vimscript)
+    * [lua](#lua)
+    * [vimscript](#vimscript)
 - [contributing](#contributing)
-  - [adding plugins](#adding-plugins)
-  - [adding ports](#adding-ports)
+    * [adding plugins](#adding-plugins)
+    * [adding ports](#adding-ports)
 - [acknowledgments](#acknowledgments)
 
 <!-- tocstop -->
@@ -49,6 +49,7 @@ this repository is mirrored to [github](https://github.com/sailorfe/moonqueen.nv
 
 - **supported neovim plugins**:
   - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+  - [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
   - [mini.nvim](https://github.com/nvim-mini/mini.nvim) diff, statusline, and tabline
   - [render-markdown.nvim](https://github.com/MeanderingProgrammer)
   - [trouble.nvim](https://github.com/folke/trouble.nvim)
