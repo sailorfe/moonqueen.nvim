@@ -103,9 +103,9 @@ theme generation takes the following steps:
 - create `templates/$APP.*`:
     * for hex codes prefixed with hashes (`#DB70B8`), use `[[key]]` (examples: `alacritty.toml`, `wezterm.toml`).
     * for hex codes *without* hashes (`DB70B8`), use `{{key}}` (examples: (`foot.ini`, `tty.conf`).
-- add the output path `$APP/moonqueen.*` to the `outputs` dictionary in `generator.py`.
-- ensure `palette.json` is up to date: `nvim --headless -c "luafile hex.lua" -c "qa"`.
-- run `python3 generator.py`.
+- add the output path `$APP/moonqueen.*` to the `outputs` dictionary in `scripts/generator.py`.
+- ensure `palette.json` is up to date: `nvim --headless -c "luafile scripts/hex.lua" -c "qa"`.
+- run `python3 scripts/generator.py`.
 
 make pull requests to [codeberg](https://codeberg.org/sailorfe/moonqueen.nvim/pulls).
 
