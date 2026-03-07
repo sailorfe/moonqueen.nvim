@@ -29,11 +29,13 @@ outputs = {
     "alacritty.toml": f"alacritty/{theme}.toml",
     "ansi.json": f"ansi/{theme}.json",
     "foot.ini": f"foot/{theme}.ini",
+    "mako": f"mako/{theme}",
     "markdown.md": f"markdown/{theme}.md",
     "rio.toml": f"rio/{theme}.toml",
     "termux.properties": f"termux/{theme}.properties",
     "tty.conf": f"tty/{theme}.conf",
     "wezterm.toml": f"wezterm/{theme}.toml",
+    "zathura": f"zathura/{theme}",
 }
 
 

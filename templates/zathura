@@ -1,0 +1,33 @@
+set default-bg                  "[[base]]"
+set default-fg                  "[[text]]"
+
+set statusbar-fg                "[[text]]"
+set statusbar-bg                "[[surface]]"
+
+set inputbar-bg                 "[[overlay]]"
+set inputbar-fg                 "[[hotaru]]"
+
+set notification-bg             "[[text]]"
+set notification-fg             "[[surface]]"
+
+set notification-error-bg       "[[moon]]"
+set notification-error-fg       "[[surface]]"
+
+set notification-warning-bg     "[[usagi]]"
+set notification-warning-fg     "[[surface]]"
+
+set highlight-color             "rgba([[minako-rgb]], 0.5)"
+set highlight-active-color      "rgba([[venus-rgb]], 0.5)"
+set highlight-fg                "[[base]]"
+
+set completion-bg               "[[overlay]]"
+set completion-fg               "[[usagi]]"
+
+set completion-highlight-fg     "[[surface]]"
+set completion-highlight-bg     "[[usagi]]"
+
+set recolor-lightcolor          "[[base]]"
+set recolor-darkcolor           "[[text]]"
+
+set recolor                     "false"
+set recolor-keephue             "false"

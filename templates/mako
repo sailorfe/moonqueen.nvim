@@ -1,0 +1,12 @@
+background-color=[[base]]
+text-color=[[text]]
+progress-color=over [[med]]
+
+[urgency=normal]
+border-color=[[venus]]
+
+[urgency=low]
+border-color=[[mercury]]
+
+[urgency=critical]
+border-color=[[mars]]

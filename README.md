@@ -6,7 +6,7 @@ a colorscheme for neovim inspired by naoko takeuchi's _sailor moon_ artbooks, si
 
 <div align="center">
 
-![foot](json.png)
+![foot](ansi.png)
 
 </div>
 
@@ -14,6 +14,8 @@ a colorscheme for neovim inspired by naoko takeuchi's _sailor moon_ artbooks, si
 
 - [palette](#palette)
 - [features](#features)
+    * [supported plugins](#supported-plugins)
+    * [ports](#ports)
 - [installation](#installation)
     * [lua](#lua)
     * [vimscript](#vimscript)
@@ -47,20 +49,25 @@ this repository is mirrored to [github](https://github.com/sailorfe/moonqueen.nv
 
 ## features
 
-- **supported neovim plugins**:
-  - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
-  - [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
-  - [mini.nvim](https://github.com/nvim-mini/mini.nvim) diff, statusline, and tabline
-  - [render-markdown.nvim](https://github.com/MeanderingProgrammer)
-  - [trouble.nvim](https://github.com/folke/trouble.nvim)
-- **current ports** under `extras/`:
-  - [alacritty](https://alacritty.org)
-  - [foot](https://codeberg.org/dnkl/foot)
-  - [rio](https://rioterm.com)
-  - [termux](https://termux.dev)
-  - `tty` for the console
-  - [vim](https://www.vim.org)
-  - [wezterm](https://wezterm.org)
+### supported plugins
+
+- [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+- [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [mini.nvim](https://github.com/nvim-mini/mini.nvim) diff, statusline, and tabline
+- [render-markdown.nvim](https://github.com/MeanderingProgrammer)
+- [trouble.nvim](https://github.com/folke/trouble.nvim)
+
+### ports
+
+- [alacritty](https://alacritty.org)
+- [foot](https://codeberg.org/dnkl/foot)
+- [mako](https://github.com/emersion/mako)
+- [rio](https://rioterm.com)
+- [termux](https://termux.dev)
+- `tty` for the console
+- [vim](https://www.vim.org)
+- [wezterm](https://wezterm.org)
+- [zathura](https://github.com/pwmt/zathura)
 
 ## installation
 
@@ -113,12 +120,11 @@ make pull requests to [codeberg](https://codeberg.org/sailorfe/luna.nvim/pulls).
 
 ### adding plugins
 
-**requires [lush](https://github.com/rktjmp/lush.nvim) and [shipwright](https://github.com/rktjmp/shipwright.nvim).**
-
-1. `nvim lua/moonqueen/lush.lua`
-2. `:Lushify`
-3. append new highlight groups to the bottom of the table
-4. `./build.sh lua`
+1. install [lush](https://github.com/rktjmp/lush.nvim) and [shipwright](https://github.com/rktjmp/shipwright.nvim).
+2. `nvim lua/moonqueen/lush.lua`
+3. `:Lushify`
+4. append new highlight groups to the bottom of the table.
+5. `./build.sh lua`
 
 > [!WARNING]
 > make sure you _do not_ have moonqueen installed from this repository while developing. point neovim or your plugin manager to your local clone or else shipwright will get lost.
@@ -130,6 +136,7 @@ theme generation is helped by the `Makefile` at project root.
 1. create `templates/$APP.*`:
    - for hex codes prefixed with hashes (`#DB70B8`), use `[[key]]`. examples: `alacritty.toml`, `wezterm.toml`.
    - for hex codes _without_ hashes (`DB70B8`), use `{{key}}`. examples: (`foot.ini`, `tty.conf`.
+   - for templates that take `rgba` or `hsl`, you can use `[[key-rgb]]` or `[[key-hsl]]`. example: `zathura`.
 2. add the output path `$APP/moonqueen.*` to the `outputs` dictionary in `scripts/generator.py`.
 3. (optional) ensure `palette.json` is up to date: `make palette`.
 4. run the python script: `make generate`.

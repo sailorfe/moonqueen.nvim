@@ -8,7 +8,7 @@ declare -A colors=(
   ["beary"]="ami" ["surprise"]="hotaru" ["negative"]="usagi"
 )
 
-TEMPLATES=(../templates/*)
+TEMPLATES=(templates/*)
 
 for template in "${TEMPLATES[@]}"; do
   if [ -f "$template" ]; then
