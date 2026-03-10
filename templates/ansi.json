@@ -1,7 +1,7 @@
 {
     "background": "[[base]]",
     "foreground": "[[text]]",
-    "black": "[[surface]]",
+    "black": "[[overlay]]",
     "red": "[[mars]]",
     "green": "[[jupiter]]",
     "yellow": "[[venus]]",
@@ -9,7 +9,7 @@
     "magenta": "[[saturn]]",
     "cyan": "[[moon]]",
     "white": "[[text]]",
-    "brightBlack": "[[overlay]]",
+    "brightBlack": "[[high]]",
     "brightRed": "[[rei]]",
     "brightGreen": "[[makoto]]",
     "brightYellow": "[[minako]]",

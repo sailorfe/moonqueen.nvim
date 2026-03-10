@@ -10,8 +10,8 @@ split = "[[high]]"
 compose_cursor = "[[venus]]"
 scrollbar_thumb = "[[surface]]"
 
-ansi = ["[[surface]]", "[[mars]]", "[[jupiter]]", "[[venus]]", "[[mercury]]", "[[saturn]]", "[[moon]]", "[[text]]"]
-brights = ["[[overlay]]", "[[rei]]", "[[makoto]]", "[[minako]]", "[[ami]]", "[[hotaru]]", "[[usagi]]", "[[light]]"]
+ansi = ["[[overlay]]", "[[mars]]", "[[jupiter]]", "[[venus]]", "[[mercury]]", "[[saturn]]", "[[moon]]", "[[text]]"]
+brights = ["[[high]]", "[[rei]]", "[[makoto]]", "[[minako]]", "[[ami]]", "[[hotaru]]", "[[usagi]]", "[[light]]"]
 
 [colors.tab_bar]
 inactive_tab_edge = "[[surface]]"
