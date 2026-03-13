@@ -100,6 +100,18 @@ lua)
   cat "./lua/$THEME/theme.lua.tmp" >>"./lua/$THEME/theme.lua"
   cat <<-x0 >>"./lua/$THEME/theme.lua"
 	  }
+    local opts = require("moonqueen").opts
+    if opts.transparent then
+      theme["Normal"].bg = "NONE"
+      theme["SignColumn"].bg = "NONE"
+      theme["StatusLine"].bg = "NONE"
+    end
+    if opts.overrides then
+      theme = vim.tbl_deep_extend("force", theme, opts.overrides)
+    end
+    return theme
+	end
+
 	  return theme
 	end
 	return S

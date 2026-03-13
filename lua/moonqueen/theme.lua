@@ -274,6 +274,18 @@ RenderMarkdownH6Bg = {link = "@markup.heading.6"},
 ["@variable.builtin"] = {fg = "#DB70B8", bold = true, italic = true},
 ["@variable.member"] = {fg = "#E1D9F2"},
   }
+    local opts = require("moonqueen").opts
+    if opts.transparent then
+      theme["Normal"].bg = "NONE"
+      theme["SignColumn"].bg = "NONE"
+      theme["StatusLine"].bg = "NONE"
+    end
+    if opts.overrides then
+      theme = vim.tbl_deep_extend("force", theme, opts.overrides)
+    end
+    return theme
+end
+
   return theme
 end
 return S
