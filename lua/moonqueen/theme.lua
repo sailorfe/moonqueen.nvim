@@ -285,7 +285,4 @@ RenderMarkdownH6Bg = {link = "@markup.heading.6"},
     end
     return theme
 end
-
-  return theme
-end
 return S

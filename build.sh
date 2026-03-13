@@ -111,9 +111,6 @@ lua)
     end
     return theme
 	end
-
-	  return theme
-	end
 	return S
 	x0
   rm "./lua/$THEME/theme.lua.tmp" ./shipwright_build.lua
