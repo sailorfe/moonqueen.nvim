@@ -17,7 +17,7 @@ def get_header(file_path, meta):
     date_str = meta["updated"].split("T")[0]
     url_str = meta["homepage"]
 
-    if ext in [".json", ".md", ".sh"]:
+    if ext in [".json", ".md", ".sh", ".el"]:
         return ""
     if ext in [".css", ".js"]:
         return f"/* {version_str} */\n/* built {date_str} */\n/* {url_str} */\n\n"
@@ -28,6 +28,7 @@ def get_header(file_path, meta):
 outputs = {
     "alacritty.toml": f"alacritty/{theme}.toml",
     "ansi.json": f"ansi/{theme}.json",
+    "emacs.el": f"emacs/{theme}-theme.el",
     "foot.ini": f"foot/{theme}.ini",
     "mako": f"mako/{theme}",
     "markdown.md": f"markdown/{theme}.md",
