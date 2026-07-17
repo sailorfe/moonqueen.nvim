@@ -73,9 +73,9 @@
    `(success ((t (:foreground ,jupiter :weight bold))))
 
    ;; --- mode-line / header / tab lines ---------------------------
-   `(mode-line ((t (:background ,overlay :foreground ,text))))
-   `(mode-line-inactive ((t (:background ,surface :foreground ,muted))))
-   `(mode-line-active ((t (:background ,overlay :foreground ,text))))
+   `(mode-line ((t (:background ,surface :foreground ,text))))
+   `(mode-line-inactive ((t (:background ,base :foreground ,muted))))
+   `(mode-line-active ((t (:background ,surface :foreground ,text))))
    `(mode-line-emphasis ((t (:foreground ,moon :weight bold))))
    `(mode-line-highlight ((t (:foreground ,moon :box (:line-width -1 :color ,moon)))))
    `(mode-line-buffer-id ((t (:foreground ,text :weight bold))))
