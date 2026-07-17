@@ -61,6 +61,7 @@ this repository is mirrored to [github](https://github.com/sailorfe/moonqueen.nv
 
 - [alacritty](https://alacritty.org)
 - [foot](https://codeberg.org/dnkl/foot)
+- [gnu emacs](https://gnu.org/software/emacs)
 - [mako](https://github.com/emersion/mako)
 - [rio](https://rioterm.com)
 - [termux](https://termux.dev)

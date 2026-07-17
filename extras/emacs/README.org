@@ -1,0 +1,13 @@
+* moonqueen-theme.el
+
+with ~straight.el~:
+
+#+BEGIN_SRC lisp
+  (use-package moonqueen
+    :straight (moonqueen
+               :type git
+               :repo "https://codeberg.org/sailorfe/moonqueen.nvim"
+               :files ("extras/emacs/*.el")) ; <- CRUCIAL!
+    :config
+    (add-to-list 'custom-theme-load-path (straight--build-dir "moonqueen")))
+#+END_SRC
