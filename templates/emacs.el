@@ -46,7 +46,7 @@
    ;; --- core ui -------------------------------------------------
    `(default ((t (:background ,base :foreground ,text))))
    `(cursor ((t (:background ,text))))
-   `(region ((t (:background ,high))))
+   `(region ((t (:background ,high :foreground ,text))))
    `(secondary-selection ((t (:background ,med :foreground ,venus))))
    `(highlight ((t (:background ,overlay :foreground ,moon))))
    `(hl-line ((t (:background ,overlay))))
