@@ -241,6 +241,10 @@
    `(flycheck-error-list-warning ((t (:foreground ,venus :weight bold))))
    `(flycheck-error-list-info ((t (:foreground ,mercury))))
 
+   ;; --- jinkx monsoon ---------------------------------------------------
+   `(jinx-misspelled ((t (:foreground ,mars :underline (:style wave :color ,mars)))))
+   `(jinx-highlight ((t (:foreground ,base :background ,venus))))
+
    ;; --- eldoc / help hints & tooltips -----------------------------------
    `(eldoc-highlight-function-argument ((t (:foreground ,moon :weight bold))))
    `(eldoc-box-body ((t (:background ,surface :foreground ,text))))
@@ -291,6 +295,7 @@
    `(org-quote ((t (:foreground ,faint :slant italic))))
    `(org-macro ((t (:foreground ,venus))))
    `(org-table ((t (:foreground ,mercury))))
+   `(org-footnote ((t :foreground ,moon :underline t)))
    ;; custom todo keywords
    `(sailorfe-org-todo-next ((t (:background ,moon :foreground ,base :weight bold))))
    `(sailorfe-org-todo-prog ((t (:background ,saturn :foreground ,base :weight bold))))
