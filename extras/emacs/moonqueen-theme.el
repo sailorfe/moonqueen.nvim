@@ -109,33 +109,58 @@
    `(show-paren-match-expression ((t (:background ,overlay))))
    `(show-paren-mismatch ((t (:background ,mars :foreground ,light :weight bold))))
 
+   ;; --- misc syntax ----------------------------------------------
+   ;; sh
+   `(sh-heredoc ((t (:foreground ,venus :weight bold))))
+   `(sh-quoted-exec ((t :foreground ,mars :slant italic)))
+   `(sh-escaped-newline ((t :foreground ,faint)))
+
    ;; --- font-lock (syntax highlighting) -------------------------------
+   ;; comment
    `(font-lock-comment-face ((t (:foreground ,faint :slant italic))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,faint :slant italic))))
    `(font-lock-doc-face ((t (:foreground ,faint :slant italic))))
    `(font-lock-doc-markup-face ((t (:foreground ,faint))))
-   `(font-lock-string-face ((t (:foreground ,venus))))
-   `(font-lock-keyword-face ((t (:foreground ,mercury :weight bold))))
-   `(font-lock-builtin-face ((t (:foreground ,saturn :weight bold :slant italic))))
-   `(font-lock-function-name-face ((t (:foreground ,moon))))
-   `(font-lock-function-call-face ((t (:foreground ,moon))))
-   `(font-lock-variable-name-face ((t (:foreground ,text :slant italic))))
-   `(font-lock-variable-use-face ((t (:foreground ,text))))
-   `(font-lock-type-face ((t (:foreground ,jupiter))))
+
+   ;; constant
    `(font-lock-constant-face ((t (:foreground ,venus))))
-   `(font-lock-warning-face ((t (:foreground ,venus :weight bold))))
-   `(font-lock-negation-char-face ((t (:foreground ,mars :weight bold))))
-   `(font-lock-preprocessor-face ((t (:foreground ,mercury))))
-   `(font-lock-regexp-grouping-backslash ((t (:foreground ,saturn :weight bold))))
-   `(font-lock-regexp-grouping-construct ((t (:foreground ,saturn :weight bold))))
+   `(font-lock-number-face ((t (:foreground ,venus))))
+
+   ;; string
+   `(font-lock-string-face ((t (:foreground ,jupiter))))
+
+   ;; identifier
+   `(font-lock-variable-name-face ((t (:foreground ,moon))))
+   `(font-lock-variable-use-face ((t (:foreground ,moon))))
+
+   ;; function
+   `(font-lock-function-name-face ((t (:foreground ,mercury))))
+   `(font-lock-function-call-face ((t (:foreground ,mercury))))
+
+   ;; statement
+   `(font-lock-keyword-face ((t (:foreground ,saturn :weight bold))))
+
+   ;; preproc
+   `(font-lock-preprocessor-face ((t (:foreground ,saturn))))
+
+   ;; type
+   `(font-lock-type-face ((t (:foreground ,venus))))
+
+   ;; special
+   `(font-lock-builtin-face ((t (:foreground ,mercury))))
+   `(font-lock-escape-face ((t (:foreground ,mercury))))
+   `(font-lock-regexp-grouping-backslash ((t (:foreground ,mercury :weight bold))))
+   `(font-lock-regexp-grouping-construct ((t (:foreground ,mercury :weight bold))))
+
+   ;; misc
+   `(font-lock-warning-face ((t (:foreground ,mars :weight bold))))
+   `(font-lock-negation-char-face ((t (:foreground ,mercury :weight bold))))
    `(font-lock-property-name-face ((t (:foreground ,text))))
    `(font-lock-property-use-face ((t (:foreground ,text))))
-   `(font-lock-number-face ((t (:foreground ,venus))))
    `(font-lock-operator-face ((t (:foreground ,text))))
    `(font-lock-bracket-face ((t (:foreground ,text))))
-   `(font-lock-delimiter-face ((t (:foreground ,muted))))
    `(font-lock-punctuation-face ((t (:foreground ,text))))
-   `(font-lock-escape-face ((t (:foreground ,moon))))
+   `(font-lock-delimiter-face ((t (:foreground ,muted))))
 
    ;; --- diff-mode ------------------------------------------------
    `(diff-header ((t (:background ,surface))))
@@ -438,6 +463,25 @@
    `(orderless-match-face-2 ((t (:foreground ,jupiter :weight bold))))
    `(orderless-match-face-3 ((t (:foreground ,saturn :weight bold))))
 
+   ;; --- eww -------------------------------------------------------------
+   `(eww-form-file ((t (:foreground ,base :background ,faint :box nil))))
+   `(eww-form-submit ((t (:foreground ,base :background ,faint :box nil))))
+   `(eww-form-text ((t (:foreground ,base :background ,text :box nil))))
+   `(eww-form-select ((t (:foreground ,base :background ,saturn :box nil))))
+   `(eww-form-checkbox ((t (:foreground ,base :background ,saturn :box nil))))
+   `(eww-form-textarea ((t (:foreground ,base :background ,text :box nil))))
+   `(eww-invalid-certificate ((t :foreground ,mars :weight bold)))
+   `(eww-valid-certificate ((t :foreground ,jupiter :weight bold)))
+
+   ;; --- dashboard -------------------------------------------------------
+   `(dashboard-heading ((t (:foreground ,mercury :weight bold))))
+   `(dashboard-navigator ((t (:foreground ,moon :weight bold))))
+   `(dashboard-items-face ((t (:foreground ,moon :weight bold))))
+   `(dashboard-no-items-face ((t (:foreground ,muted :weight bold))))
+   `(dashboard-footer-face ((t (:foreground ,faint :slant italic))))
+   `(dashboard-text-banner ((t (:foreground ,mercury))))
+   `(dashboard-banner-logo-title ((t (:foreground ,text))))
+   
    ;; --- vterm -----------------------------------------------------------
    `(vterm-color-black ((t (:foreground ,low :background ,low))))
    `(vterm-color-bright-black ((t (:foreground ,med :background ,med))))
