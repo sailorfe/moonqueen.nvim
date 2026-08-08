@@ -19,6 +19,8 @@ def get_header(file_path, meta):
 
     if ext in [".json", ".md", ".sh", ".el"]:
         return ""
+    if ext in [".vim"]:
+        return f'" {version_str}\n" built {date_str}\n" {url_str}\n\n'
     if ext in [".css", ".js"]:
         return f"/* {version_str} */\n/* built {date_str} */\n/* {url_str} */\n\n"
 
@@ -36,6 +38,7 @@ outputs = {
     "shell.sh": f"shell/{theme}.sh",
     "termux.properties": f"termux/{theme}.properties",
     "tty.conf": f"tty/{theme}.conf",
+    "vim.vim": f"vim/colors/{theme}.vim",
     "wezterm.toml": f"wezterm/{theme}.toml",
     "zathura": f"zathura/{theme}",
 }

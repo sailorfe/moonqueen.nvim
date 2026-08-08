@@ -2,7 +2,7 @@
 
 > に代わってお仕置きよ!
 
-a colorscheme for neovim inspired by naoko takeuchi's _sailor moon_ artbooks, sister to [luna.nvim](https://codeberg.org/sailorfe/luna.nvim). built with [lush](https://github.com/rktjmp/lush.nvim).
+a colorscheme for neovim inspired by naoko takeuchi's _sailor moon_ artbooks, sister to [moonqueen.nvim](https://codeberg.org/sailorfe/moonqueen.nvim). built with [lush](https://github.com/rktjmp/lush.nvim).
 
 <div align="center">
 
@@ -82,6 +82,13 @@ return {
 --    init = function()
 --        vim.cmd.colorscheme("moonqueen")
 --    end,
+    opts = {
+        transparent = false, -- default
+        overrides = {
+            keyword = { fg = #85D65C },
+            ["@boolean"] = { link = 'Special' ,}
+        }
+    }
 }
 ```
 
@@ -94,18 +101,19 @@ it has just two options:
 | `transparent`     | boolean           | false     | sets `Normal` and linked hl groups to `none` to show terminal background. |
 | `overrides`       | table / boolean   | false     | override any hl groups you don't like or to add new ones.                 |
 
+
 ### vimscript
 
 with vim-plug:
 
 ```vim
-Plug 'https://codeberg.org/sailorfe/moonqueen.nvim', { 'as': 'moonqueen', 'branch': 'main' }
+Plug 'https://codeberg.org/sailorfe/moonqueen.nvim', { 'as': 'moonqueen', 'rtp': 'extras/vim' }
 ```
 
-or you can place `colors/moonqueen.vim` anywhere in your runtimepath:
+or you can place `extras/colors/moonqueen.vim` anywhere in your runtimepath:
 
 ```sh
-curl -LO https://codeberg.org/sailorfe/moonqueen.nvim/raw/branch/main/extras/vim/moonqueen.vim
+curl -LO https://codeberg.org/sailorfe/moonqueen.nvim/raw/branch/main/extras/vim/colors/moonqueen.vim
 ```
 
 then set colorscheme with `colorscheme moonqueen` either in your `vimrc` or temporarily with a command:
@@ -119,37 +127,31 @@ colorscheme moonqueen
 
 ## contributing
 
-```sh
-git clone https://codeberg.org/sailorfe/moonqueen.nvim
-cd moonqueen.nvim
-```
-
-make pull requests to [codeberg](https://codeberg.org/sailorfe/luna.nvim/pulls).
+> [!NOTE]
+> this repository is mirrored to [github](https://github.com/sailorfe/moonqueen.nvim) from [codeberg](https://codeberg.org/sailorfe/moonqueen.nvim). make pull requests to [codeberg](https://codeberg.org/sailorfe/moonqueen.nvim/pulls).
 
 ### adding plugins
 
-1. install [lush](https://github.com/rktjmp/lush.nvim) and [shipwright](https://github.com/rktjmp/shipwright.nvim).
-2. `nvim lua/moonqueen/lush.lua`
-3. `:Lushify`
-4. append new highlight groups to the bottom of the table.
-5. `./build.sh lua`
-
-> [!WARNING]
-> make sure you _do not_ have moonqueen installed from this repository while developing. point neovim or your plugin manager to your local clone or else shipwright will get lost.
+1. install [lush](https://github.com/rktjmp/lush.nvim) and [shipwright](https://github.com/rktjmp/shipwright.nvim). you should edit `scripts/init.lua` to point to your installations, or rely on a package manager. for example, **lazy**'s bootstrap places plugins in `~/.local/share/nvim/lazy`.
+2. edit with `nvim lua/moonqueen/lush.lua` and preview with `:Lushify`. append new highlight groups to the bottom of the `theme` table.
+3. run `make build` at project root to generate `lua/moonqueen/theme.lua`.
+4. commit `lua/moonqueen/{lush.lua,theme.lua}` with a message like `feat(plug): $PLUGIN`.
 
 ### adding ports
 
 theme generation is helped by the `Makefile` at project root.
 
-1. create `templates/$APP.*`:
+1. (optional) ensure `palette.json` is up to date: `make palette`.
+2. create `templates/$APP.*` using keys from `palette.json`:
    - for hex codes prefixed with hashes (`#DB70B8`), use `[[key]]`. examples: `alacritty.toml`, `wezterm.toml`.
-   - for hex codes _without_ hashes (`DB70B8`), use `{{key}}`. examples: (`foot.ini`, `tty.conf`.
+   - for hex codes *without* hashes (`DB70B8`), use `{{key}}`. examples: `foot.ini`, `tty.conf`.
    - for templates that take `rgba` or `hsl`, you can use `[[key-rgb]]` or `[[key-hsl]]`. example: `zathura`.
-2. add the output path `$APP/moonqueen.*` to the `outputs` dictionary in `scripts/generator.py`.
-3. (optional) ensure `palette.json` is up to date: `make palette`.
+3. add the output path `$APP/moonqueen.*` to the `outputs` dictionary in `scripts/generator.py`.
 4. run the python script: `make generate`.
+5. commit your input template, `scripts/generator.py`, and output extra with a message like `feat(extra): $APP`.
 
 ## acknowledgments
 
-- [evangelion.nvim](https://github.com/xero/evangelion.nvim) for weeb `build.sh` inspiration
+- [fairyfloss](https://github.com/sailorhg/fairyfloss) for inspiring this journey into colorschemes to begin with, and the low-contrast, magical girl vibes
+- [evangelion.nvim](https://github.com/xero/evangelion.nvim) for weeb + `build.sh` inspiration + the whole lua project structure and opts logic
 - [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) for repository structure
