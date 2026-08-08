@@ -14,21 +14,24 @@ set inputbar-fg                 "#B1A3F5"
 set notification-bg             "#E1D9F2"
 set notification-fg             "#291E3E"
 
-set notification-error-bg       "#DB70B8"
+set notification-error-bg       "#8F7DE8"
 set notification-error-fg       "#291E3E"
 
-set notification-warning-bg     "#EC93CE"
+set notification-warning-bg     "#B1A3F5"
 set notification-warning-fg     "#291E3E"
 
-set highlight-color             "rgba(250, 219, 158, 0.5)"
-set highlight-active-color      "rgba(235, 180, 71, 0.5)"
+set highlight-color             "rgba(236, 147, 206, 0.5)"
+set highlight-active-color      "rgba(219, 112, 184, 0.5)"
 set highlight-fg                "#1B1429"
 
+set completion-group-bg         "#291E3E"
+set completion-group-fg         "#E1D9F2"
+
 set completion-bg               "#362853"
-set completion-fg               "#EC93CE"
+set completion-fg               "#B1A3F5"
 
 set completion-highlight-fg     "#291E3E"
-set completion-highlight-bg     "#EC93CE"
+set completion-highlight-bg     "#B1A3F5"
 
 set recolor-lightcolor          "#1B1429"
 set recolor-darkcolor           "#E1D9F2"
