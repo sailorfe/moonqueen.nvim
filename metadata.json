@@ -1,8 +1,8 @@
 {
   "name": "moonqueen",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "author": "sailorfe",
-  "updated": "2026-07-17",
+  "updated": "2026-08-08",
   "homepage": "https://codeberg.org/sailorfe/moonqueen.nvim",
   "license": "MIT"
 }
