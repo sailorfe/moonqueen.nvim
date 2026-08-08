@@ -66,7 +66,7 @@ this repository is mirrored to [github](https://github.com/sailorfe/moonqueen.nv
 - [rio](https://rioterm.com)
 - [termux](https://termux.dev)
 - `tty` for the console
-- [vim](https://www.vim.org)
+- vim 8+ ([vim classic](https://vim-classic.org))
 - [wezterm](https://wezterm.org)
 - [zathura](https://github.com/pwmt/zathura)
 
