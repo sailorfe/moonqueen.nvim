@@ -296,7 +296,7 @@
    ;; currently dogfooding
    `(smerge-mine ((t (:background ,surface :foreground ,mars :extend t))))
    `(smerge-other ((t (:background ,surface :foreground ,jupiter :extend t))))
-   `(smerge-base ((t (:background ,surface :foreground ,merucry :extend t))))
+   `(smerge-base ((t (:background ,surface :foreground ,mercury :extend t))))
    `(smerge-markers ((t (:background ,overlay :foreground ,light) :weight bold :extend t)))
    `(smerge-refined-added ((t (:background ,low :foreground ,jupiter))))
    `(smerge-refined-removed ((t (:background ,low :foreground ,mars))))
