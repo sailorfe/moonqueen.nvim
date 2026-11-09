@@ -509,6 +509,6 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-provide-theme 'moonqueen)
+(provide-theme 'moonqueen)
 
 ;;; moonqueen-theme.el ends here
